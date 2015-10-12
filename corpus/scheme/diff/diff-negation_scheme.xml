@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotationscheme>
+  <attribute id="diff_type" name="diff_type" type="nominal_button"
+	     text="Difference type of annotation.">
+    <value id="diff_none" name="none"/>
+    <value id="diff_missing" name="missing"/>
+    <value id="diff_redundant" name="redundant"/>
+  </attribute>
+
+  <attribute id="emo_expression_ref" name="emo-expression-ref"
+	     type="markable_pointer" color="blue" width="1" style="lcurve"
+	     max_size="1"
+	     target_domain="emo-expression"
+	     point_to_markable_text="Mark emo-expression whose polarity is influenced by this negation"
+	     remove_pointer_to_markable_text="Unmark emo-expression whose polarity is influenced by this negation">
+    <value id="emo_expression_ref_set" name="set"/>
+    <value id="emo_expression_ref_not_set" name="not_set"/>
+  </attribute>
+</annotationscheme>

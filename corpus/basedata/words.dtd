@@ -1,0 +1,5 @@
+<!ELEMENT words (word*)>
+<!ELEMENT word (#PCDATA)>
+<!ATTLIST word id ID #REQUIRED
+	  compound	( True | False )	"False"
+	  >

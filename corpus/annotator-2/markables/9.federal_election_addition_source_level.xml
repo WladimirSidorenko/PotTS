@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/source">
+<markable id="markable_203" span="word_1923" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_170" span="word_1333..word_1335" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_93" span="word_695" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_195" span="word_1587..word_1588" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_160" span="word_1224" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_82" span="word_593" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_131" span="word_1001" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_106" span="word_830" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_175" span="word_1451" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_14" span="word_135" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_191" span="word_1579" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_164" span="word_1226..word_1232" mmax_level="source"  anaphref="empty"  sentiment_ref="sentiment:markable_163" />
+<markable id="markable_73" span="word_527..word_528" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_143" span="word_1143" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_156" span="word_1198..word_1199" mmax_level="source"  anaphref="empty"  sentiment_ref="sentiment:markable_155" />
+<markable id="markable_187" span="word_1549" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_132" span="word_1004" mmax_level="source"  anaphref="markable_131"  sentiment_ref="empty" />
+<markable id="markable_124" span="word_980" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_147" span="word_1162" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_52" span="word_433" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+</markables>

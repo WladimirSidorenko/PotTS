@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotationscheme>
+  <attribute id="dimin_degree" name="degree" type="nominal_button"
+	     text="Degree by which this diminisher reduces primary polar meaning of
+		   an emotional expression">
+    <value id="value_dimin_degree_-1" name="medium"/>
+    <value id="value_dimin_degree_-2" name="strong"/>
+  </attribute>
+
+  <attribute id="emo_expression_ref" name="emo-expression-ref"
+	     type="markable_pointer" color="blue" width="1" style="lcurve"
+	     max_size="1"
+	     target_domain="emo-expression"
+	     point_to_markable_text="Mark emotional expression modified by this diminisher"
+	     remove_pointer_to_markable_text="Unmark emotional expression modified by this diminisher">
+    <value id="emo_expression_ref_set" name="set"/>
+    <value id="emo_expression_ref_set" name="not_set"/>
+  </attribute>
+</annotationscheme>

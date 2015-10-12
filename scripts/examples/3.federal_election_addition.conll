@@ -1,0 +1,2680 @@
+	id	381764388614836224
+	time	Sun Sep 22 14:58:17 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@ozerergun09 	replacement		info_end
+	replace	offset	0	length	0	num	2	orig	@spdhh 	replacement		info_end
+	replace	offset	70	length	10	num	4	orig	:-)	replacement	%PosSmiley	info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::3	4::5	10::4	15::5	21::5	27::3	31::4	36::3	40::6	47::4	52::9	62::7	70::10
+1	das	die	die	PDS	PDS	_	nom|sg|neut	-1	2	_	SB	_	_
+2	hoffe	hoffen	hoffen	VVFIN	VVFIN	_	sg|3|pres|subj	-1	5	_	MO	_	_
+3	ich.	ich.	ich.	ADJD	ADJD	_	pos	-1	2	_	MO	_	_
+4	dafür	dafür	dafür	PAV	PAV	_	_	-1	2	_	NK	_	_
+5	haben	haben	haben	VAFIN	VAFIN	_	pl|1|pres|ind	-1	0	_	--	_	_
+6	wir	wir	wir	PPER	PPER	_	nom|pl|*|1	-1	5	_	SB	_	_
+7	alle	alle	alle	PIS	PIS	_	nom|pl|*	-1	6	_	NK	_	_
+8	ein	eine	eine	ART	ART	_	acc|sg|neut	-1	10	_	NK	_	_
+9	halbes	halb	halb	ADJA	ADJA	_	acc|sg|neut|pos	-1	10	_	NK	_	_
+10	jahr	Jahr	Jahr	NN	NN	_	acc|sg|neut	-1	12	_	OA	_	_
+11	wahlkampf	wahlkampf	wahlkampf	ADJD	ADJD	_	pos	-1	12	_	MO	_	_
+12	gemacht	machen	machen	VVPP	VVPP	_	_	-1	5	_	OC	_	_
+13	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	12	_	NK	_	_
+
+	id	381548902400274432
+	time	Sun Sep 22 00:42:01 +0000 2013
+	replace	offset	17	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	53	length	10	num	2	orig	:-)	replacement	%PosSmiley	info_end
+	replace	offset	64	length	0	num	4	orig	@	replacement		info_end
+	replace	offset	64	length	5	num	6	orig	ZDF	replacement	%User	info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::3	3::1	5::3	9::3	13::3	17::4	22::3	26::6	33::8	42::6	48::1	49::3	53::10	64::5
+1	Ach	ach	ach	ITJ	ITJ	_	_	-1	3	_	NK	_	_
+2	,	,	,	$,	$,	_	_	-1	1	_	--	_	_
+3	das	die	die	PDS	PDS	_	nom|sg|neut	-1	4	_	SB	_	_
+4	ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+5	der	die	die	ART	ART	_	nom|sg|masc	-1	6	_	NK	_	_
+6	Bond	Bond	Bond	NN	NN	_	nom|sg|masc	-1	4	_	PD	_	_
+7	mit	mit	mit	APPR	APPR	_	_	-1	6	_	MNR	_	_
+8	diesem	dies	dies	PDAT	PDAT	_	dat|sg|masc	-1	10	_	NK	_	_
+9	tuntigen	tuntigen	tuntigen	ADJA	ADJA	_	dat|sg|masc|pos	-1	10	_	NK	_	_
+10	Killer	Killer	Killer	NN	NN	_	dat|sg|masc	-1	7	_	NK	_	_
+11	-	-	-	$(	$(	_	_	-1	10	_	--	_	_
+12	Duo	Duo	Duo	NN	NN	_	acc|sg|neut	-1	14	_	PNC	_	_
+13	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	acc|sg|neut|pos	-1	14	_	NK	_	_
+14	ZDF	%User	%User	NE	NE	_	acc|sg|neut	-1	10	_	NK	_	_
+
+	id	374261096720637952
+	time	Sun Sep 01 22:02:53 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @alexander_kurz: 	replacement		info_end
+	replace	offset	43	length	10	num	2	orig	;-)	replacement	%PosSmiley	info_end
+	replace	offset	54	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	62	length	0	num	6	orig	#	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::2	2::1	4::6	11::3	15::3	19::5	25::3	29::4	34::8	43::10	54::7	62::3	65::1
+1	So	so	so	ADV	ADV	_	_	-1	9	_	MO	_	_
+2	,	,	,	$,	$,	_	_	-1	1	_	--	_	_
+3	gerade	gerade	gerade	ADV	ADV	_	_	-1	9	_	MO	_	_
+4	hat	haben	haben	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+5	die	die	die	ART	ART	_	acc|sg|fem	-1	6	_	NK	_	_
+6	Angie	Angie	Angie	NE	NE	_	acc|sg|fem	-1	4	_	SB	_	_
+7	den	die	die	ART	ART	_	acc|sg|masc	-1	8	_	NK	_	_
+8	Peer	Peer	Peer	NE	NE	_	acc|sg|masc	-1	9	_	OA	_	_
+9	versenkt	versenken	versenken	VVPP	VVPP	_	_	-1	4	_	OC	_	_
+10	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	11	_	NK	_	_
+11	tvduell	tvduell	tvduell	NN	NN	_	pos	-1	9	_	DA	_	_
+12	cdu	cdu	cdu	NN	NN	_	_	-1	9	_	OA	_	_
+13	+	+	+	KON	KON	_	_	-1	9	_	MO	_	_
+
+	id	348402833760063488
+	time	Sat Jun 22 13:31:23 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@monah 	replacement		info_end
+	replace	offset	0	length	0	num	2	orig	@ooniboni @bendy_ch 	replacement		info_end
+	replace	offset	21	length	11	num	4	orig	;-) 	replacement	%PosSmiley 	info_end
+	replace	offset	95	length	10	num	6	orig	:-)	replacement	%PosSmiley	info_end
+	sentence_start	0	4	30	47	72
+	token_offsets	sentence	0	offsets	0::2	2::1
+	token_offsets	sentence	1	offsets	4::3	8::3	12::5	17::1	19::10
+	token_offsets	sentence	2	offsets	30::4	34::1	36::9	45::1
+	token_offsets	sentence	3	offsets	47::5	53::2	56::6	63::7	70::1
+	token_offsets	sentence	4	offsets	72::5	78::4	82::1	84::3	88::6	95::10
+1	Ui	Ui	Ui	NN	NN	_	nom|sg|neut	-1	0	_	--	_	_
+2	!	!	!	$.	$.	_	_	-1	1	_	--	_	_
+
+1	Ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+2	das	die	die	PDS	PDS	_	nom|sg|neut	-1	1	_	SB	_	_
+3	Heute	heute	heute	ADV	ADV	_	_	-1	1	_	MO	_	_
+4	?	?	?	$.	$.	_	_	-1	3	_	--	_	_
+5	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	3	_	DM	_	_
+
+1	Eine	eine	eine	ART	ART	_	nom|sg|fem	-1	3	_	SB	_	_
+2	,	,	,	$,	$,	_	_	-1	1	_	--	_	_
+3	Spässchen	Spässchen	Spässchen	NN	NN	_	dat|pl|*	-1	0	_	--	_	_
+4	.	.	.	$.	$.	_	_	-1	3	_	--	_	_
+
+1	Alles	alle	alle	PIAT	PIAT	_	nom|sg|neut	-1	0	_	--	_	_
+2	im	in	in	APPRART	APPRART	_	dat|sg|masc	-1	1	_	MO	_	_
+3	grünen	grün	grün	ADJA	ADJA	_	dat|sg|masc|pos	-1	4	_	NK	_	_
+4	Bereich	Bereich	Bereich	NN	NN	_	dat|sg|masc	-1	2	_	NK	_	_
+5	.	.	.	$.	$.	_	_	-1	4	_	--	_	_
+
+1	Freue	freuen	freuen	VVFIN	VVFIN	_	sg|1|pres|ind	-1	0	_	--	_	_
+2	mich	ich	ich	PRF	PRF	_	acc|sg|1	-1	1	_	OA	_	_
+3	,	,	,	$,	$,	_	_	-1	2	_	--	_	_
+4	bis	bis	bis	KOUS	KOUS	_	_	-1	1	_	PAR	_	_
+5	später	spät	spät	ADJD	ADJD	_	comp	-1	4	_	NK	_	_
+6	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	4	_	NK	_	_
+
+	id	348128608872710144
+	time	Fri Jun 21 19:21:42 +0000 2013
+	replace	offset	8	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	30	length	0	num	2	orig	@	replacement		info_end
+	replace	offset	30	length	5	num	4	orig	Fran_Muc	replacement	%User	info_end
+	replace	offset	49	length	0	num	6	orig	#	replacement		info_end
+	replace	offset	64	length	10	num	8	orig	:)	replacement	%PosSmiley	info_end
+	sentence_start	0	20	49
+	token_offsets	sentence	0	offsets	0::7	8::3	12::6	18::1
+	token_offsets	sentence	1	offsets	20::3	24::5	30::5	36::3	40::3	44::2	46::1	47::1
+	token_offsets	sentence	2	offsets	49::6	56::7	64::10
+1	Zuviele	zuviele	zuviele	PIS	PIS	_	nom|pl|*	-1	2	_	NK	_	_
+2	csu	csu	csu	NN	NN	_	nom|pl|*	-1	0	_	--	_	_
+3	Tweets	Tweets	Tweets	NN	NN	_	nom|pl|*	-1	2	_	CJ	_	_
+4	!	!	!	$.	$.	_	_	-1	3	_	--	_	_
+
+1	Ich	ich	ich	PPER	PPER	_	nom|sg|*|1	-1	3	_	SB	_	_
+2	block	blocken	blocken	VVIMP	VVIMP	_	sg|1|pres|ind	-1	0	_	--	_	_
+3	Fran_Muc	%User	%User	NE	NE	_	acc|sg|masc	-1	2	_	OA	_	_
+4	mal	mal	mal	ADV	ADV	_	_	-1	2	_	MO	_	_
+5	für	für	für	APPR	APPR	_	_	-1	2	_	MO	_	_
+6	24	24	24	CARD	CARD	_	_	-1	7	_	NK	_	_
+7	h	h	h	NN	NN	_	_	-1	5	_	NK	_	_
+8	!	!	!	$.	$.	_	_	-1	7	_	--	_	_
+
+1	bwmisc	bwmisc	bwmisc	NE	NE	_	nom|sg|neut	-1	2	_	AG	_	_
+2	Feeling	Feeling	Feeling	NN	NN	_	nom|sg|neut	-1	0	_	--	_	_
+3	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	sg|3|past|ind	-1	2	_	NK	_	_
+
+	id	383593060690829312
+	time	Fri Sep 27 16:04:47 +0000 2013
+	replace	offset	37	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	137	length	10	num	2	orig	:-)	replacement	%PosSmiley	info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::4	5::5	11::6	18::3	22::6	29::3	33::3	37::3	41::10	52::3	56::2	59::6	66::2	69::3	73::5	79::4	83::1	85::1	86::2	89::3	93::5	99::5	105::5	111::4	116::2	119::3	123::3	127::3	131::4	135::1	137::10
+1	Hier	hier	hier	ADV	ADV	_	_	-1	9	_	MO	_	_
+2	wurde	werden	werden	VAFIN	VAFIN	_	sg|3|past|ind	-1	0	_	--	_	_
+3	gerade	gerade	gerade	ADV	ADV	_	_	-1	9	_	MO	_	_
+4	ein	eine	eine	ART	ART	_	nom|sg|masc	-1	5	_	NK	_	_
+5	Plakat	Plakat	Plakat	NN	NN	_	nom|sg|masc	-1	2	_	SB	_	_
+6	von	von	von	APPR	APPR	_	_	-1	9	_	SBP	_	_
+7	der	die	die	ART	ART	_	dat|sg|fem	-1	8	_	NK	_	_
+8	FDP	FDP	FDP	NE	NE	_	dat|sg|fem	-1	6	_	NK	_	_
+9	abgehangen	abhängen	abhängen	VVPP	VVPP	_	_	-1	2	_	OC	_	_
+10	und	und	und	KON	KON	_	_	-1	2	_	CD	_	_
+11	da	da	da	ADV	ADV	_	_	-1	12	_	MO	_	_
+12	meinte	meinen	meinen	VVFIN	VVFIN	_	sg|3|past|ind	-1	10	_	CJ	_	_
+13	so	so	so	ADV	ADV	_	_	-1	12	_	MO	_	_
+14	ein	eine	eine	ART	ART	_	nom|sg|masc	-1	16	_	NK	_	_
+15	alter	alt	alt	ADJA	ADJA	_	nom|sg|masc|pos	-1	16	_	NK	_	_
+16	Mann	Mann	Mann	NN	NN	_	nom|sg|masc	-1	12	_	SB	_	_
+17	:	:	:	$.	$.	_	_	-1	16	_	--	_	_
+18	"	"	"	$(	$(	_	_	-1	17	_	--	_	_
+19	Ja	ja	ja	PTKANT	PTKANT	_	_	-1	21	_	DM	_	_
+20	der	die	die	PDS	PDS	_	nom|sg|masc	-1	21	_	SB	_	_
+21	lacht	lachen	lachen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	12	_	OC	_	_
+22	jetzt	jetzt	jetzt	ADV	ADV	_	_	-1	21	_	MO	_	_
+23	nicht	nicht	nicht	PTKNEG	PTKNEG	_	_	-1	21	_	NG	_	_
+24	mehr	mehr	mehr	ADV	ADV	_	_	-1	23	_	MO	_	_
+25	so	so	so	ADV	ADV	_	_	-1	21	_	MO	_	_
+26	wie	wie	wie	KOKOM	KOKOM	_	_	-1	27	_	CM	_	_
+27	auf	auf	auf	APPR	APPR	_	_	-1	25	_	CC	_	_
+28	dem	die	die	ART	ART	_	dat|sg|neut	-1	29	_	NK	_	_
+29	Bild	Bild	Bild	NN	NN	_	dat|sg|neut	-1	27	_	NK	_	_
+30	"	"	"	$(	$(	_	_	-1	29	_	--	_	_
+31	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	25	_	DM	_	_
+
+	id	375009149958250496
+	time	Tue Sep 03 23:35:23 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@Linke__Burb_Alt 	replacement		info_end
+	replace	offset	0	length	0	num	2	orig	@GregorGysi 	replacement		info_end
+	replace	offset	47	length	10	num	4	orig	:-)))	replacement	%PosSmiley	info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::2	3::2	6::3	10::3	14::5	20::7	28::6	35::5	41::5	47::10
+1	ja	ja	ja	ADV	ADV	_	_	-1	2	_	MO	_	_
+2	un	un	un	VVFIN	VVFIN	_	_	-1	0	_	--	_	_
+3	ich	ich	ich	PPER	PPER	_	nom|sg|*|1	-1	2	_	SB	_	_
+4	bin	sein	sein	VAFIN	VAFIN	_	sg|1|pres|ind	-1	2	_	CJ	_	_
+5	dabei	dabei	dabei	PAV	PAV	_	_	-1	7	_	NK	_	_
+6	morgens	morgens	morgens	ADV	ADV	_	_	-1	4	_	MO	_	_
+7	aufbau	Aufbau	Aufbau	NN	NN	_	acc|sg|masc	-1	4	_	PD	_	_
+8	total	total	total	ADJD	ADJD	_	pos	-1	9	_	MO	_	_
+9	freue	freuen	freuen	VVFIN	VVFIN	_	_	-1	7	_	OC	_	_
+10	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	9	_	DM	_	_
+
+	id	375642330562191362
+	time	Thu Sep 05 17:31:25 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @danielmack: 	replacement		info_end
+	replace	offset	87	length	0	num	2	orig	@	replacement		info_end
+	replace	offset	87	length	5	num	4	orig	talwazir	replacement	%User	info_end
+	replace	offset	103	length	11	num	6	orig	:-) 	replacement	%PosSmiley 	info_end
+	replace	offset	114	length	5	num	8	orig	http://t.co/	replacement	%Link	info_end
+	sentence_start	0	83	114
+	token_offsets	sentence	0	offsets	0::5	6::3	10::2	12::1	13::1	15::7	23::5	29::5	35::2	38::4	43::5	49::6	56::3	60::3	64::7	72::2	75::6	81::1
+	token_offsets	sentence	1	offsets	83::3	87::5	93::8	101::1	103::10
+	token_offsets	sentence	2	offsets	114::5	119::3
+1	DANKE	danken	danken	VVFIN	VVFIN	_	sg|3|past|ind	-1	0	_	--	_	_
+2	für	für	für	APPR	APPR	_	_	-1	1	_	MO	_	_
+3	12	12	12	CARD	CARD	_	_	-1	4	_	NK	_	_
+4	K	K	K	NN	NN	_	_	-1	2	_	NK	_	_
+5	.	.	.	$.	$.	_	_	-1	4	_	--	_	_
+6	Verlose	Verlose	Verlose	NN	NN	_	acc|pl|*	-1	1	_	OA	_	_
+7	unter	unter	unter	APPR	APPR	_	_	-1	6	_	MNR	_	_
+8	allen	alle	alle	PIAT	PIAT	_	dat|pl|*	-1	9	_	NK	_	_
+9	RT	RT	RT	NE	NE	_	dat|pl|*	-1	7	_	NK	_	_
+10	zwei	zwei	zwei	CARD	CARD	_	_	-1	12	_	NK	_	_
+11	GRÜNE	grün	grün	ADJA	ADJA	_	gen|sg|neut|pos	-1	12	_	NK	_	_
+12	Shirts	Shirt	Shirt	NN	NN	_	gen|sg|neut	-1	9	_	APP	_	_
+13	für	für	für	APPR	APPR	_	_	-1	12	_	MNR	_	_
+14	den	die	die	ART	ART	_	acc|sg|masc	-1	13	_	NK	_	_
+15	WECHSEL	wechseln	wechseln	VVIMP	VVIMP	_	acc|sg|masc	-1	14	_	NK	_	_
+16	in	in	in	APPR	APPR	_	_	-1	14	_	MNR	_	_
+17	Hessen	Hessen	Hessen	NE	NE	_	dat|sg|neut	-1	16	_	NK	_	_
+18	.	.	.	$.	$.	_	_	-1	17	_	--	_	_
+
+1	Mit	mit	mit	APPR	APPR	_	_	-1	0	_	--	_	_
+2	talwazir	%User	%User	NE	NE	_	dat|sg|*	-1	3	_	PNC	_	_
+3	Signatur	Signatur	Signatur	NN	NN	_	nom|sg|fem	-1	1	_	NK	_	_
+4	!	!	!	$.	$.	_	_	-1	3	_	--	_	_
+5	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	1	_	MO	_	_
+
+1	%Link	%Link	%Link	XY	XY	_	_	-1	0	_	--	_	_
+2	...	...	...	$.	$.	_	_	-1	1	_	--	_	_
+
+	id	365076305164763136
+	time	Wed Aug 07 13:45:48 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@das_Ruhrgebiet 	replacement		info_end
+	replace	offset	0	length	0	num	2	orig	@alios 	replacement		info_end
+	replace	offset	33	length	0	num	4	orig	.	replacement		info_end
+	replace	offset	63	length	10	num	6	orig	:-)	replacement	%PosSmiley	info_end
+	sentence_start	0	19	34	63
+	token_offsets	sentence	0	offsets	0::3	4::6	11::3	15::2	17::1
+	token_offsets	sentence	1	offsets	19::3	23::3	27::3	30::3
+	token_offsets	sentence	2	offsets	34::1	35::5	40::1	42::4	47::6	54::3	58::3	61::1
+	token_offsets	sentence	3	offsets	63::10
+1	Ich	ich	ich	PPER	PPER	_	nom|sg|*|1	-1	2	_	SB	_	_
+2	stimme	stimmen	stimmen	VVFIN	VVFIN	_	sg|1|pres|ind	-1	0	_	--	_	_
+3	dir	du	du	PRF	PRF	_	dat|sg|*|2	-1	2	_	OA	_	_
+4	zu	zu	zu	PTKVZ	PTKVZ	_	_	-1	2	_	SVP	_	_
+5	.	.	.	$.	$.	_	_	-1	4	_	--	_	_
+
+1	Die	die	die	ART	ART	_	nom|sg|fem	-1	2	_	NK	_	_
+2	FDP	FDP	FDP	NE	NE	_	nom|sg|fem	-1	3	_	SB	_	_
+3	ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+4	...	...	...	$.	$.	_	_	-1	3	_	--	_	_
+
+1	*	*	*	XY	XY	_	_	-1	0	_	--	_	_
+2	prust	prust	prust	NN	NN	_	sg|2|pres|ind	-1	4	_	PNC	_	_
+3	*	*	*	XY	XY	_	_	-1	0	_	--	_	_
+4	Naja	Naja	Naja	NN	NN	_	_	-1	5	_	MO	_	_
+5	lassen	lassen	lassen	VVFIN	VVFIN	_	pl|1|pres|ind	-1	0	_	--	_	_
+6	wir	wir	wir	PPER	PPER	_	nom|pl|*|1	-1	5	_	SB	_	_
+7	das	die	die	PDS	PDS	_	acc|sg|neut	-1	5	_	OA	_	_
+8	.	.	.	$.	$.	_	_	-1	7	_	--	_	_
+
+1	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	0	_	NK	_	_
+
+	id	360854777636208641
+	time	Fri Jul 26 22:10:58 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@RobertPorten 	replacement		info_end
+	replace	offset	48	length	10	num	2	orig	:-)	replacement	%PosSmiley	info_end
+	replace	offset	59	length	0	num	4	orig	#	replacement		info_end
+	sentence_start	0	11	59
+	token_offsets	sentence	0	offsets	0::6	7::2	9::1
+	token_offsets	sentence	1	offsets	11::8	20::3	24::3	27::1	29::3	33::3	37::4	42::4	46::1	48::10
+	token_offsets	sentence	2	offsets	59::3
+1	Weiter	weiter	weiter	ADV	ADV	_	_	-1	2	_	MO	_	_
+2	so	so	so	ADV	ADV	_	_	-1	0	_	--	_	_
+3	!	!	!	$.	$.	_	_	-1	2	_	--	_	_
+
+1	twittern	twittern	twittern	VVFIN	VVFIN	_	pl|1|pres|ind	-1	0	_	--	_	_
+2	wir	wir	wir	PPER	PPER	_	nom|pl|*|1	-1	1	_	SB	_	_
+3	mal	mal	mal	ADV	ADV	_	_	-1	1	_	MO	_	_
+4	,	,	,	$,	$,	_	_	-1	3	_	--	_	_
+5	was	was	was	PRELS	PRELS	_	nom|sg|neut	-1	8	_	OA	_	_
+6	das	die	die	ART	ART	_	nom|sg|neut	-1	7	_	NK	_	_
+7	Zeug	Zeug	Zeug	NN	NN	_	nom|sg|neut	-1	8	_	OA	_	_
+8	hält	halten	halten	VVFIN	VVFIN	_	sg|3|pres|ind	-1	1	_	OC	_	_
+9	!	!	!	$.	$.	_	_	-1	8	_	--	_	_
+10	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	8	_	DM	_	_
+
+1	AfD	AfD	AfD	NN	NN	_	nom|sg|fem	-1	0	_	--	_	_
+
+	id	381525568401203200
+	time	Sat Sep 21 23:09:18 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@thelifeasannika 	replacement		info_end
+	replace	offset	43	length	10	num	2	orig	:)	replacement	%PosSmiley	info_end
+	sentence_start	0	23	43
+	token_offsets	sentence	0	offsets	0::3	4::7	12::3	16::5	21::1
+	token_offsets	sentence	1	offsets	23::3	27::4	32::5	38::3	41::1
+	token_offsets	sentence	2	offsets	43::10
+1	Ich	ich	ich	PPER	PPER	_	nom|sg|*|1	-1	2	_	UC	_	_
+2	klöppel	klöppeln	klöppeln	VVIMP	VVIMP	_	sg|1|pres|ind	-1	0	_	--	_	_
+3	uns	wir	wir	PRF	PRF	_	dat|pl|*|1	-1	2	_	NK	_	_
+4	einen	eine	eine	PIS	PIS	_	acc|sg|masc	-1	2	_	SB	_	_
+5	.	.	.	$.	$.	_	_	-1	4	_	--	_	_
+
+1	Für	für	für	APPR	APPR	_	_	-1	3	_	MO	_	_
+2	Dich	du	du	PPER	PPER	_	acc|sg|*|2	-1	1	_	NK	_	_
+3	einen	einen	einen	VVFIN	VVFIN	_	acc|sg|masc	-1	0	_	--	_	_
+4	mit	mit	mit	PTKVZ	PTKVZ	_	_	-1	3	_	SVP	_	_
+5	.	.	.	$.	$.	_	_	-1	4	_	--	_	_
+
+1	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	0	_	NK	_	_
+
+	id	377163120806199296
+	time	Mon Sep 09 22:14:30 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@peterpstuttgart 	replacement		info_end
+	replace	offset	28	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	55	length	10	num	4	orig	:-)	replacement	%PosSmiley	info_end
+	replace	offset	66	length	0	num	6	orig	#	replacement		info_end
+	replace	offset	70	length	0	num	8	orig	#	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::3	4::4	8::1	10::3	14::3	18::5	24::3	28::5	34::1	35::1	37::3	41::5	47::3	51::3	55::10	66::3	70::4
+1	hey	Hey	Hey	NE	NE	_	_	-1	4	_	RE	_	_
+2	komm	kommen	kommen	VVIMP	VVIMP	_	sg|2|imp	-1	1	_	PAR	_	_
+3	,	,	,	$,	$,	_	_	-1	2	_	--	_	_
+4	der	die	die	PDS	PDS	_	nom|sg|masc	-1	5	_	SB	_	_
+5	ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+6	einer	eine	eine	PIS	PIS	_	nom|sg|masc	-1	5	_	PD	_	_
+7	der	die	die	ART	ART	_	nom|sg|masc	-1	9	_	NK	_	_
+8	grüne	grün	grün	ADJA	ADJA	_	nom|sg|masc|comp	-1	9	_	NK	_	_
+9	n	N	N	NN	NN	_	_	-1	6	_	AG	_	_
+10	,	,	,	$,	$,	_	_	-1	9	_	--	_	_
+11	die	die	die	PRELS	PRELS	_	nom|pl|fem	-1	12	_	SB	_	_
+12	sagen	sagen	sagen	VVFIN	VVFIN	_	pl|3|pres|ind	-1	6	_	RC	_	_
+13	nie	nie	nie	ADV	ADV	_	_	-1	12	_	MO	_	_
+14	nie	nie	nie	ADV	ADV	_	_	-1	12	_	MO	_	_
+15	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	pos	-1	17	_	NK	_	_
+16	s21	s21	s21	ADJA	ADJA	_	acc|sg|masc|pos	-1	17	_	NK	_	_
+17	kuhn	kuhn	kuhn	NN	NN	_	acc|sg|masc	-1	5	_	PD	_	_
+
+	id	375367926909771777
+	time	Wed Sep 04 23:21:02 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @DoroBaer: 	replacement		info_end
+	replace	offset	15	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	42	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	60	length	0	num	6	orig	#	replacement		info_end
+	replace	offset	73	length	0	num	8	orig	#	replacement		info_end
+	replace	offset	81	length	10	num	10	orig	:-)))	replacement	%PosSmiley	info_end
+	sentence_start	0	60
+	token_offsets	sentence	0	offsets	0::14	15::5	21::7	28::1	30::3	34::3	38::3	42::7	50::8	58::1
+	token_offsets	sentence	1	offsets	60::8	69::3	73::3	77::3	81::10
+1	Repräsentative	repräsentativ	repräsentativ	ADJA	ADJA	_	nom|sg|fem|pos	-1	2	_	NK	_	_
+2	Emnid	Emnid	Emnid	NN	NN	_	nom|sg|fem	-1	6	_	CJ	_	_
+3	Umfrage	Umfrage	Umfrage	NN	NN	_	nom|sg|fem	-1	2	_	NK	_	_
+4	:	:	:	$.	$.	_	_	-1	3	_	--	_	_
+5	Wer	wer	wer	PWS	PWS	_	nom|sg|masc	-1	6	_	SB	_	_
+6	hat	haben	haben	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+7	das	die	die	ART	ART	_	acc|sg|neut	-1	8	_	NK	_	_
+8	TVDuell	TVDuell	TVDuell	NN	NN	_	acc|sg|neut	-1	9	_	OA	_	_
+9	gewonnen	gewinnen	gewinnen	VVPP	VVPP	_	_	-1	6	_	OC	_	_
+10	?	?	?	$.	$.	_	_	-1	9	_	--	_	_
+
+1	Seehofer	Seehofer	Seehofer	NE	NE	_	nom|sg|*	-1	2	_	SB	_	_
+2	62%	@card@	@card@	ADJA	ADJA	_	nom|sg|*	-1	0	_	--	_	_
+3	Ude	Ude	Ude	NE	NE	_	nom|sg|*	-1	4	_	PNC	_	_
+4	26%	@card@	@card@	ADJA	ADJA	_	nom|sg|*	-1	2	_	CC	_	_
+5	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	4	_	NK	_	_
+
+	id	348210514041643009
+	time	Sat Jun 22 00:47:10 +0000 2013
+	replace	offset	0	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	32	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	57	length	10	num	4	orig	;-)	replacement	%PosSmiley	info_end
+	sentence_start	0	32
+	token_offsets	sentence	0	offsets	0::7	8::4	13::6	20::8	28::3
+	token_offsets	sentence	1	offsets	32::3	35::1	36::6	43::5	49::3	53::3	57::10	67::1
+1	Piraten	Pirat	Pirat	NN	NN	_	nom|pl|masc	-1	2	_	SB	_	_
+2	sind	sein	sein	VAFIN	VAFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+3	uncool	uncool	uncool	ADJD	ADJD	_	pos	-1	4	_	PD	_	_
+4	geworden	werden	werden	VAPP	VAPP	_	_	-1	2	_	OC	_	_
+5	...	...	...	$.	$.	_	_	-1	4	_	--	_	_
+
+1	FDP	FDP	FDP	NE	NE	_	nom|sg|fem	-1	3	_	NK	_	_
+2	-	-	-	$(	$(	_	_	-1	1	_	--	_	_
+3	Effekt	Effekt	Effekt	NN	NN	_	acc|sg|masc	-1	4	_	SB	_	_
+4	nennt	nennen	nennen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+5	man	man	man	PIS	PIS	_	nom|sg|*	-1	4	_	SB	_	_
+6	das	die	die	PDS	PDS	_	acc|sg|neut	-1	4	_	OA	_	_
+7	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	acc|sg|neut	-1	0	_	NK	_	_
+8	.	.	.	$.	$.	_	_	-1	6	_	--	_	_
+
+	id	352548467958235139
+	time	Thu Jul 04 00:04:39 +0000 2013
+	replace	offset	60	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	76	length	10	num	2	orig	:)	replacement	%PosSmiley	info_end
+	replace	offset	87	length	0	num	4	orig	#	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::3	4::9	14::3	18::3	21::1	22::3	25::1	26::3	29::1	30::5	36::6	43::5	49::3	53::6	60::7	68::7	76::10	87::8
+1	die	die	die	ART	ART	_	nom|pl|masc	-1	2	_	NK	_	_
+2	Politiker	Politiker	Politiker	NN	NN	_	nom|pl|masc	-1	11	_	SB	_	_
+3	der	die	die	ART	ART	_	gen|sg|fem	-1	4	_	NK	_	_
+4	SPD	SPD	SPD	NE	NE	_	gen|sg|fem	-1	2	_	AG	_	_
+5	/	/	/	$(	$(	_	_	-1	4	_	--	_	_
+6	CDU	CDU	CDU	NE	NE	_	nom|sg|fem	-1	4	_	CJ	_	_
+7	/	/	/	$(	$(	_	_	-1	6	_	--	_	_
+8	CSU	CSU	CSU	NE	NE	_	nom|sg|fem	-1	6	_	CJ	_	_
+9	/	/	/	$(	$(	_	_	-1	8	_	--	_	_
+10	GRÜNE	grün	grün	ADJA	ADJA	_	nom|sg|*	-1	8	_	UC	_	_
+11	können	können	können	VMFIN	VMFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+12	nicht	nicht	nicht	PTKNEG	PTKNEG	_	_	-1	11	_	NG	_	_
+13	mit	mit	mit	APPR	APPR	_	_	-1	16	_	OP	_	_
+14	diesem	dies	dies	PDAT	PDAT	_	dat|sg|masc	-1	15	_	NK	_	_
+15	neuland	Neuland	Neuland	NN	NN	_	dat|sg|masc	-1	13	_	NK	_	_
+16	umgehen	umgehen	umgehen	VVFIN	VVFIN	_	pl|3|pres|ind	-1	11	_	OC	_	_
+17	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	18	_	NK	_	_
+18	annewill	annewill	annewill	NE	NE	_	_	-1	16	_	OA	_	_
+
+	id	381894153241522176
+	time	Sun Sep 22 23:33:56 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@realalexsos 	replacement		info_end
+	replace	offset	34	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	46	length	10	num	4	orig	;-)	replacement	%PosSmiley	info_end
+	sentence_start	0	46
+	token_offsets	sentence	0	offsets	0::3	4::7	12::6	19::3	23::6	30::3	34::3	38::6	44::1
+	token_offsets	sentence	1	offsets	46::10
+1	Das	die	die	PDS	PDS	_	acc|sg|neut	-1	2	_	SB	_	_
+2	sollten	sollen	sollen	VMFIN	VMFIN	_	pl|3|past|ind	-1	0	_	--	_	_
+3	lieber	lieb	lieb	ADJD	ADJD	_	_	-1	8	_	MO	_	_
+4	die	die	die	ART	ART	_	nom|pl|masc	-1	5	_	NK	_	_
+5	Wähler	Wähler	Wähler	NN	NN	_	nom|pl|masc	-1	2	_	SB	_	_
+6	der	die	die	ART	ART	_	gen|sg|fem	-1	7	_	NK	_	_
+7	AfD	AfD	AfD	NN	NN	_	gen|sg|fem	-1	5	_	AG	_	_
+8	machen	machen	machen	VVINF	VVINF	_	pl|3|pres|ind	-1	2	_	OC	_	_
+9	.	.	.	$.	$.	_	_	-1	8	_	--	_	_
+
+1	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	0	_	NK	_	_
+
+	id	384711418856996864
+	time	Mon Sep 30 18:08:44 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@doppeltnull 	replacement		info_end
+	replace	offset	19	length	10	num	2	orig	:(	replacement	%NegSmiley	info_end
+	replace	offset	50	length	0	num	4	orig	@	replacement		info_end
+	replace	offset	50	length	5	num	6	orig	zdf	replacement	%User	info_end
+	sentence_start	0	30	46
+	token_offsets	sentence	0	offsets	0::5	6::4	11::6	17::1	19::10
+	token_offsets	sentence	1	offsets	30::4	35::2	38::6	44::1
+	token_offsets	sentence	2	offsets	46::1	47::2	50::5
+1	warum	warum	warum	PWAV	PWAV	_	_	-1	3	_	MO	_	_
+2	denn	denn	denn	ADV	ADV	_	_	-1	3	_	MO	_	_
+3	letzte	letzt	letzt	ADJA	ADJA	_	sg|3|past|ind	-1	0	_	--	_	_
+4	?	?	?	$.	$.	_	_	-1	3	_	--	_	_
+5	%NegSmiley	%NegSmiley	%NegSmiley	ITJ	ITJ	_	_	-1	3	_	NK	_	_
+
+1	gibt	geben	geben	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+2	es	es	es	PPER	PPER	_	nom|sg|neut|3	-1	1	_	EP	_	_
+3	ersatz	ersatz	ersatz	ADJD	ADJD	_	_	-1	1	_	MO	_	_
+4	?	?	?	$.	$.	_	_	-1	3	_	--	_	_
+
+1	/	/	/	$(	$(	_	_	-1	2	_	--	_	_
+2	cc	cc	cc	NE	NE	_	_	-1	3	_	PNC	_	_
+3	zdf	%User	%User	NE	NE	_	_	-1	0	_	--	_	_
+
+	id	365751452620169216
+	time	Fri Aug 09 10:28:36 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@MrsSarah_Malik 	replacement		info_end
+	replace	offset	3	length	11	num	2	orig	:) 	replacement	%PosSmiley 	info_end
+	replace	offset	43	length	11	num	4	orig	:D 	replacement	%PosSmiley 	info_end
+	replace	offset	105	length	11	num	6	orig	:D	replacement	%PosSmiley 	info_end
+	sentence_start	0	43	105
+	token_offsets	sentence	0	offsets	0::2	3::10	14::2	16::1	17::3	21::3	25::3	29::11	41::2
+	token_offsets	sentence	1	offsets	43::10	54::2	57::3	61::5	67::3	71::4	76::5	82::2	85::6	92::7	100::4	104::1
+	token_offsets	sentence	2	offsets	105::10
+1	Ok	Ok	Ok	NE	NE	_	nom|sg|masc	-1	6	_	SB	_	_
+2	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	nom|sg|masc	-1	6	_	NK	_	_
+3	u.	und	und	KON	KON	_	_	-1	2	_	NK	_	_
+4	,	,	,	$,	$,	_	_	-1	3	_	--	_	_
+5	was	was	was	PWS	PWS	_	nom|sg|neut	-1	6	_	SB	_	_
+6	ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+7	ein	eine	eine	ART	ART	_	nom|sg|masc	-1	8	_	NK	_	_
+8	followspree	followspree	followspree	NE	NE	_	nom|sg|masc	-1	6	_	SB	_	_
+9	??	??	??	ADJA	ADJA	_	nom|sg|masc|comp	-1	8	_	PNC	_	_
+
+1	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	4	_	NK	_	_
+2	U.	u.	u.	KON	KON	_	_	-1	3	_	CD	_	_
+3	bei	bei	bei	APPR	APPR	_	_	-1	5	_	SB	_	_
+4	Jeddy	Jeddy	Jeddy	ADJA	ADJA	_	dat|pl|*|pos	-1	3	_	NK	_	_
+5	ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+6	auch	auch	auch	ADV	ADV	_	_	-1	8	_	MO	_	_
+7	alles	alle	alle	PIS	PIS	_	nom|sg|neut	-1	5	_	SB	_	_
+8	im	in	in	APPRART	APPRART	_	dat|sg|masc	-1	5	_	MO	_	_
+9	grünen	grün	grün	ADJA	ADJA	_	dat|sg|masc|pos	-1	10	_	NK	_	_
+10	Bereich	Bereich	Bereich	NN	NN	_	dat|sg|masc	-1	8	_	NK	_	_
+11	oder	oder	oder	KON	KON	_	_	-1	8	_	CD	_	_
+12	?	?	?	$.	$.	_	_	-1	11	_	CJ	_	_
+
+1	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	0	_	NK	_	_
+
+	id	381686347817558017
+	time	Sun Sep 22 09:48:11 +0000 2013
+	replace	offset	34	length	10	num	0	orig	:-)	replacement	%PosSmiley	info_end
+	replace	offset	46	length	0	num	2	orig	@zeitonline: 	replacement		info_end
+	replace	offset	98	length	5	num	4	orig	http://t.co/mPSKtd2oVU	replacement	%Link	info_end
+	replace	offset	104	length	0	num	6	orig	#	replacement		info_end
+	sentence_start	0	17	98
+	token_offsets	sentence	0	offsets	0::3	4::5	10::5	15::1
+	token_offsets	sentence	1	offsets	17::4	22::3	26::7	34::10	45::1	46::5	52::7	60::4	65::3	69::4	74::3	78::18	96::1
+	token_offsets	sentence	2	offsets	98::5	104::5	109::1
+1	Ich	ich	ich	PPER	PPER	_	nom|sg|*|1	-1	2	_	SB	_	_
+2	hoffe	hoffen	hoffen	VVFIN	VVFIN	_	sg|1|pres|ind	-1	0	_	--	_	_
+3	nicht	nicht	nicht	PTKNEG	PTKNEG	_	_	-1	2	_	NG	_	_
+4	!	!	!	$.	$.	_	_	-1	3	_	--	_	_
+
+1	lass	lassen	lassen	VVIMP	VVIMP	_	_	-1	6	_	MO	_	_
+2	sie	sie	sie	PPER	PPER	_	nom|pl|*|3	-1	1	_	OA	_	_
+3	dümpeln	dümpeln	dümpeln	VVINF	VVINF	_	pl|3|pres|ind	-1	2	_	OC	_	_
+4	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	2	_	NK	_	_
+5	"	"	"	$(	$(	_	_	-1	4	_	--	_	_
+6	Kommt	kommen	kommen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+7	deshalb	deshalb	deshalb	PAV	PAV	_	_	-1	2	_	NK	_	_
+8	nach	nach	nach	APPR	APPR	_	_	-1	6	_	MO	_	_
+9	der	die	die	ART	ART	_	dat|sg|fem	-1	10	_	NK	_	_
+10	Wahl	Wahl	Wahl	NN	NN	_	dat|sg|fem	-1	8	_	NK	_	_
+11	der	die	die	ART	ART	_	gen|pl|neut	-1	12	_	NK	_	_
+12	Generationswechsel	Generationswechsel	Generationswechsel	NN	NN	_	gen|pl|neut	-1	10	_	AG	_	_
+13	?	?	?	$.	$.	_	_	-1	12	_	--	_	_
+
+1	%Link	%Link	%Link	XY	XY	_	_	-1	0	_	--	_	_
+2	btw13	btw13	btw13	ADJA	ADJA	_	_	-1	0	_	--	_	_
+3	"	"	"	$(	$(	_	_	-1	2	_	--	_	_
+
+	id	381190309171826688
+	time	Sat Sep 21 00:57:06 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @Piratenbaer: 	replacement		info_end
+	replace	offset	4	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	49	length	0	num	4	orig	#	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::3	4::3	8::3	12::8	21::4	26::1	27::9	36::1	37::1	39::9	49::5
+1	Die	die	die	ART	ART	_	nom|sg|fem	-1	2	_	NK	_	_
+2	AfD	AfD	AfD	NN	NN	_	nom|sg|fem	-1	3	_	SB	_	_
+3	hat	haben	haben	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+4	wirklich	wirklich	wirklich	ADJD	ADJD	_	pos	-1	5	_	MO	_	_
+5	kein	keine	keine	PIAT	PIAT	_	acc|sg|neut	-1	7	_	NK	_	_
+6	(	(	(	$(	$(	_	_	-1	5	_	--	_	_
+7	Grundsatz	Grundsatz	Grundsatz	NN	NN	_	acc|sg|masc	-1	3	_	OA	_	_
+8	-	-	-	$(	$(	_	_	-1	7	_	--	_	_
+9	)	)	)	$(	$(	_	_	-1	8	_	--	_	_
+10	Programm.	Programm.	Programm.	NN	NN	_	nom|sg|fem	-1	7	_	PAR	_	_
+11	btw13	btw13	btw13	ADJA	ADJA	_	nom|sg|fem|pos	-1	10	_	UC	_	_
+
+	id	374292767016370176
+	time	Mon Sep 02 00:08:44 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@DoroBaer 	replacement		info_end
+	replace	offset	0	length	0	num	2	orig	@DavidGansel 	replacement		info_end
+	replace	offset	5	length	0	num	4	orig	@	replacement		info_end
+	replace	offset	5	length	5	num	6	orig	Die_Gruenen	replacement	%User	info_end
+	replace	offset	71	length	10	num	8	orig	;-)	replacement	%PosSmiley	info_end
+	sentence_start	0	71
+	token_offsets	sentence	0	offsets	0::3	3::1	5::5	11::5	17::4	22::4	27::6	34::16	51::2	54::7	62::3	66::3	69::1
+	token_offsets	sentence	1	offsets	71::10
+1	Tja	Tja	Tja	NE	NE	_	nom|sg|*	-1	4	_	SB	_	_
+2	,	,	,	$,	$,	_	_	-1	1	_	--	_	_
+3	Die_Gruenen	%User	%User	NE	NE	_	nom|sg|*	-1	1	_	CJ	_	_
+4	haben	haben	haben	VAFIN	VAFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+5	wohl	wohl	wohl	ADV	ADV	_	_	-1	4	_	MO	_	_
+6	eine	eine	eine	ART	ART	_	acc|sg|fem	-1	8	_	NK	_	_
+7	andere	andere	andere	PIAT	PIAT	_	acc|sg|fem|pos	-1	8	_	NK	_	_
+8	Herangehensweise	Herangehensweise	Herangehensweise	NN	NN	_	acc|sg|fem	-1	4	_	OA	_	_
+9	an	an	an	APPR	APPR	_	_	-1	8	_	MNR	_	_
+10	Politik	Politik	Politik	NN	NN	_	dat|sg|fem	-1	9	_	NK	_	_
+11	als	als	als	KOKOM	KOKOM	_	_	-1	12	_	CM	_	_
+12	wir	wir	wir	PPER	PPER	_	nom|pl|*|1	-1	7	_	CC	_	_
+13	.	.	.	$.	$.	_	_	-1	12	_	--	_	_
+
+1	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	0	_	NK	_	_
+
+	id	347071777496768513
+	time	Tue Jun 18 21:22:14 +0000 2013
+	replace	offset	0	length	0	num	0	orig	.	replacement		info_end
+	replace	offset	0	length	0	num	2	orig	@VickySpielfrau @Gruene_Austria 	replacement		info_end
+	replace	offset	20	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	41	length	0	num	6	orig	#	replacement		info_end
+	replace	offset	67	length	0	num	8	orig	#	replacement		info_end
+	replace	offset	83	length	0	num	10	orig	#	replacement		info_end
+	replace	offset	99	length	10	num	12	orig	:-(	replacement	%NegSmiley	info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::1	2::5	8::6	15::4	20::13	34::5	39::1	41::10	52::3	55::1	56::3	59::1	60::6	67::5	73::3	77::5	83::7	91::7	99::10
+1	~	~	~	XY	XY	_	gen|sg|fem|3	-1	0	_	--	_	_
+2	jetzt	jetzt	jetzt	ADV	ADV	_	_	-1	3	_	MO	_	_
+3	kommen	kommen	kommen	VVFIN	VVFIN	_	pl|3|pres|ind	-1	18	_	OC	_	_
+4	alle	alle	alle	PIAT	PIAT	_	nom|pl|masc	-1	6	_	NK	_	_
+5	idiotierenden	idiotierenden	idiotierenden	ADJA	ADJA	_	nom|pl|masc|pos	-1	6	_	NK	_	_
+6	zwerg	Zwerg	Zwerg	NN	NN	_	nom|pl|masc	-1	3	_	SB	_	_
+7	'	'	'	$(	$(	_	_	-1	6	_	--	_	_
+8	faschisten	faschisten	faschisten	ADJD	ADJD	_	sup	-1	3	_	MO	_	_
+9	bei	bei	bei	APPR	APPR	_	_	-1	3	_	SVP	_	_
+10	'	'	'	$(	$(	_	_	-1	9	_	--	_	_
+11	DEN	die	die	PDS	PDS	_	*|*|*	-1	14	_	AG	_	_
+12	'	'	'	$(	$(	_	_	-1	11	_	--	_	_
+13	grünen	grün	grün	ADJA	ADJA	_	acc|sg|masc|pos	-1	14	_	NK	_	_
+14	POPOS	Popo	Popo	NN	NN	_	acc|sg|masc	-1	3	_	SB	_	_
+15	aus	aus	aus	APPR	APPR	_	_	-1	14	_	MNR	_	_
+16	Ihren	ihr	ihr	PPOSAT	PPOSAT	_	dat|pl|neut	-1	17	_	NK	_	_
+17	braunen	braun	braun	ADJA	ADJA	_	dat|pl|neut|pos	-1	15	_	NK	_	_
+18	löchern	löchern	löchern	VVFIN	VVFIN	_	dat|pl|neut	-1	0	_	--	_	_
+19	%NegSmiley	%NegSmiley	%NegSmiley	ITJ	ITJ	_	_	-1	18	_	DM	_	_
+
+	id	375228022942871552
+	time	Wed Sep 04 14:05:06 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @Ekynos: 	replacement		info_end
+	replace	offset	25	length	0	num	2	orig	@	replacement		info_end
+	replace	offset	25	length	5	num	4	orig	JungePiraten	replacement	%User	info_end
+	replace	offset	45	length	10	num	6	orig	:)	replacement	%PosSmiley	info_end
+	replace	offset	56	length	0	num	8	orig	#	replacement		info_end
+	sentence_start	0	32	45
+	token_offsets	sentence	0	offsets	0::9	10::6	17::3	21::3	25::5	30::1
+	token_offsets	sentence	1	offsets	32::7	40::3	43::1
+	token_offsets	sentence	2	offsets	45::10	56::3	59::1
+1	Kritische	kritisch	kritisch	ADJA	ADJA	_	nom|pl|masc|pos	-1	2	_	NK	_	_
+2	Denker	Denker	Denker	NN	NN	_	nom|pl|masc	-1	0	_	--	_	_
+3	bei	bei	bei	APPR	APPR	_	_	-1	2	_	MNR	_	_
+4	den	die	die	ART	ART	_	dat|pl|masc	-1	5	_	NK	_	_
+5	JungePiraten	%User	%User	NE	NE	_	dat|pl|masc	-1	3	_	NK	_	_
+6	.	.	.	$.	$.	_	_	-1	5	_	--	_	_
+
+1	Gefällt	gefallen	gefallen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+2	mir	ich	ich	PPER	PPER	_	dat|sg|*|1	-1	1	_	DA	_	_
+3	.	.	.	$.	$.	_	_	-1	2	_	--	_	_
+
+1	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	2	_	NK	_	_
+2	afd	afd	afd	ADJA	ADJA	_	_	-1	0	_	--	_	_
+3	-	-	-	$(	$(	_	_	-1	2	_	--	_	_
+
+	id	376470048191578112
+	time	Sun Sep 08 00:20:28 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @dehsur: 	replacement		info_end
+	replace	offset	0	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	75	length	10	num	4	orig	:)	replacement	%PosSmiley	info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::3	3::1	5::7	13::7	21::3	25::4	30::3	34::8	43::3	47::2	50::4	55::3	59::4	64::10	75::10
+1	AfD	AfD	AfD	NN	NN	_	nom|sg|masc	-1	4	_	SB	_	_
+2	-	-	-	$(	$(	_	_	-1	1	_	--	_	_
+3	Fanboys	Fanboys	Fanboys	NN	NN	_	gen|sg|masc	-1	1	_	CJ	_	_
+4	glauben	glauben	glauben	VVFIN	VVFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+5	das	die	die	PDS	PDS	_	acc|sg|neut	-1	4	_	OA	_	_
+6	sich	sich	sich	PRF	PRF	_	acc|pl|3	-1	14	_	OA	_	_
+7	bei	bei	bei	APPR	APPR	_	_	-1	14	_	MO	_	_
+8	Rückkehr	Rückkehr	Rückkehr	NN	NN	_	dat|sg|fem	-1	7	_	NK	_	_
+9	zur	zu	zu	APPRART	APPRART	_	dat|sg|fem	-1	8	_	MNR	_	_
+10	DM	DM	DM	NN	NN	_	dat|sg|fem	-1	9	_	NK	_	_
+11	sich	sich	sich	PRF	PRF	_	acc|sg|3	-1	14	_	OA	_	_
+12	ihr	ihr	ihr	PPOSAT	PPOSAT	_	nom|sg|neut	-1	13	_	NK	_	_
+13	Geld	Geld	Geld	NN	NN	_	nom|sg|neut	-1	14	_	SB	_	_
+14	verdoppelt	verdoppeln	verdoppeln	VVPP	VVPP	_	_	-1	4	_	OC	_	_
+15	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	14	_	NK	_	_
+
+	id	383543739819372545
+	time	Fri Sep 27 12:48:48 +0000 2013
+	replace	offset	4	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	27	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	31	length	11	num	4	orig	:) 	replacement	%PosSmiley 	info_end
+	replace	offset	42	length	5	num	6	orig	http://t.co/MrYVuciojZ	replacement	%Link	info_end
+	replace	offset	48	length	0	num	8	orig	#	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::3	4::3	8::3	12::3	16::6	23::3	27::3	31::10	42::5	48::5
+1	Die	die	die	ART	ART	_	nom|sg|fem	-1	2	_	NK	_	_
+2	ÖVP	ÖVP	ÖVP	NN	NN	_	nom|sg|fem	-1	0	_	--	_	_
+3	auf	auf	auf	APPR	APPR	_	_	-1	2	_	MNR	_	_
+4	den	die	die	ART	ART	_	acc|sg|masc	-1	5	_	NK	_	_
+5	Spuren	Spur|Spuren	Spur|Spuren	NN	NN	_	acc|sg|masc	-1	3	_	NK	_	_
+6	der	die	die	ART	ART	_	gen|sg|fem	-1	7	_	NK	_	_
+7	FDP	FDP	FDP	NE	NE	_	gen|sg|fem	-1	5	_	AG	_	_
+8	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	10	_	NK	_	_
+9	%Link	%Link	%Link	XY	XY	_	gen|sg|fem	-1	8	_	NK	_	_
+10	nrw13	nrw13	nrw13	ADJA	ADJA	_	gen|sg|fem|pos	-1	2	_	PAR	_	_
+
+	id	354847185927548931
+	time	Wed Jul 10 08:18:56 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@allabouteve1950 	replacement		info_end
+	replace	offset	69	length	10	num	2	orig	;-)	replacement	%PosSmiley	info_end
+	sentence_start	0	37
+	token_offsets	sentence	0	offsets	0::3	4::4	9::3	13::4	18::7	26::9	35::1
+	token_offsets	sentence	1	offsets	37::3	41::6	48::5	54::5	60::7	67::1	69::10
+1	Den	die	die	ART	ART	_	acc|sg|masc	-1	6	_	OA	_	_
+2	habe	haben	haben	VAFIN	VAFIN	_	sg|1|pres|ind	-1	0	_	--	_	_
+3	ich	ich	ich	PPER	PPER	_	nom|sg|*|1	-1	2	_	SB	_	_
+4	doch	doch	doch	ADV	ADV	_	_	-1	6	_	MO	_	_
+5	gestern	gestern	gestern	ADV	ADV	_	_	-1	6	_	MO	_	_
+6	verbrannt	verbrennen	verbrennen	VVPP	VVPP	_	_	-1	2	_	OC	_	_
+7	.	.	.	$.	$.	_	_	-1	6	_	--	_	_
+
+1	Den	die	die	ART	ART	_	acc|sg|masc	-1	3	_	NK	_	_
+2	grünen	grün	grün	ADJA	ADJA	_	acc|sg|masc|pos	-1	3	_	NK	_	_
+3	Rauch	Rauch	Rauch	NN	NN	_	acc|sg|masc	-1	5	_	OA	_	_
+4	nicht	nicht	nicht	PTKNEG	PTKNEG	_	_	-1	5	_	NG	_	_
+5	gesehen	sehen	sehen	VVPP	VVPP	_	_	-1	0	_	--	_	_
+6	?	?	?	$.	$.	_	_	-1	5	_	--	_	_
+7	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	5	_	NK	_	_
+
+	id	375203847670870016
+	time	Wed Sep 04 12:29:02 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @Piraten_MV: 	replacement		info_end
+	replace	offset	90	length	10	num	2	orig	:)	replacement	%PosSmiley	info_end
+	replace	offset	102	length	5	num	4	orig	http://t.co/4mNc4rLgZX	replacement	%Link	info_end
+	sentence_start	0	108
+	token_offsets	sentence	0	offsets	0::7	7::1	9::6	15::1	17::3	21::8	29::1	30::1	31::1	32::3	36::3	40::1	41::6	47::1	49::18	68::3	72::3	76::14	90::10	100::1	102::5
+	token_offsets	sentence	1	offsets	108::1	109::2
+1	Achtung	Achtung	Achtung	NN	NN	_	nom|sg|fem	-1	10	_	SB	_	_
+2	,	,	,	$,	$,	_	_	-1	1	_	--	_	_
+3	Satire	Satire	Satire	NN	NN	_	nom|sg|fem	-1	1	_	CJ	_	_
+4	:	:	:	$.	$.	_	_	-1	3	_	--	_	_
+5	Der	die	die	ART	ART	_	nom|sg|masc	-1	6	_	NK	_	_
+6	National	National	National	FM	FM	_	nom|sg|masc	-1	1	_	PAR	_	_
+7	-	-	-	$(	$(	_	_	-1	6	_	--	_	_
+8	O	O	O	NN	NN	_	*|*|*	-1	6	_	APP	_	_
+9	-	-	-	$(	$(	_	_	-1	8	_	--	_	_
+10	Mat	Mat	Mat	VVFIN	VVFIN	_	*|*|*	-1	19	_	NK	_	_
+11	als	als	als	KOKOM	KOKOM	_	_	-1	10	_	MO	_	_
+12	"	"	"	$(	$(	_	_	-1	11	_	--	_	_
+13	rechte	recht|rechts	recht|rechts	ADJA	ADJA	_	nom|pl|masc|pos	-1	15	_	NK	_	_
+14	"	"	"	$(	$(	_	_	-1	13	_	--	_	_
+15	Entscheidungshilfe	Entscheidungshilfe	Entscheidungshilfe	NN	NN	_	nom|sg|fem	-1	11	_	NK	_	_
+16	für	für	für	APPR	APPR	_	_	-1	15	_	MNR	_	_
+17	die	die	die	ART	ART	_	acc|sg|fem	-1	18	_	NK	_	_
+18	Bundestagswahl	Bundestagswahl	Bundestagswahl	NN	NN	_	acc|sg|fem	-1	16	_	NK	_	_
+19	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	21	_	NK	_	_
+20	.	.	.	$.	$.	_	_	-1	21	_	--	_	_
+21	%Link	%Link	%Link	XY	XY	_	_	-1	0	_	--	_	_
+
+1	/	/	/	$(	$(	_	_	-1	2	_	--	_	_
+2	et	et	et	FM	FM	_	_	-1	0	_	--	_	_
+
+	id	359372418374053891
+	time	Mon Jul 22 20:00:36 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@Agetier 	replacement		info_end
+	replace	offset	86	length	11	num	2	orig	:-) 	replacement	%PosSmiley 	info_end
+	sentence_start	0	86
+	token_offsets	sentence	0	offsets	0::4	5::6	11::1	12::3	16::6	23::3	27::4	32::4	37::3	41::14	55::1	56::12	69::5	75::9	84::1
+	token_offsets	sentence	1	offsets	86::10	97::2	100::3	104::8	113::5	118::3
+1	mein	mein	mein	PPOSAT	PPOSAT	_	nom|sg|masc	-1	2	_	NK	_	_
+2	bester	gut	gut	ADJA	ADJA	_	nom|sg|masc|sup	-1	5	_	MO	_	_
+3	,	,	,	$,	$,	_	_	-1	2	_	--	_	_
+4	wir	wir	wir	PPER	PPER	_	nom|pl|*|1	-1	5	_	SB	_	_
+5	müssen	müssen	müssen	VMFIN	VMFIN	_	pl|1|pres|ind	-1	0	_	--	_	_
+6	die	die	die	ART	ART	_	acc|sg|fem	-1	7	_	NK	_	_
+7	tage	tagen	tagen	VVFIN	VVFIN	_	acc|sg|fem	-1	12	_	PAR	_	_
+8	noch	noch	noch	ADV	ADV	_	_	-1	7	_	MO	_	_
+9	mal	mal	mal	ADV	ADV	_	_	-1	5	_	MO	_	_
+10	zusammensitzen	zusammensitzen	zusammensitzen	VVINF	VVINF	_	_	-1	5	_	OC	_	_
+11	/	/	/	$(	$(	_	_	-1	10	_	--	_	_
+12	telefonieren	telefonieren	telefonieren	VVFIN	VVFIN	_	_	-1	5	_	CJ	_	_
+13	wegen	wegen	wegen	APPR	APPR	_	_	-1	12	_	MO	_	_
+14	wahlkampf	Wahlkampf	Wahlkampf	NN	NN	_	acc|sg|masc	-1	13	_	NK	_	_
+15	.	.	.	$.	$.	_	_	-1	14	_	--	_	_
+
+1	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	3	_	NK	_	_
+2	es	es	es	PPER	PPER	_	nom|sg|neut|3	-1	3	_	SB	_	_
+3	ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+4	wirklich	wirklich	wirklich	ADJD	ADJD	_	pos	-1	5	_	MO	_	_
+5	nötig	nötig	nötig	ADJD	ADJD	_	pos	-1	3	_	PD	_	_
+6	...	...	...	$.	$.	_	_	-1	5	_	--	_	_
+
+	id	362624402837364736
+	time	Wed Jul 31 19:22:49 +0000 2013
+	replace	offset	36	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	109	length	11	num	2	orig	:) 	replacement	%PosSmiley 	info_end
+	replace	offset	120	length	5	num	4	orig	http://t.co/CblOjeXg2p	replacement	%Link	info_end
+	sentence_start	0	60	102	120
+	token_offsets	sentence	0	offsets	0::3	4::10	15::12	28::3	32::3	36::8	45::6	52::6	58::1
+	token_offsets	sentence	1	offsets	60::4	65::8	74::3	78::7	86::5	92::8	100::1
+	token_offsets	sentence	2	offsets	102::4	106::1	107::1	109::10
+	token_offsets	sentence	3	offsets	120::5
+1	Und	und	und	KON	KON	_	_	-1	2	_	JU	_	_
+2	Wiederwahl	Wiederwahl	Wiederwahl	NN	NN	_	nom|pl|*	-1	0	_	--	_	_
+3	Fehlversuche	Fehlversuch	Fehlversuch	NN	NN	_	nom|pl|*	-1	2	_	SB	_	_
+4	bei	bei	bei	APPR	APPR	_	_	-1	2	_	MO	_	_
+5	der	die	die	ART	ART	_	dat|sg|fem	-1	6	_	NK	_	_
+6	Fritzbox	Fritzbox	Fritzbox	NN	NN	_	dat|sg|fem	-1	4	_	NK	_	_
+7	meiner	mein	mein	PPOSAT	PPOSAT	_	gen|pl|*	-1	8	_	NK	_	_
+8	Eltern	Eltern	Eltern	NN	NN	_	gen|pl|*	-1	6	_	AG	_	_
+9	.	.	.	$.	$.	_	_	-1	8	_	--	_	_
+
+1	Nach	nach	nach	APPR	APPR	_	_	-1	6	_	MO	_	_
+2	Gewitter	Gewitter	Gewitter	NN	NN	_	dat|sg|fem	-1	1	_	NK	_	_
+3	DSL	DSL	DSL	NE	NE	_	nom|sg|*	-1	4	_	PNC	_	_
+4	Eingang	Eingang	Eingang	NN	NN	_	acc|sg|masc	-1	2	_	NK	_	_
+5	keine	keine	keine	PIAT	PIAT	_	nom|sg|fem	-1	6	_	NK	_	_
+6	Finktion	Finktion	Finktion	NN	NN	_	nom|sg|fem	-1	0	_	--	_	_
+7	.	.	.	$.	$.	_	_	-1	6	_	--	_	_
+
+1	Tips	Tip	Tip	NN	NN	_	nom|pl|masc	-1	0	_	--	_	_
+2	?	?	?	$.	$.	_	_	-1	1	_	--	_	_
+3	!	!	!	$.	$.	_	_	-1	2	_	--	_	_
+4	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	2	_	NK	_	_
+
+1	%Link	%Link	%Link	XY	XY	_	_	-1	0	_	--	_	_
+
+	id	359692759227039745
+	time	Tue Jul 23 17:13:31 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@JRehborn 	replacement		info_end
+	replace	offset	89	length	10	num	2	orig	:(	replacement	%NegSmiley	info_end
+	sentence_start	0	36	100
+	token_offsets	sentence	0	offsets	0::4	5::4	10::7	18::9	28::6	34::1
+	token_offsets	sentence	1	offsets	36::5	41::1	43::4	48::3	52::3	56::3	60::6	67::4	72::6	79::8	87::1	89::10
+	token_offsets	sentence	2	offsets	100::1	101::1	102::16
+1	Eine	eine	eine	ART	ART	_	nom|sg|fem	-1	3	_	NK	_	_
+2	neue	neu	neu	ADJA	ADJA	_	nom|sg|fem|pos	-1	3	_	NK	_	_
+3	Haltung	Haltung	Haltung	NN	NN	_	nom|sg|fem	-1	4	_	SB	_	_
+4	erfordert	erfordern	erfordern	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+5	Rügrad	Rügrad	Rügrad	NN	NN	_	acc|sg|masc	-1	4	_	OA	_	_
+6	!	!	!	$.	$.	_	_	-1	5	_	--	_	_
+
+1	Etwas	etwas	etwas	ADV	ADV	_	_	-1	10	_	MO	_	_
+2	,	,	,	$,	$,	_	_	-1	1	_	--	_	_
+3	dass	dass	dass	KOUS	KOUS	_	_	-1	10	_	CP	_	_
+4	ich	ich	ich	PPER	PPER	_	nom|sg|*|1	-1	10	_	SB	_	_
+5	bei	bei	bei	APPR	APPR	_	_	-1	10	_	MO	_	_
+6	den	die	die	ART	ART	_	dat|pl|*	-1	7	_	NK	_	_
+7	Grünen	Grüne	Grüne	NN	NN	_	dat|pl|*	-1	5	_	NK	_	_
+8	seid	sein	sein	VAFIN	VAFIN	_	pl|2|pres|ind	-1	10	_	MO	_	_
+9	LANGEM	lang	lang	ADJA	ADJA	_	nom|pl|neut|pos	-1	8	_	MO	_	_
+10	vermisse	vermissen	vermissen	VVFIN	VVFIN	_	sg|3|pres|subj	-1	0	_	--	_	_
+11	!	!	!	$.	$.	_	_	-1	10	_	--	_	_
+12	%NegSmiley	%NegSmiley	%NegSmiley	ITJ	ITJ	_	_	-1	10	_	DM	_	_
+
+1	/	/	/	$(	$(	_	_	-1	3	_	--	_	_
+2	/	/	/	$(	$(	_	_	-1	1	_	--	_	_
+3	@EinAugenschmaus	@EinAugenschmaus	@EinAugenschmaus	NN	NN	_	_	-1	0	_	--	_	_
+
+	id	380783489676623873
+	time	Thu Sep 19 22:00:33 +0000 2013
+	replace	offset	28	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	85	length	10	num	2	orig	:-)	replacement	%PosSmiley	info_end
+	replace	offset	96	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	105	length	0	num	6	orig	 http://t.co/lhrM9lUOkk	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::2	3::4	8::4	13::9	22::1	24::3	28::7	35::1	37::3	41::2	44::5	49::1	51::2	54::10	65::2	68::6	75::9	85::10	96::9
+1	Es	Es	Es	NN	NN	_	nom|sg|neut|3	-1	2	_	SB	_	_
+2	gibt	geben	geben	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+3	auch	auch	auch	ADV	ADV	_	_	-1	4	_	MO	_	_
+4	prognosen	Prognose	Prognose	NN	NN	_	_	-1	2	_	OA	_	_
+5	,	,	,	$,	$,	_	_	-1	4	_	--	_	_
+6	die	die	die	ART	ART	_	nom|pl|fem	-1	11	_	SB	_	_
+7	piraten	Pirat	Pirat	NN	NN	_	pl|1|past|ind	-1	11	_	OA	_	_
+8	+	+	+	KON	KON	_	_	-1	7	_	MO	_	_
+9	bei	bei	bei	APPR	APPR	_	_	-1	8	_	CJ	_	_
+10	5%	@card@	@card@	CARD	CARD	_	_	-1	9	_	NK	_	_
+11	sehen	sehen	sehen	VVINF	VVINF	_	_	-1	4	_	RC	_	_
+12	-	-	-	$(	$(	_	_	-1	11	_	--	_	_
+13	zb	zb	zb	ADJA	ADJA	_	acc|pl|masc|pos	-1	14	_	NK	_	_
+14	erststimme	Erststimme	Erststimme	NN	NN	_	acc|pl|masc	-1	2	_	OA	_	_
+15	in	in	in	APPR	APPR	_	_	-1	2	_	MO	_	_
+16	meinem	mein	mein	PPOSAT	PPOSAT	_	dat|sg|masc	-1	19	_	NK	_	_
+17	wahlkreis	wahlkreis	wahlkreis	ADJA	ADJA	_	dat|sg|masc	-1	19	_	NK	_	_
+18	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	19	_	NK	_	_
+19	oberhavel	oberhavel	oberhavel	ADJA	ADJA	_	*|*|*|pos	-1	15	_	NK	_	_
+
+	id	381616922544308225
+	time	Sun Sep 22 05:12:19 +0000 2013
+	replace	offset	59	length	10	num	0	orig	;-)	replacement	%PosSmiley	info_end
+	sentence_start	0	39
+	token_offsets	sentence	0	offsets	0::2	3::3	7::4	12::7	20::4	25::3	29::6	35::3
+	token_offsets	sentence	1	offsets	39::5	45::3	49::8	57::1	59::10
+1	In	in	in	APPR	APPR	_	_	-1	5	_	MO	_	_
+2	ein	eine	eine	ART	ART	_	*|*|*	-1	3	_	NK	_	_
+3	paar	paar	paar	PIAT	PIAT	_	*|*|*	-1	4	_	NK	_	_
+4	Stunden	Stunde|Stunden	Stunde|Stunden	NN	NN	_	acc|pl|fem	-1	1	_	NK	_	_
+5	sind	sein	sein	VAFIN	VAFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+6	die	die	die	ART	ART	_	nom|pl|fem	-1	7	_	NK	_	_
+7	Wahlen	Wahl	Wahl	NN	NN	_	nom|pl|fem	-1	5	_	SB	_	_
+8	...	...	...	$.	$.	_	_	-1	7	_	--	_	_
+
+1	Wählt	wählen	wählen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+2	das	die	die	ART	ART	_	nom|sg|neut	-1	3	_	NK	_	_
+3	richtige	richtig	richtig	ADJA	ADJA	_	nom|sg|neut|pos	-1	1	_	SB	_	_
+4	!	!	!	$.	$.	_	_	-1	3	_	--	_	_
+5	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	3	_	NK	_	_
+
+	id	376757618653425664
+	time	Sun Sep 08 19:23:10 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @Revolt_Germany: 	replacement		info_end
+	replace	offset	0	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	21	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	44	length	0	num	6	orig	#	replacement		info_end
+	replace	offset	56	length	0	num	8	orig	#	replacement		info_end
+	replace	offset	62	length	0	num	10	orig	RT @0LG12:	replacement		info_end
+	replace	offset	99	length	11	num	12	orig	;-) 	replacement	%PosSmiley 	info_end
+	sentence_start	0	110
+	token_offsets	sentence	0	offsets	0::7	8::6	15::5	21::11	32::1	33::1	34::5	40::3	44::7	52::3	56::5	63::5	69::11	81::4	86::3	90::3	94::3	97::1	99::10
+	token_offsets	sentence	1	offsets	110::3	113::3
+1	Piraten	Pirat	Pirat	NN	NN	_	nom|pl|masc	-1	2	_	SB	_	_
+2	wirken	wirken	wirken	VVFIN	VVFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+3	gegen	gegen	gegen	APPR	APPR	_	_	-1	2	_	MO	_	_
+4	Überwachung	Überwachung	Überwachung	NN	NN	_	acc|sg|fem	-1	3	_	NK	_	_
+5	'	'	'	$(	$(	_	_	-1	4	_	--	_	_
+6	'	'	'	$(	$(	_	_	-1	5	_	--	_	_
+7	swahn	swahn	swahn	NN	NN	_	acc|sg|fem	-1	2	_	OA	_	_
+8	der	die	die	ART	ART	_	gen|sg|fem	-1	9	_	NK	_	_
+9	Polizei	Polizei	Polizei	NN	NN	_	gen|sg|fem	-1	7	_	AG	_	_
+10	bei	bei	bei	APPR	APPR	_	_	-1	7	_	MNR	_	_
+11	FSA13	FSA13	FSA13	NN	NN	_	dat|sg|fem	-1	10	_	NK	_	_
+12	Gegen	gegen	gegen	APPR	APPR	_	_	-1	11	_	MNR	_	_
+13	Kamerawagen	Kamerawagen	Kamerawagen	NN	NN	_	acc|pl|fem	-1	12	_	NK	_	_
+14	kann	können	können	VMFIN	VMFIN	_	sg|3|pres|ind	-1	2	_	CJ	_	_
+15	man	man	man	PIS	PIS	_	nom|sg|*	-1	14	_	SB	_	_
+16	was	was	was	PWS	PWS	_	acc|sg|neut	-1	17	_	OA	_	_
+17	tun	tun	tun	VVINF	VVINF	_	_	-1	14	_	OC	_	_
+18	!	!	!	$.	$.	_	_	-1	17	_	--	_	_
+19	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	14	_	DM	_	_
+
+1	htt	htt	htt	NN	NN	_	_	-1	0	_	--	_	_
+2	...	...	...	$.	$.	_	_	-1	1	_	--	_	_
+
+	id	369190327959437312
+	time	Sun Aug 18 22:13:28 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @GruenChristian: 	replacement		info_end
+	replace	offset	45	length	0	num	2	orig	 http://t.co/v091xUSG9Y	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::4	5::5	11::3	15::3	19::14	34::3	38::6	44::1
+1	Mein	mein	mein	PPOSAT	PPOSAT	_	nom|sg|masc	-1	2	_	NK	_	_
+2	Video	Video	Video	NN	NN	_	nom|sg|masc	-1	6	_	PD	_	_
+3	für	für	für	APPR	APPR	_	_	-1	2	_	MNR	_	_
+4	die	die	die	ART	ART	_	acc|sg|fem	-1	5	_	NK	_	_
+5	Bundestagswahl	Bundestagswahl	Bundestagswahl	NN	NN	_	acc|sg|fem	-1	3	_	NK	_	_
+6	ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+7	online	online	online	NE	NE	_	nom|sg|fem	-1	6	_	SB	_	_
+8	!	!	!	$.	$.	_	_	-1	7	_	--	_	_
+
+	id	349394325232287744
+	time	Tue Jun 25 07:11:13 +0000 2013
+	replace	offset	4	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	38	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	59	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	111	length	0	num	6	orig	 http://t.co/Wi4dPMGCio	replacement		info_end
+	sentence_start	0	24	59	78
+	token_offsets	sentence	0	offsets	0::3	4::3	8::9	18::4	22::1
+	token_offsets	sentence	1	offsets	24::9	34::3	38::19	57::1
+	token_offsets	sentence	2	offsets	59::2	62::9	72::4	76::1
+	token_offsets	sentence	3	offsets	78::6	85::3	89::18	108::2	110::1
+1	Die	die	die	ART	ART	_	nom|pl|*	-1	2	_	NK	_	_
+2	USA	USA	USA	NE	NE	_	nom|pl|*	-1	3	_	SB	_	_
+3	überwacht	überwachen	überwachen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+4	Dich	du	du	PPER	PPER	_	acc|sg|*|2	-1	3	_	OA	_	_
+5	?	?	?	$.	$.	_	_	-1	4	_	--	_	_
+
+1	Schliesse	Schließe	Schließe	NN	NN	_	nom|pl|masc	-1	0	_	--	_	_
+2	ein	eine	eine	ART	ART	_	acc|sg|neut	-1	3	_	NK	_	_
+3	Freihandelsabkommen	Freihandelsabkommen	Freihandelsabkommen	NN	NN	_	acc|sg|neut	-1	1	_	SB	_	_
+4	!	!	!	$.	$.	_	_	-1	3	_	--	_	_
+
+1	GB	GB	GB	ADJD	ADJD	_	pos	-1	2	_	MO	_	_
+2	überwacht	überwachen	überwachen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+3	Dich	du	du	PPER	PPER	_	acc|sg|*|2	-1	2	_	SB	_	_
+4	?	?	?	$.	$.	_	_	-1	3	_	--	_	_
+
+1	Breche	Breche	Breche	NN	NN	_	nom|sg|fem	-1	0	_	--	_	_
+2	die	die	die	ART	ART	_	acc|pl|fem	-1	3	_	NK	_	_
+3	Handelsbeziehungen	Handelsbeziehung	Handelsbeziehung	NN	NN	_	acc|pl|fem	-1	1	_	OA	_	_
+4	ab	ab	ab	PTKVZ	PTKVZ	_	_	-1	1	_	SVP	_	_
+5	!	!	!	$.	$.	_	_	-1	4	_	--	_	_
+
+	id	382824529807953920
+	time	Wed Sep 25 13:10:55 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@the_infinity 	replacement		info_end
+	sentence_start	0	34	98
+	token_offsets	sentence	0	offsets	0::5	6::4	11::5	17::3	21::11	32::1
+	token_offsets	sentence	1	offsets	34::2	37::3	41::6	48::4	53::3	57::5	63::7	71::4	76::4	81::4	86::3	90::3	94::2	96::1
+	token_offsets	sentence	2	offsets	98::13	112::9	121::1
+1	Alles	alle	alle	PIS	PIS	_	nom|sg|neut	-1	3	_	SB	_	_
+2	eine	eine	eine	ART	ART	_	nom|sg|fem	-1	3	_	NK	_	_
+3	Frage	Frage	Frage	NN	NN	_	nom|sg|fem	-1	0	_	--	_	_
+4	der	die	die	ART	ART	_	gen|sg|fem	-1	5	_	NK	_	_
+5	Wahrnehmung	Wahrnehmung	Wahrnehmung	NN	NN	_	gen|sg|fem	-1	3	_	AG	_	_
+6	.	.	.	$.	$.	_	_	-1	5	_	--	_	_
+
+1	In	in	in	APPR	APPR	_	_	-1	4	_	MO	_	_
+2	der	die	die	ART	ART	_	dat|sg|fem	-1	3	_	NK	_	_
+3	Praxis	Praxis	Praxis	NN	NN	_	dat|sg|fem	-1	1	_	NK	_	_
+4	habe	haben	haben	VAFIN	VAFIN	_	sg|1|pres|ind	-1	0	_	--	_	_
+5	ich	ich	ich	PPER	PPER	_	nom|sg|*|1	-1	4	_	SB	_	_
+6	unter	unter	unter	APPR	APPR	_	_	-1	4	_	MO	_	_
+7	Piraten	Pirat	Pirat	NN	NN	_	dat|pl|masc	-1	6	_	NK	_	_
+8	auch	auch	auch	ADV	ADV	_	_	-1	11	_	MO	_	_
+9	fast	fast	fast	ADV	ADV	_	_	-1	10	_	MO	_	_
+10	noch	noch	noch	ADV	ADV	_	_	-1	11	_	MO	_	_
+11	nie	nie	nie	ADV	ADV	_	_	-1	4	_	MO	_	_
+12	per	per	per	APPR	APPR	_	_	-1	4	_	MO	_	_
+13	es	es	es	PPER	PPER	_	nom|sg|neut|3	-1	12	_	NK	_	_
+14	.	.	.	$.	$.	_	_	-1	13	_	--	_	_
+
+1	Beleidigungen	Beleidigung	Beleidigung	NN	NN	_	nom|pl|fem	-1	0	_	--	_	_
+2	vernommen	vernehmen	vernehmen	VVPP	VVPP	_	_	-1	1	_	OC	_	_
+3	.	.	.	$.	$.	_	_	-1	2	_	--	_	_
+
+	id	369718140818571264
+	time	Tue Aug 20 09:10:48 +0000 2013
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::3	4::3	8::13	22::3	26::3	30::8	39::3	43::6	50::3	54::11	66::3	70::3
+1	Auf	auf	auf	APPR	APPR	_	_	-1	6	_	MO	_	_
+2	der	die	die	ART	ART	_	dat|sg|fem	-1	3	_	NK	_	_
+3	Facebookseite	Facebookseite	Facebookseite	NN	NN	_	dat|sg|fem	-1	1	_	NK	_	_
+4	der	die	die	ART	ART	_	gen|sg|fem	-1	5	_	NK	_	_
+5	AfD	AfD	AfD	NN	NN	_	gen|sg|fem	-1	3	_	AG	_	_
+6	herrscht	herrschen	herrschen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+7	ein	eine	eine	ART	ART	_	nom|sg|masc	-1	8	_	NK	_	_
+8	Niveau	Niveau	Niveau	NN	NN	_	nom|sg|masc	-1	6	_	SB	_	_
+9	wie	wie	wie	KOKOM	KOKOM	_	_	-1	11	_	CM	_	_
+10	Nachmittags	nachmittags	nachmittags	ADV	ADV	_	_	-1	11	_	MO	_	_
+11	bei	bei	bei	APPR	APPR	_	_	-1	6	_	MO	_	_
+12	RTL	RTL	RTL	NE	NE	_	dat|sg|neut	-1	11	_	NK	_	_
+
+	id	375159430720937984
+	time	Wed Sep 04 09:32:33 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @hallewaehlt: 	replacement		info_end
+	replace	offset	61	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	68	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	75	length	5	num	6	orig	http://t.co/YVXPSK3Tqy	replacement	%Link	info_end
+	replace	offset	81	length	0	num	8	orig	#	replacement		info_end
+	sentence_start	0	81
+	token_offsets	sentence	0	offsets	0::5	6::3	10::3	14::2	17::9	26::1	28::4	33::7	40::1	42::14	57::3	61::3	65::2	68::6	75::5
+	token_offsets	sentence	1	offsets	81::5
+1	Heute	heute	heute	ADV	ADV	_	_	-1	8	_	MO	_	_
+2	bei	bei	bei	APPR	APPR	_	_	-1	8	_	MO	_	_
+3	uns	wir	wir	PPER	PPER	_	dat|pl|*|1	-1	2	_	NK	_	_
+4	im	in	in	APPRART	APPRART	_	dat|sg|neut	-1	3	_	MNR	_	_
+5	Interview	Interview	Interview	NN	NN	_	dat|sg|neut	-1	4	_	NK	_	_
+6	:	:	:	$.	$.	_	_	-1	5	_	--	_	_
+7	Dirk	Dirk	Dirk	NE	NE	_	nom|sg|masc	-1	8	_	PNC	_	_
+8	Domicke	Domicke	Domicke	NE	NE	_	nom|sg|masc	-1	0	_	--	_	_
+9	,	,	,	$,	$,	_	_	-1	8	_	--	_	_
+10	Direktkandidat	Direktkandidat	Direktkandidat	NN	NN	_	nom|sg|masc	-1	8	_	APP	_	_
+11	der	die	die	ART	ART	_	gen|sg|fem	-1	12	_	NK	_	_
+12	AfD	AfD	AfD	NN	NN	_	gen|sg|fem	-1	10	_	AG	_	_
+13	in	in	in	APPR	APPR	_	_	-1	12	_	MNR	_	_
+14	halle.	halle.	halle.	ADJA	ADJA	_	gen|sg|fem|pos	-1	15	_	NK	_	_
+15	%Link	%Link	%Link	XY	XY	_	gen|sg|fem	-1	13	_	NK	_	_
+
+1	btw13	btw13	btw13	ADJA	ADJA	_	_	-1	0	_	--	_	_
+
+	id	375244997828042752
+	time	Wed Sep 04 15:12:33 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@TVtotal 	replacement		info_end
+	sentence_start	0	56
+	token_offsets	sentence	0	offsets	0::5	6::3	10::3	14::3	18::4	23::7	31::5	37::6	44::1	45::9	54::1
+	token_offsets	sentence	1	offsets	56::7	64::3	68::10	79::8
+1	bevor	bevor	bevor	PTKVZ	PTKVZ	_	_	-1	6	_	MO	_	_
+2	die	die	die	ART	ART	_	nom|sg|fem	-1	3	_	NK	_	_
+3	spd	spd	spd	NN	NN	_	nom|sg|fem	-1	6	_	SB	_	_
+4	die	die	die	ART	ART	_	acc|sg|fem	-1	5	_	NK	_	_
+5	wahl	Wahl	Wahl	NN	NN	_	acc|sg|fem	-1	6	_	OA	_	_
+6	gewinnt	gewinnen	gewinnen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+7	Würde	Würde	Würde	NN	NN	_	sg|3|past|subj	-1	6	_	SB	_	_
+8	sigmar	Sigmar	Sigmar	NE	NE	_	_	-1	7	_	NK	_	_
+9	"	"	"	$(	$(	_	_	-1	8	_	--	_	_
+10	buckelwal	buckelwal	buckelwal	ADJD	ADJD	_	pos	-1	6	_	MO	_	_
+11	"	"	"	$(	$(	_	_	-1	10	_	--	_	_
+
+1	gabriel	gabriel	gabriel	VVFIN	VVFIN	_	sg|3|past|ind	-1	0	_	--	_	_
+2	von	von	von	APPR	APPR	_	_	-1	4	_	SBP	_	_
+3	greenpeace	Greenpeace	Greenpeace	NE	NE	_	dat|sg|*	-1	2	_	NK	_	_
+4	gerettet	retten	retten	VVPP	VVPP	_	_	-1	1	_	OC	_	_
+
+	id	379273896832552960
+	time	Sun Sep 15 18:01:58 +0000 2013
+	replace	offset	105	length	0	num	0	orig	.	replacement		info_end
+	replace	offset	106	length	0	num	2	orig	#	replacement		info_end
+	sentence_start	0	68	106
+	token_offsets	sentence	0	offsets	0::7	7::1	9::3	13::7	21::8	29::1	31::3	35::3	39::4	43::1	45::3	49::8	58::8	66::1
+	token_offsets	sentence	1	offsets	68::3	72::4	77::3	81::8	90::1	91::3	95::2	98::4	102::3
+	token_offsets	sentence	2	offsets	106::7
+1	Ltwby13	Ltwby13	Ltwby13	NN	NN	_	nom|sg|masc	-1	0	_	--	_	_
+2	:	:	:	$.	$.	_	_	-1	1	_	--	_	_
+3	die	die	die	ART	ART	_	acc|pl|fem	-1	4	_	NK	_	_
+4	piraten	Pirat	Pirat	NN	NN	_	acc|pl|fem	-1	1	_	SB	_	_
+5	draussen	draußen	draußen	ADV	ADV	_	_	-1	1	_	MO	_	_
+6	,	,	,	$,	$,	_	_	-1	5	_	--	_	_
+7	die	die	die	ART	ART	_	acc|sg|fem	-1	8	_	NK	_	_
+8	fdp	fdp	fdp	NN	NN	_	acc|sg|fem	-1	1	_	SB	_	_
+9	auch	auch	auch	ADV	ADV	_	_	-1	11	_	MO	_	_
+10	,	,	,	$,	$,	_	_	-1	9	_	--	_	_
+11	csu	csu	csu	NN	NN	_	nom|sg|fem	-1	1	_	CJ	_	_
+12	absolute	absolut	absolut	ADJA	ADJA	_	nom|sg|fem|pos	-1	13	_	NK	_	_
+13	mehrheit	Mehrheit	Mehrheit	NN	NN	_	nom|sg|fem	-1	11	_	NK	_	_
+14	.	.	.	$.	$.	_	_	-1	13	_	--	_	_
+
+1	Ich	ich	ich	PPER	PPER	_	nom|sg|*|1	-1	2	_	SB	_	_
+2	habe	haben	haben	VAFIN	VAFIN	_	sg|1|pres|ind	-1	0	_	--	_	_
+3	ein	eine	eine	ART	ART	_	acc|sg|neut	-1	4	_	NK	_	_
+4	bisschen	bisschen	bisschen	PIS	PIS	_	_	-1	5	_	NK	_	_
+5	k	k	k	VVFIN	VVFIN	_	*|*|*|pos	-1	2	_	OC	_	_
+6	...	...	...	$.	$.	_	_	-1	5	_	--	_	_
+7	im	in	in	APPRART	APPRART	_	dat|sg|neut	-1	2	_	MO	_	_
+8	mund	mund	mund	ADJA	ADJA	_	dat|sg|neut	-1	7	_	NK	_	_
+9	...	...	...	$.	$.	_	_	-1	8	_	--	_	_
+
+1	sarcasm	sarcasm	sarcasm	ADJA	ADJA	_	_	-1	0	_	--	_	_
+
+	id	369004624524492800
+	time	Sun Aug 18 09:55:32 +0000 2013
+	replace	offset	26	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	65	length	10	num	2	orig	.08	replacement	%PosSmiley	info_end
+	replace	offset	81	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	86	length	0	num	6	orig	 http://t.co/FHKerq7kHN	replacement		info_end
+	sentence_start	0	76
+	token_offsets	sentence	0	offsets	0::8	9::12	22::3	26::14	41::1	43::15	59::3	63::2	65::10	75::1
+	token_offsets	sentence	1	offsets	76::4	81::5
+1	Aktuelle	aktuell	aktuell	ADJA	ADJA	_	nom|pl|fem|pos	-1	2	_	NK	_	_
+2	Wahlumfragen	Wahlumfrage	Wahlumfrage	NN	NN	_	nom|pl|fem	-1	0	_	--	_	_
+3	zur	zu	zu	APPRART	APPRART	_	dat|sg|fem	-1	2	_	MNR	_	_
+4	Bundestagswahl	Bundestagswahl	Bundestagswahl	NN	NN	_	dat|sg|fem	-1	3	_	NK	_	_
+5	/	/	/	$(	$(	_	_	-1	4	_	--	_	_
+6	Bundeswahltrend	Bundeswahltrend	Bundeswahltrend	NN	NN	_	nom|sg|masc	-1	4	_	CJ	_	_
+7	vom	von	von	APPRART	APPRART	_	dat|sg|masc	-1	4	_	MNR	_	_
+8	18	18	18	CARD	CARD	_	_	-1	9	_	NK	_	_
+9	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	7	_	NK	_	_
+10	.	.	.	$.	$.	_	_	-1	8	_	--	_	_
+
+1	2013	@card@	@card@	CARD	CARD	_	_	-1	2	_	NK	_	_
+2	BTW13	BTW13	BTW13	NN	NN	_	nom|pl|masc	-1	0	_	--	_	_
+
+	id	358594175916195842
+	time	Sat Jul 20 16:28:08 +0000 2013
+	replace	offset	7	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	91	length	0	num	2	orig	 http://t.co/AxjeNyPh4f	replacement		info_end
+	sentence_start	0	39
+	token_offsets	sentence	0	offsets	0::6	7::6	14::3	18::4	23::6	30::7	37::1
+	token_offsets	sentence	1	offsets	39::4	44::5	50::3	54::3	58::7	66::11	78::12	90::1
+1	Angela	Angela	Angela	NE	NE	_	nom|sg|fem	-1	2	_	PNC	_	_
+2	Merkel	Merkel	Merkel	NE	NE	_	nom|sg|fem	-1	3	_	SB	_	_
+3	hat	haben	haben	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+4	ihre	ihr	ihr	PPOSAT	PPOSAT	_	acc|sg|fem	-1	5	_	NK	_	_
+5	Bilanz	Bilanz	Bilanz	NN	NN	_	acc|sg|fem	-1	6	_	OA	_	_
+6	gezogen	ziehen	ziehen	VVPP	VVPP	_	_	-1	3	_	OC	_	_
+7	.	.	.	$.	$.	_	_	-1	6	_	--	_	_
+
+1	Aber	aber	aber	KON	KON	_	_	-1	3	_	JU	_	_
+2	dabei	dabei	dabei	PAV	PAV	_	_	-1	3	_	NK	_	_
+3	hat	haben	haben	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+4	sie	sie	sie	PPER	PPER	_	nom|sg|fem|3	-1	3	_	SB	_	_
+5	manches	manche	manche	PIAT	PIAT	_	acc|sg|neut	-1	6	_	NK	_	_
+6	Unangenehme	Unangenehme	Unangenehme	NN	NN	_	acc|sg|neut	-1	7	_	OA	_	_
+7	verschwiegen	verschweigen	verschweigen	VVPP	VVPP	_	_	-1	3	_	OC	_	_
+8	.	.	.	$.	$.	_	_	-1	7	_	--	_	_
+
+	id	373626162486206464
+	time	Sat Aug 31 03:59:53 +0000 2013
+	replace	offset	33	length	5	num	0	orig	http://t.co/ie1E84Vp6p	replacement	%Link	info_end
+	replace	offset	39	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	60	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	64	length	0	num	6	orig	 http://t.co/neBmpc0bbR	replacement		info_end
+	sentence_start	0	60
+	token_offsets	sentence	0	offsets	0::13	14::1	16::6	23::4	28::4	33::5	39::7	47::6	54::3	58::1
+	token_offsets	sentence	1	offsets	60::4
+1	Whistleblower	Whistleblower	Whistleblower	NN	NN	_	nom|sg|masc	-1	8	_	SB	_	_
+2	-	-	-	$(	$(	_	_	-1	1	_	--	_	_
+3	Schein	Schein	Schein	NN	NN	_	nom|sg|masc	-1	1	_	CJ	_	_
+4	oder	oder	oder	KON	KON	_	_	-1	3	_	CD	_	_
+5	Sein	sein	sein	PPOSAT	PPOSAT	_	nom|sg|neut	-1	7	_	NK	_	_
+6	%Link	%Link	%Link	XY	XY	_	nom|sg|neut	-1	0	_	--	_	_
+7	Piraten	Pirat	Pirat	NN	NN	_	nom|pl|masc	-1	4	_	CJ	_	_
+8	machen	machen	machen	VVFIN	VVFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+9	mit	mit	mit	PTKVZ	PTKVZ	_	_	-1	8	_	SVP	_	_
+10	!	!	!	$.	$.	_	_	-1	9	_	--	_	_
+
+1	MOAC	MOAC	MOAC	NE	NE	_	nom|sg|*	-1	0	_	--	_	_
+
+	id	369168941492731904
+	time	Sun Aug 18 20:48:29 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @hronline: 	replacement		info_end
+	replace	offset	108	length	0	num	2	orig	 http://t.co/2E2Bj	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::4	4::1	5::6	12::3	16::13	30::4	35::7	42::1	43::12	56::3	60::2	62::1	63::11	75::1	76::6	83::7	90::1	92::2	95::9	105::3	108::3
+1	Mini	Mini	Mini	NN	NN	_	nom|sg|masc	-1	6	_	SB	_	_
+2	-	-	-	$(	$(	_	_	-1	1	_	--	_	_
+3	Drohne	Drohne	Drohne	NN	NN	_	nom|sg|masc	-1	1	_	CJ	_	_
+4	der	die	die	ART	ART	_	gen|sg|fem	-1	5	_	NK	_	_
+5	Piratenpartei	Piratenpartei	Piratenpartei	NN	NN	_	gen|sg|fem	-1	3	_	AG	_	_
+6	löst	lösen	lösen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+7	Polizei	Polizei	Polizei	NN	NN	_	nom|sg|fem	-1	6	_	OA	_	_
+8	-	-	-	$(	$(	_	_	-1	7	_	--	_	_
+9	Grosseinsatz	Grosseinsatz	Grosseinsatz	NN	NN	_	dat|sg|masc	-1	6	_	OA	_	_
+10	vor	vor	vor	APPR	APPR	_	_	-1	9	_	MNR	_	_
+11	US	US	US	NE	NE	_	dat|sg|neut	-1	10	_	NK	_	_
+12	-	-	-	$(	$(	_	_	-1	11	_	--	_	_
+13	Einrichtung	Einrichtung	Einrichtung	NN	NN	_	dat|sg|fem	-1	6	_	OA	_	_
+14	"	"	"	$(	$(	_	_	-1	13	_	--	_	_
+15	Dagger	Dagger	Dagger	NN	NN	_	nom|sg|masc	-1	13	_	CJ	_	_
+16	Complex	Complex	Complex	NN	NN	_	nom|sg|masc	-1	15	_	NK	_	_
+17	"	"	"	$(	$(	_	_	-1	16	_	--	_	_
+18	in	in	in	APPR	APPR	_	_	-1	6	_	MO	_	_
+19	Griesheim	Griesheim	Griesheim	NE	NE	_	dat|sg|neut	-1	18	_	NK	_	_
+20	aus	aus	aus	PTKVZ	PTKVZ	_	_	-1	6	_	SVP	_	_
+21	...	...	...	$.	$.	_	_	-1	20	_	--	_	_
+
+	id	373384173400367105
+	time	Fri Aug 30 11:58:18 +0000 2013
+	replace	offset	0	length	0	num	0	orig	@bov 	replacement		info_end
+	replace	offset	0	length	0	num	2	orig	@Die_Gruenen 	replacement		info_end
+	replace	offset	31	length	10	num	4	orig	:P	replacement	%NegSmiley	info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::3	4::3	8::3	12::4	17::13	31::10
+1	Die	die	die	ART	ART	_	nom|sg|fem	-1	2	_	NK	_	_
+2	CDU	CDU	CDU	NE	NE	_	nom|sg|fem	-1	3	_	SB	_	_
+3	ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+4	halt	halt	halt	ADV	ADV	_	_	-1	3	_	MO	_	_
+5	alternativlos	alternativlos	alternativlos	ADJD	ADJD	_	pos	-1	3	_	PD	_	_
+6	%NegSmiley	%NegSmiley	%NegSmiley	ITJ	ITJ	_	_	-1	5	_	DM	_	_
+
+	id	349603388117368832
+	time	Tue Jun 25 21:01:57 +0000 2013
+	replace	offset	19	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	22	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	40	length	0	num	4	orig	@stadtmacher: 	replacement		info_end
+	replace	offset	70	length	0	num	6	orig	#	replacement		info_end
+	replace	offset	90	length	0	num	8	orig	 http://t.co/Fj7aEMJlLi"	replacement		info_end
+	sentence_start	0	38
+	token_offsets	sentence	0	offsets	0::6	7::3	11::3	15::3	19::2	22::3	26::8	34::3
+	token_offsets	sentence	1	offsets	38::1	39::3	43::6	50::8	59::6	66::3	70::14	85::4	89::1
+1	Sollte	sollen	sollen	VMFIN	VMFIN	_	sg|3|past|subj	-1	0	_	--	_	_
+2	mal	mal	mal	ADV	ADV	_	_	-1	1	_	MO	_	_
+3	mit	mit	mit	APPR	APPR	_	_	-1	7	_	OP	_	_
+4	der	die	die	ART	ART	_	dat|sg|fem	-1	6	_	NK	_	_
+5	HH	HH	HH	NE	NE	_	dat|sg|fem	-1	6	_	NK	_	_
+6	SPD	SPD	SPD	NE	NE	_	dat|sg|fem	-1	3	_	NK	_	_
+7	sprechen	sprechen	sprechen	VVFIN	VVFIN	_	_	-1	1	_	OC	_	_
+8	...	...	...	$.	$.	_	_	-1	7	_	--	_	_
+
+1	"	"	"	$(	$(	_	_	-1	2	_	--	_	_
+2	Jan	Jan	Jan	NE	NE	_	nom|sg|masc	-1	3	_	NK	_	_
+3	Stösse	Stoß	Stoß	NN	NN	_	nom|sg|masc	-1	4	_	SB	_	_
+4	plädiert	plädieren	plädieren	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+5	erneut	erneut	erneut	ADJD	ADJD	_	pos	-1	4	_	MO	_	_
+6	pro	pro	pro	APPR	APPR	_	_	-1	4	_	MO	_	_
+7	Volksentscheid	Volksentscheid	Volksentscheid	NN	NN	_	acc|sg|masc	-1	6	_	NK	_	_
+8	22.9	@card@	@card@	CARD	CARD	_	_	-1	7	_	NK	_	_
+9	.	.	.	$.	$.	_	_	-1	8	_	--	_	_
+
+	id	378175075985678336
+	time	Thu Sep 12 17:15:38 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @EinAugenschmaus: 	replacement		info_end
+	replace	offset	0	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	20	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	56	length	0	num	6	orig	#	replacement		info_end
+	replace	offset	101	length	0	num	8	orig	 http://t.co/ZGkJ	replacement		info_end
+	sentence_start	0	45	92
+	token_offsets	sentence	0	offsets	0::6	7::5	13::1	15::4	20::15	36::7	43::1
+	token_offsets	sentence	1	offsets	45::2	48::3	52::3	56::3	60::7	68::2	71::3	75::1	77::3	81::9	90::1
+	token_offsets	sentence	2	offsets	92::8	100::4
+1	Rösler	Rösler	Rösler	NN	NN	_	nom|sg|*	-1	2	_	SB	_	_
+2	meint	meinen	meinen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+3	4	4	4	CARD	CARD	_	_	-1	4	_	NK	_	_
+4	Euro	Euro	Euro	NN	NN	_	acc|pl|masc	-1	2	_	OA	_	_
+5	Lohnuntergrenze	Lohnuntergrenze	Lohnuntergrenze	NN	NN	_	acc|pl|masc	-1	6	_	OA	_	_
+6	reichen	reichen	reichen	VVFIN	VVFIN	_	_	-1	4	_	OC	_	_
+7	!	!	!	$.	$.	_	_	-1	6	_	--	_	_
+
+1	4%	@card@	@card@	CARD	CARD	_	_	-1	5	_	MO	_	_
+2	für	für	für	APPR	APPR	_	_	-1	5	_	MO	_	_
+3	die	die	die	ART	ART	_	acc|sg|fem	-1	4	_	NK	_	_
+4	FDP	FDP	FDP	NE	NE	_	acc|sg|fem	-1	2	_	NK	_	_
+5	reichen	reichen	reichen	VVFIN	VVFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+6	am	an	an	APPRART	APPRART	_	dat|sg|masc	-1	5	_	MO	_	_
+7	15.	15.	15.	ADJA	ADJA	_	dat|sg|masc|pos	-1	10	_	NK	_	_
+8	&	&	&	KON	KON	_	_	-1	7	_	CD	_	_
+9	22.	22.	22.	ADJA	ADJA	_	dat|sg|masc|pos	-1	8	_	CJ	_	_
+10	September	September	September	NN	NN	_	dat|sg|masc	-1	6	_	NK	_	_
+11	!	!	!	$.	$.	_	_	-1	10	_	--	_	_
+
+1	Abwählen	Abwählen	Abwählen	NN	NN	_	_	-1	2	_	MO	_	_
+2	!...	!...	!...	ADJA	ADJA	_	dat|sg|*|pos	-1	0	_	--	_	_
+
+	id	381870535501545473
+	time	Sun Sep 22 22:00:05 +0000 2013
+	replace	offset	0	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	21	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	76	length	5	num	4	orig	https://t.co/UttiJcbNzK	replacement	%Link	info_end
+	replace	offset	82	length	0	num	6	orig	#	replacement		info_end
+	replace	offset	88	length	0	num	8	orig	#	replacement		info_end
+	replace	offset	93	length	0	num	10	orig	#	replacement		info_end
+	replace	offset	101	length	0	num	12	orig	#	replacement		info_end
+	replace	offset	107	length	0	num	14	orig	#	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::6	7::5	13::3	17::3	21::7	29::5	35::3	39::12	52::5	58::4	63::8	72::2	74::1	76::5	82::5	88::4	93::7	101::5	107::6
+1	Berlin	Berlin	Berlin	NE	NE	_	nom|sg|neut	-1	2	_	SB	_	_
+2	sieht	sehen	sehen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+3	man	man	man	PIS	PIS	_	nom|sg|*	-1	2	_	SB	_	_
+4	die	die	die	ART	ART	_	acc|sg|fem	-1	5	_	NK	_	_
+5	Teilung	Teilung	Teilung	NN	NN	_	acc|sg|fem	-1	2	_	OA	_	_
+6	durch	durch	durch	APPR	APPR	_	_	-1	2	_	MO	_	_
+7	das	die	die	ART	ART	_	acc|sg|neut	-1	8	_	NK	_	_
+8	Wahlergebnis	Wahlergebnis	Wahlergebnis	NN	NN	_	acc|sg|neut	-1	6	_	NK	_	_
+9	immer	immer	immer	ADV	ADV	_	_	-1	10	_	MO	_	_
+10	noch	noch	noch	ADV	ADV	_	_	-1	2	_	MO	_	_
+11	deutlich	deutlich	deutlich	ADJD	ADJD	_	pos	-1	2	_	MO	_	_
+12	an	an	an	PTKVZ	PTKVZ	_	_	-1	2	_	SVP	_	_
+13	:	:	:	$.	$.	_	_	-1	12	_	--	_	_
+14	%Link	%Link	%Link	XY	XY	_	_	-1	12	_	NK	_	_
+15	btw13	btw13	btw13	VVFIN	VVFIN	_	pl|3|pres|ind	-1	2	_	CJ	_	_
+16	Wahl	Wahl	Wahl	NN	NN	_	acc|sg|fem	-1	15	_	OA	_	_
+17	Politik	Politik	Politik	NN	NN	_	acc|sg|fem	-1	16	_	MNR	_	_
+18	Osten	Osten	Osten	NN	NN	_	nom|sg|masc	-1	17	_	NK	_	_
+19	Westen	Weste|Westen	Weste|Westen	NN	NN	_	nom|sg|masc	-1	2	_	OA	_	_
+
+	id	373899078779674625
+	time	Sat Aug 31 22:04:21 +0000 2013
+	replace	offset	0	length	5	num	0	orig	http://t.co/Uz4VWvQADt	replacement	%Link	info_end
+	replace	offset	6	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	69	length	0	num	4	orig	 http://t.co/GP3Q6aHtnW	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::5	6::4	11::3	15::5	21::5	27::3	31::6	38::11	50::2	53::1	55::6	62::7
+1	%Link	%Link	%Link	XY	XY	_	_	-1	2	_	NK	_	_
+2	news	news	news	NN	NN	_	nom|sg|fem	-1	4	_	SB	_	_
+3	BDP	BDP	BDP	NN	NN	_	nom|sg|fem	-1	2	_	NK	_	_
+4	lehnt	lehnen	lehnen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+5	linke	links	links	ADJA	ADJA	_	acc|pl|masc|pos	-1	8	_	NK	_	_
+6	und	und	und	KON	KON	_	_	-1	5	_	CD	_	_
+7	rechte	recht|rechts	recht|rechts	ADJA	ADJA	_	acc|pl|masc|pos	-1	6	_	CJ	_	_
+8	Initiativen	Initiative	Initiative	NN	NN	_	acc|pl|masc	-1	4	_	OA	_	_
+9	ab	ab	ab	PTKVZ	PTKVZ	_	_	-1	4	_	SVP	_	_
+10	-	-	-	$(	$(	_	_	-1	9	_	--	_	_
+11	Berner	Berner	Berner	NN	NN	_	*|*|masc	-1	4	_	MO	_	_
+12	Zeitung	Zeitung	Zeitung	NN	NN	_	nom|sg|fem	-1	4	_	OA	_	_
+
+	id	383663517590888448
+	time	Fri Sep 27 20:44:45 +0000 2013
+	replace	offset	32	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	42	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	88	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	103	length	5	num	6	orig	http://t.co/8vI9Jtd66j	replacement	%Link	info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::4	5::7	13::3	17::2	20::5	26::4	31::1	32::5	37::1	39::2	42::9	52::9	61::1	63::4	68::3	72::3	76::11	88::5	94::8	103::5	108::1
+1	Vier	vier	vier	CARD	CARD	_	_	-1	2	_	NK	_	_
+2	Schläge	Schlag	Schlag	NN	NN	_	acc|pl|masc	-1	3	_	OA	_	_
+3	hat	haben	haben	VAFIN	VAFIN	_	sg|3|pres|ind	-1	14	_	RE	_	_
+4	OB	OB	OB	NE	NE	_	nom|sg|masc	-1	6	_	PNC	_	_
+5	Fritz	Fritz	Fritz	NE	NE	_	nom|sg|masc	-1	6	_	PNC	_	_
+6	Kuhn	Kuhn	Kuhn	NE	NE	_	dat|sg|masc	-1	3	_	SB	_	_
+7	(	(	(	$(	$(	_	_	-1	6	_	--	_	_
+8	Grüne	Grüne	Grüne	NN	NN	_	nom|pl|*	-1	6	_	PAR	_	_
+9	)	)	)	$(	$(	_	_	-1	8	_	--	_	_
+10	in	in	in	APPR	APPR	_	_	-1	12	_	MO	_	_
+11	Stuttgart	Stuttgart	Stuttgart	NE	NE	_	dat|sg|neut	-1	10	_	NK	_	_
+12	gebraucht	brauchen|gebrauchen	brauchen|gebrauchen	VVPP	VVPP	_	_	-1	3	_	OC	_	_
+13	,	,	,	$,	$,	_	_	-1	12	_	--	_	_
+14	dann	dann	dann	ADV	ADV	_	_	-1	19	_	MO	_	_
+15	war	sein	sein	VAFIN	VAFIN	_	sg|3|past|ind	-1	0	_	--	_	_
+16	der	die	die	ART	ART	_	nom|sg|masc	-1	17	_	NK	_	_
+17	Cannstatter	Cannstatter	Cannstatter	NN	NN	_	nom|sg|masc	-1	15	_	SB	_	_
+18	Wasen	Wasen	Wasen	NN	NN	_	nom|sg|masc	-1	17	_	NK	_	_
+19	eröffnet	eröffnen	eröffnen	VVPP	VVPP	_	_	-1	15	_	PD	_	_
+20	%Link	%Link	%Link	XY	XY	_	_	-1	19	_	OA	_	_
+21	.	.	.	$.	$.	_	_	-1	20	_	--	_	_
+
+	id	376796955097436160
+	time	Sun Sep 08 21:59:29 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @SilkeGebel: 	replacement		info_end
+	replace	offset	91	length	5	num	2	orig	http://t.co/G6BBrrW1Rg	replacement	%Link	info_end
+	replace	offset	97	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	101	length	0	num	6	orig	#	replacement		info_end
+	sentence_start	0	91
+	token_offsets	sentence	0	offsets	0::4	5::3	9::5	15::9	24::1	26::3	30::5	36::4	40::8	49::3	52::1	54::4	59::3	63::7	71::9	81::8	89::1
+	token_offsets	sentence	1	offsets	91::5	97::3	101::3	104::3
+1	Darf	dürfen	dürfen	VMFIN	VMFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+2	man	man	man	PIS	PIS	_	nom|sg|*	-1	1	_	SB	_	_
+3	einer	eine	eine	ART	ART	_	dat|sg|fem	-1	4	_	NK	_	_
+4	Koalition	Koalition	Koalition	NN	NN	_	dat|sg|fem	-1	16	_	DA	_	_
+5	,	,	,	$,	$,	_	_	-1	4	_	--	_	_
+6	die	die	die	PRELS	PRELS	_	acc|sg|fem	-1	10	_	SB	_	_
+7	keine	keine	keine	PIAT	PIAT	_	acc|sg|fem	-1	9	_	NK	_	_
+8	2/3-	@card@	@card@	CARD	CARD	_	_	-1	9	_	NK	_	_
+9	Mehrheit	Mehrheit	Mehrheit	NN	NN	_	acc|sg|fem	-1	10	_	OA	_	_
+10	hat	haben	haben	VAFIN	VAFIN	_	sg|3|pres|ind	-1	4	_	RC	_	_
+11	,	,	,	$,	$,	_	_	-1	10	_	--	_	_
+12	noch	noch	noch	ADV	ADV	_	_	-1	16	_	MO	_	_
+13	von	von	von	APPR	APPR	_	_	-1	16	_	OP	_	_
+14	grosser	groß	groß	ADJA	ADJA	_	dat|sg|fem|pos	-1	15	_	NK	_	_
+15	Koalition	Koalition	Koalition	NN	NN	_	dat|sg|fem	-1	13	_	NK	_	_
+16	sprechen	sprechen	sprechen	VVINF	VVINF	_	_	-1	1	_	OC	_	_
+17	?	?	?	$.	$.	_	_	-1	16	_	--	_	_
+
+1	%Link	%Link	%Link	XY	XY	_	nom|sg|fem	-1	0	_	--	_	_
+2	SPD	SPD	SPD	NE	NE	_	nom|sg|fem	-1	3	_	SB	_	_
+3	btw	btw	btw	VVFIN	VVFIN	_	sg|3|past|ind	-1	0	_	--	_	_
+4	...	...	...	$.	$.	_	_	-1	3	_	--	_	_
+
+	id	348360354595741697
+	time	Sat Jun 22 10:42:35 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @incredibul: 	replacement		info_end
+	replace	offset	60	length	0	num	2	orig	 http://t.co/B4cD9mr0AJ	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::3	4::3	8::5	14::6	21::21	43::3	47::10	58::2
+1	SPD	SPD	SPD	NE	NE	_	nom|sg|fem	-1	4	_	SB	_	_
+2	und	und	und	KON	KON	_	_	-1	1	_	CD	_	_
+3	Grüne	Grüne	Grüne	NN	NN	_	nom|pl|*	-1	2	_	CJ	_	_
+4	lehnen	lehnen	lehnen	VVFIN	VVFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+5	Kennzeichnungspflicht	Kennzeichnungspflicht	Kennzeichnungspflicht	NN	NN	_	acc|sg|fem	-1	4	_	OA	_	_
+6	für	für	für	APPR	APPR	_	_	-1	5	_	MNR	_	_
+7	Polizisten	Polizist	Polizist	NN	NN	_	acc|pl|masc	-1	6	_	NK	_	_
+8	ab	ab	ab	APPR	APPR	_	_	-1	4	_	SVP	_	_
+
+	id	374255034625572865
+	time	Sun Sep 01 21:38:48 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @FANartisch: 	replacement		info_end
+	replace	offset	49	length	5	num	2	orig	http://t.co/SpDGKgwsx6	replacement	%Link	info_end
+	replace	offset	55	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	63	length	0	num	6	orig	#	replacement		info_end
+	replace	offset	70	length	0	num	8	orig	#	replacement		info_end
+	replace	offset	81	length	0	num	10	orig	#	replacement		info_end
+	replace	offset	85	length	0	num	12	orig	#	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::10	11::5	17::3	21::4	26::8	35::4	40::2	42::1	43::5	49::5	55::7	63::6	70::10	81::3	85::3
+1	Eigentlich	eigentlich	eigentlich	ADV	ADV	_	_	-1	2	_	MO	_	_
+2	fehlt	fehlen	fehlen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+3	nur	nur	nur	ADV	ADV	_	_	-1	2	_	MO	_	_
+4	noch	noch	noch	ADV	ADV	_	_	-1	3	_	MO	_	_
+5	Mourinho	Mourinho	Mourinho	NE	NE	_	gen|sg|*	-1	2	_	SB	_	_
+6	beim	bei	bei	APPRART	APPRART	_	dat|sg|masc	-1	5	_	MNR	_	_
+7	TV	TV	TV	NE	NE	_	dat|sg|masc	-1	6	_	NK	_	_
+8	-	-	-	$(	$(	_	_	-1	7	_	--	_	_
+9	Duell	Duell	Duell	NN	NN	_	*|*|*	-1	7	_	APP	_	_
+10	%Link	%Link	%Link	XY	XY	_	*|*|*	-1	9	_	PNC	_	_
+11	tvduell	tvduell	tvduell	NN	NN	_	*|*|*	-1	9	_	UC	_	_
+12	merkel	Merkel	Merkel	NE	NE	_	*|*|*	-1	13	_	PNC	_	_
+13	steinbrück	steinbrück	steinbrück	NN	NN	_	*|*|*	-1	9	_	CJ	_	_
+14	fcb	fcb	fcb	NN	NN	_	*|*|*	-1	13	_	UC	_	_
+15	cfc	cfc	cfc	NE	NE	_	nom|sg|*	-1	9	_	UC	_	_
+
+	id	374220121662689280
+	time	Sun Sep 01 19:20:04 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @PiratenWombat: 	replacement		info_end
+	replace	offset	37	length	0	num	2	orig	#	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::5	6::5	12::3	16::10	27::5	33::3	37::7	45::10	55::1
+1	Warum	warum	warum	PWAV	PWAV	_	_	-1	8	_	MO	_	_
+2	wurde	werden	werden	VAFIN	VAFIN	_	sg|3|past|ind	-1	0	_	--	_	_
+3	ich	ich	ich	PPER	PPER	_	nom|sg|*|1	-1	2	_	SB	_	_
+4	eigentlich	eigentlich	eigentlich	ADV	ADV	_	_	-1	8	_	MO	_	_
+5	nicht	nicht	nicht	PTKNEG	PTKNEG	_	_	-1	8	_	NG	_	_
+6	zum	zu	zu	APPRART	APPRART	_	dat|sg|masc	-1	8	_	MO	_	_
+7	TVduell	TVduell	TVduell	NN	NN	_	dat|sg|masc	-1	6	_	NK	_	_
+8	eingeladen	einladen	einladen	VVPP	VVPP	_	_	-1	2	_	OC	_	_
+9	?	?	?	$.	$.	_	_	-1	8	_	--	_	_
+
+	id	378095437086871552
+	time	Thu Sep 12 11:59:11 +0000 2013
+	replace	offset	113	length	0	num	0	orig	 http://t.co/ZpIJo1iDIj	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::9	10::3	14::6	20::1	22::12	35::5	41::5	47::4	52::3	56::8	65::3	69::3	73::2	76::4	81::3	85::5	91::4	96::4	101::5	107::3	110::3
+1	Wahlkampf	Wahlkampf	Wahlkampf	NN	NN	_	nom|sg|masc	-1	7	_	SB	_	_
+2	mal	mal	mal	ADV	ADV	_	_	-1	1	_	MO	_	_
+3	anders	anders	anders	ADV	ADV	_	_	-1	7	_	MO	_	_
+4	:	:	:	$.	$.	_	_	-1	3	_	--	_	_
+5	Irgendwelche	irgendwelche	irgendwelche	PIAT	PIAT	_	acc|pl|*	-1	6	_	NK	_	_
+6	Leute	Leute	Leute	NN	NN	_	acc|pl|*	-1	7	_	SB	_	_
+7	geben	geben	geben	VVFIN	VVFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+8	sich	sich	sich	PRF	PRF	_	acc|pl|3	-1	7	_	OA	_	_
+9	aus	aus	aus	APPR	APPR	_	_	-1	14	_	MO	_	_
+10	Mitglied	Mitglied	Mitglied	NN	NN	_	dat|sg|neut	-1	9	_	NK	_	_
+11	bei	bei	bei	APPR	APPR	_	_	-1	14	_	MO	_	_
+12	uns	wir	wir	PPER	PPER	_	dat|pl|*|1	-1	11	_	NK	_	_
+13	zu	zu	zu	PTKZU	PTKZU	_	_	-1	14	_	PM	_	_
+14	sein	sein	sein	VVINF	VVINF	_	_	-1	7	_	OC	_	_
+15	und	und	und	KON	KON	_	_	-1	7	_	CD	_	_
+16	geben	geben	geben	VVFIN	VVFIN	_	pl|3|pres|ind	-1	15	_	CJ	_	_
+17	sich	sich	sich	PRF	PRF	_	acc|pl|3	-1	16	_	OA	_	_
+18	dann	dann	dann	ADV	ADV	_	_	-1	16	_	MO	_	_
+19	sogar	sogar	sogar	ADV	ADV	_	_	-1	16	_	MO	_	_
+20	mit	mit	mit	PTKVZ	PTKVZ	_	_	-1	16	_	SVP	_	_
+21	...	...	...	$.	$.	_	_	-1	20	_	--	_	_
+
+	id	375667909307428864
+	time	Thu Sep 05 19:13:03 +0000 2013
+	replace	offset	76	length	0	num	0	orig	#	replacement		info_end
+	sentence_start	0	76
+	token_offsets	sentence	0	offsets	0::3	4::5	10::6	16::1	18::4	23::2	26::3	30::6	37::7	45::6	52::4	56::1	58::5	64::4	69::1	70::3	73::1	74::1
+	token_offsets	sentence	1	offsets	76::9
+1	Die	die	die	ART	ART	_	nom|pl|*	-1	2	_	NK	_	_
+2	Leute	Leute	Leute	NN	NN	_	nom|pl|*	-1	3	_	SB	_	_
+3	wollen	wollen	wollen	VMFIN	VMFIN	_	pl|3|pres|ind	-1	13	_	OC	_	_
+4	,	,	,	$,	$,	_	_	-1	3	_	--	_	_
+5	dass	dass	dass	KOUS	KOUS	_	_	-1	11	_	CP	_	_
+6	es	es	es	PPER	PPER	_	nom|sg|neut|3	-1	11	_	EP	_	_
+7	mit	mit	mit	APPR	APPR	_	_	-1	11	_	MO	_	_
+8	Angela	Angela	Angela	NE	NE	_	dat|sg|neut	-1	9	_	PNC	_	_
+9	Merkels	Merkel	Merkel	NE	NE	_	gen|sg|*	-1	7	_	NK	_	_
+10	weiter	weiter	weiter	ADV	ADV	_	_	-1	11	_	MO	_	_
+11	geht	gehen	gehen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	3	_	MO	_	_
+12	,	,	,	$,	$,	_	_	-1	11	_	--	_	_
+13	meint	meinen	meinen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+14	Hose	Hose	Hose	NN	NN	_	acc|sg|fem	-1	13	_	SB	_	_
+15	(	(	(	$(	$(	_	_	-1	14	_	--	_	_
+16	CDU	CDU	CDU	NE	NE	_	nom|sg|fem	-1	14	_	PAR	_	_
+17	)	)	)	$(	$(	_	_	-1	16	_	--	_	_
+18	.	.	.	$.	$.	_	_	-1	17	_	--	_	_
+
+1	DGBARBEIT	DGBARBEIT	DGBARBEIT	NN	NN	_	nom|sg|neut	-1	0	_	--	_	_
+
+	id	382617432999100416
+	time	Tue Sep 24 23:27:59 +0000 2013
+	replace	offset	89	length	0	num	0	orig	@	replacement		info_end
+	replace	offset	89	length	5	num	2	orig	scoopit	replacement	%User	info_end
+	replace	offset	94	length	0	num	4	orig	 http://t.co/VjVXWwTghF	replacement		info_end
+	sentence_start	0	71
+	token_offsets	sentence	0	offsets	0::7	8::2	11::7	18::1	20::4	25::2	28::5	34::6	41::3	45::3	49::3	53::3	57::8	66::3	69::1
+	token_offsets	sentence	1	offsets	71::2	74::12	87::1	89::5
+1	Comment	Comment	Comment	NN	NN	_	nom|sg|neut	-1	2	_	SB	_	_
+2	on	on	on	VVFIN	VVFIN	_	_	-1	13	_	MO	_	_
+3	Dimitri	Dimitri	Dimitri	NE	NE	_	nom|sg|neut	-1	2	_	SB	_	_
+4	,	,	,	$,	$,	_	_	-1	3	_	--	_	_
+5	hast	haben	haben	VAFIN	VAFIN	_	sg|2|pres|ind	-1	0	_	--	_	_
+6	Du	du	du	PPER	PPER	_	nom|sg|*|2	-1	5	_	SB	_	_
+7	nicht	nicht	nicht	PTKNEG	PTKNEG	_	_	-1	8	_	NG	_	_
+8	gehört	gehören	gehören	VVFIN	VVFIN	_	sg|3|pres|ind	-1	5	_	OC	_	_
+9	was	was	was	PIS	PIS	_	nom|sg|neut	-1	14	_	SB	_	_
+10	mit	mit	mit	APPR	APPR	_	_	-1	13	_	MO	_	_
+11	der	die	die	ART	ART	_	dat|sg|fem	-1	12	_	NK	_	_
+12	FDP	FDP	FDP	NE	NE	_	dat|sg|fem	-1	10	_	NK	_	_
+13	passiert	passieren	passieren	VVPP	VVPP	_	_	-1	14	_	PD	_	_
+14	ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	8	_	SB	_	_
+15	?	?	?	$.	$.	_	_	-1	14	_	--	_	_
+
+1	by	by	by	ADJA	ADJA	_	_	-1	0	_	--	_	_
+2	OrthograVieh	OrthograVieh	OrthograVieh	NN	NN	_	nom|sg|neut	-1	4	_	PNC	_	_
+3	|	|	|	XY	XY	_	nom|sg|neut	-1	0	_	--	_	_
+4	scoopit	%User	%User	NE	NE	_	sg|3|pres|ind	-1	0	_	--	_	_
+
+	id	362573233020608514
+	time	Wed Jul 31 15:59:29 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @spdmilk: 	replacement		info_end
+	replace	offset	46	length	5	num	2	orig	http://t.co/hTdiCXTPur	replacement	%Link	info_end
+	replace	offset	52	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	58	length	0	num	6	orig	#	replacement		info_end
+	sentence_start	0	44
+	token_offsets	sentence	0	offsets	0::3	4::3	8::3	12::3	16::5	22::3	26::16	42::1
+	token_offsets	sentence	1	offsets	44::1	46::5	52::5	58::10
+1	Was	was	was	PIS	PIS	_	acc|sg|neut	-1	2	_	OA	_	_
+2	tut	tun	tun	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+3	die	die	die	ART	ART	_	nom|sg|fem	-1	4	_	NK	_	_
+4	CDU	CDU	CDU	NE	NE	_	nom|sg|fem	-1	2	_	SB	_	_
+5	gegen	gegen	gegen	APPR	APPR	_	_	-1	2	_	MO	_	_
+6	die	die	die	ART	ART	_	acc|pl|fem	-1	7	_	NK	_	_
+7	Salzeinleitungen	Salzeinleitung	Salzeinleitung	NN	NN	_	acc|pl|fem	-1	5	_	NK	_	_
+8	?	?	?	$.	$.	_	_	-1	7	_	--	_	_
+
+1	-	-	-	$(	$(	_	_	-1	2	_	--	_	_
+2	%Link	%Link	%Link	XY	XY	_	nom|sg|masc	-1	0	_	--	_	_
+3	weser	weser	weser	ADJA	ADJA	_	nom|sg|masc|pos	-1	4	_	NK	_	_
+4	versalzung	versalzung	versalzung	NN	NN	_	acc|sg|fem	-1	0	_	--	_	_
+
+	id	383643057654353920
+	time	Fri Sep 27 19:23:27 +0000 2013
+	replace	offset	39	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	101	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	105	length	0	num	4	orig	#	replacement		info_end
+	sentence_start	0	51	73	101
+	token_offsets	sentence	0	offsets	0::10	11::9	21::1	23::10	34::4	39::10	49::1
+	token_offsets	sentence	1	offsets	51::2	54::5	60::4	65::6	71::1
+	token_offsets	sentence	2	offsets	73::6	80::5	86::5	92::4	97::2	99::1
+	token_offsets	sentence	3	offsets	101::3	105::5
+1	Teilnehmer	Teilnehmer	Teilnehmer	NN	NN	_	nom|pl|masc	-1	2	_	SB	_	_
+2	berichten	berichten	berichten	VVFIN	VVFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+3	v	v	v	ADJA	ADJA	_	nom|pl|masc|pos	-1	5	_	NK	_	_
+4	bewegender	bewegend	bewegend	ADJA	ADJA	_	gen|pl|masc|pos	-1	5	_	NK	_	_
+5	Rede	Rede	Rede	NN	NN	_	acc|sg|fem	-1	2	_	SB	_	_
+6	Steinbrück	Steinbrück	Steinbrück	NN	NN	_	acc|sg|fem	-1	5	_	NK	_	_
+7	.	.	.	$.	$.	_	_	-1	6	_	--	_	_
+
+1	Er	er	er	PPER	PPER	_	nom|sg|masc|3	-1	2	_	SB	_	_
+2	ziehe	zeihen|ziehen	zeihen|ziehen	VVFIN	VVFIN	_	sg|3|pres|subj	-1	0	_	--	_	_
+3	sich	sich	sich	PRF	PRF	_	acc|sg|3	-1	2	_	OA	_	_
+4	zurück	zurück	zurück	PTKVZ	PTKVZ	_	_	-1	2	_	SVP	_	_
+5	.	.	.	$.	$.	_	_	-1	4	_	--	_	_
+
+1	Strebe	Strebe	Strebe	NN	NN	_	nom|sg|fem	-1	0	_	--	_	_
+2	keine	keine	keine	PIAT	PIAT	_	nom|sg|fem	-1	3	_	NK	_	_
+3	Ämter	Amt	Amt	NN	NN	_	acc|pl|neut	-1	1	_	OA	_	_
+4	mehr	mehr	mehr	ADV	ADV	_	_	-1	3	_	MO	_	_
+5	an	an	an	PTKVZ	PTKVZ	_	_	-1	1	_	SVP	_	_
+6	.	.	.	$.	$.	_	_	-1	5	_	--	_	_
+
+1	SPD	SPD	SPD	NE	NE	_	nom|sg|fem	-1	2	_	PNC	_	_
+2	GroKo	GroKo	GroKo	NE	NE	_	nom|sg|fem	-1	0	_	--	_	_
+
+	id	383574534013870080
+	time	Fri Sep 27 14:51:10 +0000 2013
+	replace	offset	113	length	0	num	0	orig	 http://t.co/gwQEp8cjeg	replacement		info_end
+	sentence_start	0	94
+	token_offsets	sentence	0	offsets	0::4	5::3	9::4	14::3	18::10	29::4	34::6	41::5	47::9	57::6	64::8	73::3	77::3	81::3	85::7	92::1
+	token_offsets	sentence	1	offsets	94::3	98::3	102::4	107::3	110::3
+1	Nach	nach	nach	APPR	APPR	_	_	-1	15	_	MO	_	_
+2	der	die	die	ART	ART	_	dat|sg|fem	-1	3	_	NK	_	_
+3	Wahl	Wahl	Wahl	NN	NN	_	dat|sg|fem	-1	1	_	NK	_	_
+4	hat	haben	haben	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+5	Lafontaine	Lafontaine	Lafontaine	NE	NE	_	nom|sg|*	-1	4	_	SB	_	_
+6	auch	auch	auch	ADV	ADV	_	_	-1	9	_	MO	_	_
+7	seinem	sein	sein	PPOSAT	PPOSAT	_	dat|sg|neut	-1	9	_	NK	_	_
+8	alten	alt	alt	ADJA	ADJA	_	dat|sg|neut|pos	-1	9	_	NK	_	_
+9	Duzfreund	Duzfreund	Duzfreund	NN	NN	_	dat|sg|neut	-1	15	_	DA	_	_
+10	Rainer	Rainer	Rainer	NE	NE	_	nom|sg|masc	-1	9	_	NK	_	_
+11	Brüderle	Brüderle	Brüderle	NN	NN	_	nom|sg|masc	-1	15	_	OA	_	_
+12	von	von	von	APPR	APPR	_	_	-1	11	_	MNR	_	_
+13	der	die	die	ART	ART	_	dat|sg|fem	-1	14	_	NK	_	_
+14	FDP	FDP	FDP	NE	NE	_	dat|sg|fem	-1	12	_	NK	_	_
+15	gesimst	gesimst	gesimst	VVFIN	VVFIN	_	_	-1	4	_	OC	_	_
+16	.	.	.	$.	$.	_	_	-1	15	_	--	_	_
+
+1	Der	die	die	PDS	PDS	_	nom|sg|masc	-1	2	_	SB	_	_
+2	hat	haben	haben	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+3	über	über	über	APPR	APPR	_	_	-1	2	_	MO	_	_
+4	ihn	er	er	PPER	PPER	_	acc|sg|masc|3	-1	3	_	NK	_	_
+5	...	...	...	$.	$.	_	_	-1	4	_	--	_	_
+
+	id	370910985852563456
+	time	Fri Aug 23 16:10:44 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @mitmoser: @Newsburger 	replacement		info_end
+	replace	offset	7	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	21	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	37	length	0	num	6	orig	#	replacement		info_end
+	replace	offset	55	length	0	num	8	orig	#	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::6	7::3	10::1	11::5	17::3	21::9	31::5	37::9	47::3	51::3	55::3	59::5	65::5	70::1
+1	Dieses	dies	dies	PDAT	PDAT	_	nom|sg|neut	-1	2	_	NK	_	_
+2	Afd	Afd	Afd	NN	NN	_	nom|sg|neut	-1	7	_	SB	_	_
+3	-	-	-	$(	$(	_	_	-1	2	_	--	_	_
+4	#Gift	#Gift	#Gift	NN	NN	_	nom|sg|neut	-1	2	_	APP	_	_
+5	als	als	als	KOKOM	KOKOM	_	_	-1	4	_	CD	_	_
+6	Wahlhilfe	Wahlhilfe	Wahlhilfe	NN	NN	_	nom|sg|fem	-1	5	_	NK	_	_
+7	haben	haben	haben	VAFIN	VAFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+8	DieGrünen	DieGrünen	DieGrünen	ADJD	ADJD	_	dat|pl|*	-1	7	_	MO	_	_
+9	und	und	und	KON	KON	_	_	-1	7	_	CD	_	_
+10	die	die	die	ART	ART	_	nom|sg|fem	-1	11	_	NK	_	_
+11	SPD	SPD	SPD	NE	NE	_	nom|sg|fem	-1	9	_	CJ	_	_
+12	nicht	nicht	nicht	PTKNEG	PTKNEG	_	_	-1	13	_	NG	_	_
+13	nötig	nötig	nötig	ADJD	ADJD	_	pos	-1	11	_	UC	_	_
+14	.	.	.	$.	$.	_	_	-1	13	_	--	_	_
+
+	id	363645154810290177
+	time	Sat Aug 03 14:58:55 +0000 2013
+	replace	offset	84	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	95	length	0	num	2	orig	 http://t.co/1ROOnw41XO	replacement		info_end
+	sentence_start	0	51	84
+	token_offsets	sentence	0	offsets	0::4	5::7	13::6	20::4	25::3	29::17	47::2	49::1
+	token_offsets	sentence	1	offsets	51::7	59::3	63::7	71::11	82::1
+	token_offsets	sentence	2	offsets	84::11
+1	Auch	auch	auch	ADV	ADV	_	_	-1	2	_	MO	_	_
+2	Piraten	Pirat	Pirat	NN	NN	_	nom|pl|masc	-1	3	_	SB	_	_
+3	ketten	ketten	ketten	VVFIN	VVFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+4	sich	sich	sich	PRF	PRF	_	acc|pl|3	-1	3	_	OA	_	_
+5	mit	mit	mit	APPR	APPR	_	_	-1	3	_	MO	_	_
+6	Fahrradschlössern	Fahrradschlössern	Fahrradschlössern	NN	NN	_	dat|pl|neut	-1	5	_	NK	_	_
+7	an	an	an	PTKVZ	PTKVZ	_	_	-1	3	_	SVP	_	_
+8	.	.	.	$.	$.	_	_	-1	7	_	--	_	_
+
+1	Polizei	Polizei	Polizei	NN	NN	_	nom|sg|fem	-1	2	_	SB	_	_
+2	hat	haben	haben	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+3	Räumung	Räumung	Räumung	NN	NN	_	acc|sg|fem	-1	4	_	OA	_	_
+4	angekündigt	ankündigen	ankündigen	VVPP	VVPP	_	_	-1	2	_	OC	_	_
+5	.	.	.	$.	$.	_	_	-1	4	_	--	_	_
+
+1	BadNenndorf	BadNenndorf	BadNenndorf	NN	NN	_	nom|sg|neut	-1	0	_	--	_	_
+
+	id	370924318307659776
+	time	Fri Aug 23 17:03:43 +0000 2013
+	replace	offset	90	length	0	num	0	orig	 http://t.co/LL6ldDISwa	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::14	15::3	19::3	23::3	27::3	30::1	32::2	35::8	44::6	50::1	52::1	54::8	63::10	74::1	76::7	84::6
+1	Wahlwerbespots	Wahlwerbespot	Wahlwerbespot	NN	NN	_	nom|pl|masc	-1	0	_	--	_	_
+2	von	von	von	APPR	APPR	_	_	-1	1	_	PG	_	_
+3	CDU	CDU	CDU	NE	NE	_	dat|sg|fem	-1	2	_	NK	_	_
+4	und	und	und	KON	KON	_	_	-1	3	_	CD	_	_
+5	SPD	SPD	SPD	NE	NE	_	dat|sg|fem	-1	4	_	CJ	_	_
+6	:	:	:	$.	$.	_	_	-1	5	_	--	_	_
+7	90	90	90	CARD	CARD	_	_	-1	8	_	NK	_	_
+8	Sekunden	Sekunde	Sekunde	NN	NN	_	acc|pl|fem	-1	1	_	CJ	_	_
+9	Merkel	Merkel	Merkel	NE	NE	_	nom|sg|masc	-1	8	_	NK	_	_
+10	,	,	,	$,	$,	_	_	-1	9	_	--	_	_
+11	9	9	9	CARD	CARD	_	_	-1	12	_	NK	_	_
+12	Sekunden	Sekunde	Sekunde	NN	NN	_	acc|pl|fem	-1	8	_	CJ	_	_
+13	Steinbrück	Steinbrück	Steinbrück	NN	NN	_	acc|pl|fem	-1	12	_	NK	_	_
+14	-	-	-	$(	$(	_	_	-1	13	_	--	_	_
+15	Spiegel	Spiegel	Spiegel	NN	NN	_	acc|pl|masc	-1	12	_	PAR	_	_
+16	Online	Online	Online	NE	NE	_	acc|pl|masc	-1	15	_	NK	_	_
+
+	id	384700063076728832
+	time	Mon Sep 30 17:23:37 +0000 2013
+	replace	offset	114	length	0	num	0	orig	 http://t.co/MKyiJS8IaY	replacement		info_end
+	sentence_start	0	64
+	token_offsets	sentence	0	offsets	0::6	6::1	8::4	12::1	13::9	23::7	31::6	38::3	42::6	49::9	59::2	61::3
+	token_offsets	sentence	1	offsets	64::1	66::4	70::1	71::10	82::6	88::1	89::1	90::4	95::3	99::12	111::3
+1	Wahlen	Wahl	Wahl	NN	NN	_	nom|pl|fem	-1	0	_	--	_	_
+2	:	:	:	$.	$.	_	_	-1	1	_	--	_	_
+3	Ouml	Ouml	Ouml	NE	NE	_	nom|sg|*	-1	1	_	SB	_	_
+4	;	;	;	$.	$.	_	_	-1	3	_	--	_	_
+5	sterreich	sterreich	sterreich	ADJD	ADJD	_	pos	-1	6	_	MO	_	_
+6	steuert	steuern	steuern	VVFIN	VVFIN	_	sg|3|pres|ind	-1	1	_	RS	_	_
+7	wieder	wieder	wieder	ADV	ADV	_	_	-1	6	_	MO	_	_
+8	auf	auf	auf	APPR	APPR	_	_	-1	6	_	MO	_	_
+9	grosse	groß	groß	ADJA	ADJA	_	dat|sg|fem|pos	-1	10	_	NK	_	_
+10	Koalition	Koalition	Koalition	NN	NN	_	dat|sg|fem	-1	8	_	NK	_	_
+11	zu	zu	zu	PTKVZ	PTKVZ	_	_	-1	6	_	SVP	_	_
+12	...	...	...	$.	$.	_	_	-1	11	_	--	_	_
+
+1	:	:	:	$.	$.	_	_	-1	0	_	--	_	_
+2	Ouml	Ouml	Ouml	NE	NE	_	nom|sg|neut	-1	0	_	--	_	_
+3	;	;	;	$.	$.	_	_	-1	2	_	--	_	_
+4	sterreichs	sterreichs	sterreichs	NE	NE	_	gen|sg|neut	-1	8	_	AG	_	_
+5	SPOuml	SPOuml	SPOuml	NE	NE	_	gen|sg|neut	-1	4	_	AG	_	_
+6	;	;	;	$.	$.	_	_	-1	5	_	--	_	_
+7	-	-	-	$(	$(	_	_	-1	6	_	--	_	_
+8	Chef	Chef	Chef	NN	NN	_	nom|sg|masc	-1	2	_	APP	_	_
+9	und	und	und	KON	KON	_	_	-1	8	_	CD	_	_
+10	Bundeskanzle	Bundeskanzle	Bundeskanzle	NN	NN	_	nom|sg|masc	-1	9	_	CJ	_	_
+11	...	...	...	$.	$.	_	_	-1	10	_	--	_	_
+
+	id	374890718466031617
+	time	Tue Sep 03 15:44:47 +0000 2013
+	replace	offset	101	length	0	num	0	orig	#	replacement		info_end
+	sentence_start	0	101
+	token_offsets	sentence	0	offsets	0::2	3::7	11::4	16::4	20::1	21::10	32::3	36::4	41::6	47::1	49::3	53::1	54::4	59::7	66::1	68::6	75::4	80::6	87::12	99::1
+	token_offsets	sentence	1	offsets	101::7	108::1
+1	Im	in	in	APPRART	APPRART	_	dat|sg|neut	-1	16	_	MO	_	_
+2	Übrigen	Übrige	Übrige	NN	NN	_	dat|sg|neut	-1	1	_	NK	_	_
+3	sind	sein	sein	VAFIN	VAFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+4	NAZI	Nazi	Nazi	NN	NN	_	nom|sg|fem	-1	3	_	SB	_	_
+5	-	-	-	$(	$(	_	_	-1	4	_	--	_	_
+6	Vergleiche	Vergleich	Vergleich	NN	NN	_	nom|sg|fem	-1	4	_	APP	_	_
+7	für	für	für	APPR	APPR	_	_	-1	6	_	MNR	_	_
+8	eine	eine	eine	ART	ART	_	acc|sg|fem	-1	9	_	NK	_	_
+9	Partei	Partei	Partei	NN	NN	_	acc|sg|fem	-1	7	_	NK	_	_
+10	,	,	,	$,	$,	_	_	-1	9	_	--	_	_
+11	die	die	die	ART	ART	_	nom|sg|fem	-1	17	_	SB	_	_
+12	"	"	"	$(	$(	_	_	-1	13	_	--	_	_
+13	neue	neu	neu	ADJA	ADJA	_	nom|sg|fem|pos	-1	14	_	NK	_	_
+14	Politik	Politik	Politik	NN	NN	_	nom|sg|fem	-1	16	_	OA	_	_
+15	"	"	"	$(	$(	_	_	-1	14	_	--	_	_
+16	machen	machen	machen	VVINF	VVINF	_	_	-1	17	_	OC	_	_
+17	will	wollen	wollen	VMFIN	VMFIN	_	sg|3|pres|ind	-1	9	_	RC	_	_
+18	völlig	völlig	völlig	ADJD	ADJD	_	pos	-1	19	_	MO	_	_
+19	inakzeptabel	inakzeptabel	inakzeptabel	ADJD	ADJD	_	pos	-1	3	_	PD	_	_
+20	!	!	!	$.	$.	_	_	-1	19	_	--	_	_
+
+1	Piraten	Pirat	Pirat	NN	NN	_	nom|pl|masc	-1	0	_	--	_	_
+2	-	-	-	$(	$(	_	_	-1	1	_	--	_	_
+
+	id	377859108054917120
+	time	Wed Sep 11 20:20:06 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @AliCologne: 	replacement		info_end
+	replace	offset	4	length	0	num	2	orig	#	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::3	4::3	7::1	9::4	14::4	19::3	23::3	27::6	34::3	38::9	48::7	55::1
+1	Die	die	die	ART	ART	_	nom|sg|fem	-1	2	_	NK	_	_
+2	FDP	FDP	FDP	NE	NE	_	nom|sg|fem	-1	4	_	SB	_	_
+3	-	-	-	$(	$(	_	_	-1	2	_	--	_	_
+4	sind	sein	sein	VAFIN	VAFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+5	auch	auch	auch	ADV	ADV	_	_	-1	8	_	MO	_	_
+6	nur	nur	nur	ADV	ADV	_	_	-1	8	_	MO	_	_
+7	die	die	die	ART	ART	_	nom|pl|*	-1	8	_	NK	_	_
+8	Daleks	Daleks	Daleks	NN	NN	_	nom|pl|*	-1	4	_	SB	_	_
+9	der	die	die	ART	ART	_	gen|pl|masc	-1	11	_	NK	_	_
+10	deutschen	deutsch	deutsch	ADJA	ADJA	_	gen|pl|masc|pos	-1	11	_	NK	_	_
+11	Politik	Politik	Politik	NN	NN	_	gen|pl|masc	-1	8	_	AG	_	_
+12	.	.	.	$.	$.	_	_	-1	11	_	--	_	_
+
+	id	373772666412740608
+	time	Sat Aug 31 13:42:02 +0000 2013
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::1	1::15	17::3	21::13	34::1	36::3	40::5	46::2	49::9	59::4	63::1	64::8	72::1	73::4	78::5	84::10	95::3	99::3	103::4	108::8	117::6	123::1	125::6	132::6	138::1	139::1
+1	"	"	"	$(	$(	_	_	-1	2	_	--	_	_
+2	Veranstaltungen	Veranstaltung	Veranstaltung	NN	NN	_	nom|pl|fem	-1	0	_	--	_	_
+3	der	die	die	ART	ART	_	gen|sg|fem	-1	4	_	NK	_	_
+4	Piratenpartei	Piratenpartei	Piratenpartei	NN	NN	_	gen|sg|fem	-1	2	_	AG	_	_
+5	,	,	,	$,	$,	_	_	-1	4	_	--	_	_
+6	auf	auf	auf	APPR	APPR	_	_	-1	16	_	MO	_	_
+7	denen	die	die	PRELS	PRELS	_	dat|pl|neut	-1	6	_	NK	_	_
+8	im	in	in	APPRART	APPRART	_	dat|sg|masc	-1	16	_	MO	_	_
+9	gefühlten	gefühlt	gefühlt	ADJA	ADJA	_	dat|sg|masc|pos	-1	10	_	NK	_	_
+10	Fünf	Fünf	Fünf	NN	NN	_	dat|sg|masc	-1	8	_	NK	_	_
+11	-	-	-	$(	$(	_	_	-1	10	_	--	_	_
+12	Sekunden	Sekunde	Sekunde	NN	NN	_	acc|pl|fem	-1	16	_	OA	_	_
+13	-	-	-	$(	$(	_	_	-1	12	_	--	_	_
+14	Takt	Takt	Takt	NN	NN	_	acc|sg|masc	-1	12	_	CJ	_	_
+15	Fotos	Foto	Foto	NN	NN	_	acc|sg|masc	-1	14	_	NK	_	_
+16	geschossen	schießen	schießen	VVPP	VVPP	_	_	-1	21	_	OC	_	_
+17	und	und	und	KON	KON	_	_	-1	16	_	CD	_	_
+18	ins	in	in	APPRART	APPRART	_	acc|sg|neut	-1	20	_	MO	_	_
+19	Netz	Netz	Netz	NN	NN	_	acc|sg|neut	-1	18	_	NK	_	_
+20	gestellt	stellen	stellen	VVPP	VVPP	_	_	-1	17	_	CJ	_	_
+21	werden	werden	werden	VAINF	VAINF	_	_	-1	2	_	OC	_	_
+22	,	,	,	$,	$,	_	_	-1	21	_	--	_	_
+23	besser	gut	gut	ADJD	ADJD	_	comp	-1	24	_	MO	_	_
+24	meiden	meiden	meiden	VVINF	VVINF	_	pl|3|pres|ind	-1	21	_	CJ	_	_
+25	.	.	.	$.	$.	_	_	-1	24	_	--	_	_
+26	"	"	"	$(	$(	_	_	-1	25	_	--	_	_
+
+	id	361072601482805249
+	time	Sat Jul 27 12:36:31 +0000 2013
+	replace	offset	106	length	0	num	0	orig	 http://t.co/f3F5OBNqjD	replacement		info_end
+	sentence_start	0	37
+	token_offsets	sentence	0	offsets	0::3	4::3	8::5	14::4	19::1	20::6	26::1	27::1	29::7	36::1
+	token_offsets	sentence	1	offsets	37::1	39::3	43::5	49::1	50::7	57::1	59::7	67::2	70::11	82::9	92::3	96::7	103::3
+1	Wer	wer	wer	PWS	PWS	_	nom|sg|masc	-1	2	_	SB	_	_
+2	hat	haben	haben	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+3	Angst	Angst	Angst	NN	NN	_	acc|sg|fem	-1	2	_	OA	_	_
+4	vorm	vorm	vorm	APPRART	APPRART	_	acc|sg|fem	-1	3	_	MNR	_	_
+5	"	"	"	$(	$(	_	_	-1	4	_	--	_	_
+6	Steuer	Steuer	Steuer	NN	NN	_	nom|sg|fem	-1	4	_	NK	_	_
+7	"	"	"	$(	$(	_	_	-1	6	_	--	_	_
+8	-	-	-	$(	$(	_	_	-1	7	_	--	_	_
+9	Monster	Monster	Monster	NN	NN	_	dat|sg|masc	-1	6	_	CJ	_	_
+10	?	?	?	$.	$.	_	_	-1	9	_	--	_	_
+
+1	:	:	:	$.	$.	_	_	-1	2	_	--	_	_
+2	Das	die	die	ART	ART	_	nom|sg|neut	-1	3	_	NK	_	_
+3	Thema	Thema	Thema	NN	NN	_	nom|sg|neut	-1	7	_	SB	_	_
+4	"	"	"	$(	$(	_	_	-1	3	_	--	_	_
+5	Steuern	Steuer	Steuer	NN	NN	_	nom|pl|fem	-1	3	_	NK	_	_
+6	"	"	"	$(	$(	_	_	-1	5	_	--	_	_
+7	scheint	scheinen	scheinen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+8	im	in	in	APPRART	APPRART	_	dat|sg|masc	-1	7	_	MO	_	_
+9	anlaufenden	anlaufend	anlaufend	ADJA	ADJA	_	dat|sg|masc|pos	-1	10	_	NK	_	_
+10	Wahlkampf	Wahlkampf	Wahlkampf	NN	NN	_	dat|sg|masc	-1	8	_	NK	_	_
+11	ein	ein	ein	PTKVZ	PTKVZ	_	_	-1	7	_	SVP	_	_
+12	wichtig	wichtig	wichtig	ADJD	ADJD	_	pos	-1	7	_	MO	_	_
+13	...	...	...	$.	$.	_	_	-1	12	_	--	_	_
+
+	id	372114197137858560
+	time	Mon Aug 26 23:51:52 +0000 2013
+	replace	offset	128	length	10	num	0	orig	;)	replacement	%PosSmiley	info_end
+	sentence_start	0	77
+	token_offsets	sentence	0	offsets	0::7	7::1	9::3	13::14	28::7	36::6	43::9	53::6	60::5	66::9	75::1
+	token_offsets	sentence	1	offsets	77::12	90::3	94::5	100::6	107::3	111::5	117::6	124::3	128::10
+1	Piraten	Pirat	Pirat	NN	NN	_	nom|pl|masc	-1	8	_	SB	_	_
+2	,	,	,	$,	$,	_	_	-1	1	_	--	_	_
+3	die	die	die	ART	ART	_	nom|pl|masc	-1	5	_	NK	_	_
+4	ehrenamtlichen	ehrenamtlich	ehrenamtlich	ADJA	ADJA	_	nom|pl|masc|pos	-1	5	_	NK	_	_
+5	Piraten	Pirat	Pirat	NN	NN	_	nom|pl|masc	-1	7	_	OA	_	_
+6	Urlaub	Urlaub	Urlaub	NE	NE	_	nom|sg|masc	-1	5	_	NK	_	_
+7	verbieten	verbieten	verbieten	VVINF	VVINF	_	_	-1	1	_	OC	_	_
+8	wollen	wollen	wollen	VMFIN	VMFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+9	wegen	wegen	wegen	APPR	APPR	_	_	-1	8	_	MO	_	_
+10	Wahlkampf	Wahlkampf	Wahlkampf	NN	NN	_	acc|sg|masc	-1	9	_	NK	_	_
+11	.	.	.	$.	$.	_	_	-1	10	_	--	_	_
+
+1	Niederbayern	Niederbayern	Niederbayern	NE	NE	_	nom|sg|neut	-1	2	_	SB	_	_
+2	ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+3	immer	immer	immer	ADV	ADV	_	_	-1	4	_	MO	_	_
+4	wieder	wieder	wieder	ADV	ADV	_	_	-1	2	_	MO	_	_
+5	für	für	für	APPR	APPR	_	_	-1	8	_	MO	_	_
+6	einen	eine	eine	ART	ART	_	acc|sg|masc	-1	7	_	NK	_	_
+7	Lacher	Lacher	Lacher	NN	NN	_	acc|sg|masc	-1	5	_	NK	_	_
+8	gut	gut	gut	ADJD	ADJD	_	pos	-1	2	_	PD	_	_
+9	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	8	_	DM	_	_
+
+	id	381816299338207232
+	time	Sun Sep 22 18:24:34 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @Annika_K: 	replacement		info_end
+	replace	offset	40	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	56	length	0	num	4	orig	#	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::3	4::12	17::5	23::10	34::4	38::1	40::11	52::3	56::3	60::13	74::3	78::5	84::5	90::8	98::1	100::5	106::6	113::3	117::5	123::3
+1	Das	die	die	ART	ART	_	nom|sg|neut	-1	2	_	NK	_	_
+2	Wahlergebnis	Wahlergebnis	Wahlergebnis	NN	NN	_	nom|sg|neut	-1	3	_	SB	_	_
+3	zeigt	zeigen	zeigen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+4	jedenfalls	jedenfalls	jedenfalls	ADV	ADV	_	_	-1	3	_	MO	_	_
+5	eins	eins	eins	CARD	CARD	_	_	-1	7	_	NMC	_	_
+6	:	:	:	$.	$.	_	_	-1	5	_	--	_	_
+7	Überwachung	Überwachung	Überwachung	NN	NN	_	acc|sg|fem	-1	10	_	SB	_	_
+8	und	und	und	KON	KON	_	_	-1	7	_	CD	_	_
+9	NSA	Nsa	Nsa	NE	NE	_	acc|sg|fem	-1	8	_	CJ	_	_
+10	interessieren	interessieren	interessieren	VVFIN	VVFIN	_	pl|3|pres|ind	-1	3	_	OC	_	_
+11	die	die	die	ART	ART	_	nom|pl|*	-1	12	_	NK	_	_
+12	Leute	Leute	Leute	NN	NN	_	nom|pl|*	-1	10	_	SB	_	_
+13	nicht	nicht	nicht	PTKNEG	PTKNEG	_	_	-1	10	_	NG	_	_
+14	wirklich	wirklich	wirklich	ADJD	ADJD	_	pos	-1	10	_	MO	_	_
+15	;	;	;	$.	$.	_	_	-1	14	_	--	_	_
+16	sonst	sonst	sonst	ADV	ADV	_	_	-1	17	_	MO	_	_
+17	würden	werden	werden	VAFIN	VAFIN	_	pl|3|past|subj	-1	10	_	MO	_	_
+18	sie	sie	sie	PPER	PPER	_	nom|pl|*|3	-1	17	_	SB	_	_
+19	nicht	nicht	nicht	PTKNEG	PTKNEG	_	_	-1	17	_	NG	_	_
+20	...	...	...	$.	$.	_	_	-1	19	_	--	_	_
+
+	id	347295927645638656
+	time	Wed Jun 19 12:12:56 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @Volker_Beck: 	replacement		info_end
+	replace	offset	67	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	94	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	103	length	0	num	6	orig	#	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::3	4::5	9::1	11::4	16::4	21::9	31::3	35::5	41::3	45::3	49::2	52::4	57::6	64::2	67::5	73::8	81::1	83::4	88::2	91::2	94::3	98::4	103::5
+1	Ich	ich	ich	PPER	PPER	_	nom|sg|*|1	-1	2	_	SB	_	_
+2	hoffe	hoffen	hoffen	VVFIN	VVFIN	_	sg|1|pres|ind	-1	0	_	--	_	_
+3	,	,	,	$,	$,	_	_	-1	2	_	--	_	_
+4	dass	dass	dass	KOUS	KOUS	_	_	-1	16	_	CP	_	_
+5	sich	sich	sich	PRF	PRF	_	acc|pl|3	-1	16	_	OA	_	_
+6	Politiker	Politiker	Politiker	NN	NN	_	nom|pl|masc	-1	16	_	SB	_	_
+7	von	von	von	APPR	APPR	_	_	-1	6	_	PG	_	_
+8	Union	Union	Union	NE	NE	_	dat|sg|fem	-1	7	_	NK	_	_
+9	und	und	und	KON	KON	_	_	-1	8	_	CD	_	_
+10	SPD	SPD	SPD	NE	NE	_	dat|sg|fem	-1	9	_	CJ	_	_
+11	an	an	an	APPR	APPR	_	_	-1	16	_	OP	_	_
+12	ihre	ihr	ihr	PPOSAT	PPOSAT	_	dat|sg|fem	-1	13	_	NK	_	_
+13	Kritik	Kritik	Kritik	NN	NN	_	dat|sg|fem	-1	11	_	NK	_	_
+14	an	an	an	APPR	APPR	_	_	-1	13	_	MNR	_	_
+15	prism	prism	prism	NE	NE	_	dat|sg|neut	-1	14	_	NK	_	_
+16	erinnern	erinnern	erinnern	VVINF	VVINF	_	_	-1	2	_	OC	_	_
+17	,	,	,	$,	$,	_	_	-1	16	_	--	_	_
+18	wenn	wenn	wenn	KOUS	KOUS	_	_	-1	22	_	CP	_	_
+19	es	es	es	PPER	PPER	_	nom|sg|neut|3	-1	22	_	EP	_	_
+20	um	um	um	APPR	APPR	_	_	-1	22	_	OP	_	_
+21	VDS	VDS	VDS	NE	NE	_	dat|sg|*	-1	20	_	NK	_	_
+22	geht	gehen	gehen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	16	_	MO	_	_
+23	Obama	Obama	Obama	NN	NN	_	acc|sg|masc	-1	16	_	OA	_	_
+
+	id	380436611512958976
+	time	Wed Sep 18 23:02:11 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @kreativkomm: 	replacement		info_end
+	replace	offset	92	length	0	num	2	orig	#	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::2	3::11	15::3	19::6	26::20	47::5	53::3	56::1	58::3	62::3	66::3	70::6	77::8	86::5	92::7
+1	An	an	an	APPR	APPR	_	_	-1	6	_	MO	_	_
+2	Steinhauser	Steinhauser	Steinhauser	NE	NE	_	dat|sg|neut	-1	1	_	NK	_	_
+3	und	und	und	KON	KON	_	_	-1	2	_	CD	_	_
+4	seinen	sein	sein	PPOSAT	PPOSAT	_	dat|pl|masc	-1	5	_	NK	_	_
+5	Verlegenheitsblicken	Verlegenheitsblicken	Verlegenheitsblicken	NN	NN	_	dat|pl|masc	-1	3	_	CJ	_	_
+6	merkt	merken	merken	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+7	man	man	man	PIS	PIS	_	nom|sg|*	-1	6	_	SB	_	_
+8	,	,	,	$,	$,	_	_	-1	7	_	--	_	_
+9	wie	wie	wie	KOKOM	KOKOM	_	_	-1	10	_	MO	_	_
+10	alt	alt	alt	ADJD	ADJD	_	pos	-1	6	_	MO	_	_
+11	die	die	die	ART	ART	_	nom|pl|*	-1	12	_	NK	_	_
+12	Grünen	Grüne	Grüne	NN	NN	_	nom|pl|*	-1	6	_	OA	_	_
+13	geworden	werden	werden	VAPP	VAPP	_	_	-1	12	_	OC	_	_
+14	sind.	sind.	sind.	ADJA	ADJA	_	acc|sg|masc|pos	-1	15	_	NK	_	_
+15	ampunkt	ampunkt	ampunkt	NN	NN	_	acc|sg|masc	-1	6	_	OA	_	_
+
+	id	360454898724257793
+	time	Thu Jul 25 19:41:59 +0000 2013
+	sentence_start	0	23	57	82
+	token_offsets	sentence	0	offsets	0::7	8::6	15::6	21::1
+	token_offsets	sentence	1	offsets	23::10	34::3	38::10	49::3	53::2	55::1
+	token_offsets	sentence	2	offsets	57::8	66::3	70::5	76::4	80::1
+	token_offsets	sentence	3	offsets	82::4	87::6	94::6	101::6	107::1
+1	Endlich	endlich	endlich	ADV	ADV	_	_	-1	3	_	MO	_	_
+2	wieder	wieder	wieder	ADV	ADV	_	_	-1	3	_	MO	_	_
+3	Wahlen	Wahl	Wahl	NN	NN	_	nom|pl|fem	-1	0	_	--	_	_
+4	!	!	!	$.	$.	_	_	-1	3	_	--	_	_
+
+1	Bestellung	Bestellung	Bestellung	NN	NN	_	nom|sg|fem	-1	4	_	SB	_	_
+2	zum	zu	zu	APPRART	APPRART	_	dat|sg|neut	-1	1	_	MNR	_	_
+3	Wahlhelfer	Wahlhelfer	Wahlhelfer	NN	NN	_	dat|sg|neut	-1	2	_	NK	_	_
+4	ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+5	da	da	da	ADV	ADV	_	_	-1	4	_	MO	_	_
+6	.	.	.	$.	$.	_	_	-1	5	_	--	_	_
+
+1	Zusammen	zusammen	zusammen	ADV	ADV	_	_	-1	2	_	MO	_	_
+2	mit	mit	mit	APPR	APPR	_	_	-1	0	_	--	_	_
+3	Herrn	Herr	Herr	NN	NN	_	dat|sg|masc	-1	2	_	NK	_	_
+4	Sohn	Sohn	Sohn	NN	NN	_	dat|sg|masc	-1	3	_	NK	_	_
+5	.	.	.	$.	$.	_	_	-1	4	_	--	_	_
+
+1	Wird	werden	werden	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+2	sicher	sicher	sicher	ADJD	ADJD	_	pos	-1	1	_	MO	_	_
+3	wieder	wieder	wieder	ADV	ADV	_	_	-1	1	_	MO	_	_
+4	lustig	lustig	lustig	ADJD	ADJD	_	pos	-1	1	_	PD	_	_
+5	.	.	.	$.	$.	_	_	-1	4	_	--	_	_
+
+	id	350589542639747073
+	time	Fri Jun 28 14:20:35 +0000 2013
+	replace	offset	85	length	0	num	0	orig	...	replacement		info_end
+	replace	offset	85	length	0	num	2	orig	 http://t.co/pWn9yFNpTB	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::14	15::10	26::7	33::1	35::3	39::12	52::3	56::14	71::1	73::9	82::3
+1	Bundeszentrale	Bundeszentrale	Bundeszentrale	NN	NN	_	nom|sg|fem	-1	3	_	NK	_	_
+2	politische	politisch	politisch	ADJA	ADJA	_	nom|sg|fem|pos	-1	3	_	NK	_	_
+3	Bildung	Bildung	Bildung	NN	NN	_	nom|sg|fem	-1	6	_	PD	_	_
+4	:	:	:	$.	$.	_	_	-1	3	_	--	_	_
+5	Wie	wie	wie	KOUS	KOUS	_	_	-1	6	_	MO	_	_
+6	funktioniert	funktionieren	funktionieren	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+7	die	die	die	ART	ART	_	nom|sg|fem	-1	8	_	NK	_	_
+8	Bundestagswahl	Bundestagswahl	Bundestagswahl	NN	NN	_	nom|sg|fem	-1	6	_	SB	_	_
+9	-	-	-	$(	$(	_	_	-1	8	_	--	_	_
+10	Wahlfilme	Wahlfilme	Wahlfilme	NN	NN	_	nom|pl|masc	-1	8	_	CJ	_	_
+11	...	...	...	$.	$.	_	_	-1	10	_	--	_	_
+
+	id	380712832528306176
+	time	Thu Sep 19 17:19:47 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @mischmerz: @blackjoschka @AfD_MR @steinbock41 	replacement		info_end
+	replace	offset	76	length	0	num	2	orig	#	replacement		info_end
+	sentence_start	0	4
+	token_offsets	sentence	0	offsets	0::2	2::1
+	token_offsets	sentence	1	offsets	4::3	8::6	15::3	19::9	29::15	45::2	48::5	54::12	67::8	76::3	79::1
+1	Nö	Nö	Nö	NE	NE	_	_	-1	0	_	--	_	_
+2	.	.	.	$.	$.	_	_	-1	1	_	--	_	_
+
+1	Wir	wir	wir	PPER	PPER	_	nom|pl|*|1	-1	2	_	SB	_	_
+2	setzen	setzen	setzen	VVFIN	VVFIN	_	pl|1|pres|ind	-1	0	_	--	_	_
+3	auf	auf	auf	APPR	APPR	_	_	-1	2	_	MO	_	_
+4	souveräne	souverän	souverän	ADJA	ADJA	_	nom|pl|masc|pos	-1	5	_	NK	_	_
+5	Nationalstaaten	Nationalstaat	Nationalstaat	NN	NN	_	nom|pl|masc	-1	3	_	NK	_	_
+6	in	in	in	APPR	APPR	_	_	-1	2	_	MO	_	_
+7	einem	eine	eine	ART	ART	_	dat|sg|masc	-1	9	_	NK	_	_
+8	europäischen	europäisch	europäisch	ADJA	ADJA	_	dat|sg|masc|pos	-1	9	_	NK	_	_
+9	Verbund.	Verbund.	Verbund.	NN	NN	_	dat|sg|masc	-1	6	_	NK	_	_
+10	afd	afd	afd	ADJD	ADJD	_	_	-1	2	_	MO	_	_
+11	+	+	+	KON	KON	_	_	-1	2	_	CJ	_	_
+
+	id	354209149447438337
+	time	Mon Jul 08 14:03:36 +0000 2013
+	replace	offset	113	length	0	num	0	orig	 http://t.co/ZqqRCFYv8C	replacement		info_end
+	sentence_start	0	38
+	token_offsets	sentence	0	offsets	0::7	8::7	16::5	21::1	23::3	27::8	36::1	37::1
+	token_offsets	sentence	1	offsets	38::1	40::15	56::3	60::9	70::3	74::6	81::4	86::11	98::9	108::2	110::3
+1	niemand	niemand	niemand	PIS	PIS	_	nom|sg|masc	-1	2	_	SB	_	_
+2	spricht	sprechen	sprechen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+3	davon	davon	davon	PAV	PAV	_	_	-1	4	_	NK	_	_
+4	,	,	,	$,	$,	_	_	-1	2	_	--	_	_
+5	die	die	die	ART	ART	_	acc|sg|fem	-1	6	_	NK	_	_
+6	gezielte	gezielt	gezielt	ADJA	ADJA	_	acc|sg|fem|pos	-1	2	_	OA	_	_
+7	(	(	(	$(	$(	_	_	-1	6	_	--	_	_
+8	!	!	!	$.	$.	_	_	-1	7	_	--	_	_
+
+1	)	)	)	$(	$(	_	_	-1	2	_	--	_	_
+2	datenerfasssung	datenerfasssung	datenerfasssung	NN	NN	_	nom|sg|fem	-1	9	_	SB	_	_
+3	zum	zu	zu	APPRART	APPRART	_	dat|sg|neut	-1	2	_	MNR	_	_
+4	ermitteln	ermitteln	ermitteln	VVFIN	VVFIN	_	pl|3|pres|ind	-1	3	_	NK	_	_
+5	von	von	von	APPR	APPR	_	_	-1	4	_	MO	_	_
+6	tätern	Täter	Täter	NN	NN	_	dat|pl|masc	-1	5	_	NK	_	_
+7	oder	oder	oder	KON	KON	_	_	-1	3	_	CD	_	_
+8	dergleichen	dergleichen	dergleichen	PIS	PIS	_	dat|pl|masc|pos	-1	7	_	CJ	_	_
+9	verbieten	verbieten	verbieten	VVFIN	VVFIN	_	_	-1	0	_	--	_	_
+10	zu	zu	zu	PTKVZ	PTKVZ	_	_	-1	9	_	SVP	_	_
+11	...	...	...	$.	$.	_	_	-1	10	_	--	_	_
+
+	id	358843338104913921
+	time	Sun Jul 21 08:58:13 +0000 2013
+	replace	offset	116	length	0	num	0	orig	 http://t.co/F8vGD69ulR	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::2	2::1	3::15	19::3	23::6	30::4	34::1	36::12	49::9	59::2	62::5	68::3	72::9	82::5	88::5	94::3	98::18
+1	EU	EU	EU	NN	NN	_	nom|sg|fem	-1	12	_	SB	_	_
+2	-	-	-	$(	$(	_	_	-1	1	_	--	_	_
+3	Programmentwurf	Programmentwurf	Programmentwurf	NN	NN	_	nom|sg|masc	-1	1	_	CJ	_	_
+4	der	die	die	ART	ART	_	nom|sg|masc	-1	9	_	NK	_	_
+5	GRÜNEN	grün	grün	ADJA	ADJA	_	nom|sg|masc	-1	9	_	NK	_	_
+6	1984	1984	1984	CARD	CARD	_	_	-1	5	_	NK	_	_
+7	:	:	:	$.	$.	_	_	-1	6	_	--	_	_
+8	Menschliches	menschlich	menschlich	ADJA	ADJA	_	nom|sg|neut|pos	-1	9	_	NK	_	_
+9	Überleben	Überleben	Überleben	NN	NN	_	nom|sg|neut	-1	12	_	SB	_	_
+10	u.	um	um	APPR	APPR	_	_	-1	9	_	MNR	_	_
+11	Glück	Glück	Glück	NN	NN	_	dat|sg|neut	-1	10	_	NK	_	_
+12	ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+13	gefährdet	gefährden	gefährden	VVPP	VVPP	_	_	-1	12	_	PD	_	_
+14	durch	durch	durch	APPR	APPR	_	_	-1	13	_	MO	_	_
+15	Tabus	Tabu	Tabu	NN	NN	_	acc|pl|neut	-1	14	_	NK	_	_
+16	und	und	und	KON	KON	_	_	-1	15	_	CD	_	_
+17	Sexualstrafgesetze	Sexualstrafgesetze	Sexualstrafgesetze	NN	NN	_	acc|pl|neut	-1	16	_	CJ	_	_
+
+	id	364162407117361152
+	time	Mon Aug 05 01:14:18 +0000 2013
+	replace	offset	4	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	115	length	0	num	2	orig	#	replacement		info_end
+	sentence_start	0	115
+	token_offsets	sentence	0	offsets	0::3	4::3	8::6	15::3	19::3	23::6	30::14	44::1	46::3	50::2	53::7	61::3	64::1	66::4	71::2	74::5	80::7	88::5	94::6	101::6	108::5	113::1
+	token_offsets	sentence	1	offsets	115::5	121::3	125::4	129::1
+1	Der	die	die	ART	ART	_	nom|sg|masc	-1	2	_	NK	_	_
+2	FDP	FDP	FDP	NE	NE	_	nom|sg|fem	-1	3	_	DA	_	_
+3	danken	danken	danken	VVFIN	VVFIN	_	pl|1|pres|ind	-1	0	_	--	_	_
+4	wir	wir	wir	PPER	PPER	_	nom|pl|*|1	-1	3	_	SB	_	_
+5	für	für	für	APPR	APPR	_	_	-1	3	_	MO	_	_
+6	diesen	dies	dies	PDAT	PDAT	_	acc|sg|masc	-1	7	_	NK	_	_
+7	Aussenminister	Außenminister	Außenminister	NN	NN	_	acc|sg|masc	-1	5	_	NK	_	_
+8	,	,	,	$,	$,	_	_	-1	7	_	--	_	_
+9	der	die	die	PRELS	PRELS	_	nom|sg|masc	-1	12	_	SB	_	_
+10	so	so	so	ADV	ADV	_	_	-1	11	_	MO	_	_
+11	farblos	farblos	farblos	ADJD	ADJD	_	pos	-1	12	_	PD	_	_
+12	ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	7	_	RC	_	_
+13	,	,	,	$,	$,	_	_	-1	12	_	--	_	_
+14	dass	dass	dass	KOUS	KOUS	_	_	-1	21	_	CP	_	_
+15	er	er	er	PPER	PPER	_	nom|sg|masc|3	-1	21	_	SB	_	_
+16	sogar	sogar	sogar	ADV	ADV	_	_	-1	21	_	MO	_	_
+17	ständig	ständig	ständig	ADJD	ADJD	_	pos	-1	21	_	MO	_	_
+18	durch	durch	durch	APPR	APPR	_	_	-1	21	_	MO	_	_
+19	unsere	unser	unser	PPOSAT	PPOSAT	_	acc|sg|fem	-1	20	_	NK	_	_
+20	Raster	Raster	Raster	NN	NN	_	acc|sg|fem	-1	18	_	NK	_	_
+21	fällt	fallen|fällen	fallen|fällen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	12	_	MO	_	_
+22	!	!	!	$.	$.	_	_	-1	21	_	--	_	_
+
+1	Prism	Prism	Prism	NE	NE	_	nom|sg|neut	-1	2	_	SB	_	_
+2	Sei	sein	sein	VAFIN	VAFIN	_	sg|3|pres|subj	-1	0	_	--	_	_
+3	Dank	Dank	Dank	NN	NN	_	nom|sg|masc	-1	2	_	PD	_	_
+4	!	!	!	$.	$.	_	_	-1	3	_	--	_	_
+
+	id	370885546475671552
+	time	Fri Aug 23 14:29:39 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @ronnypohle: 	replacement		info_end
+	replace	offset	22	length	0	num	2	orig	@fdp_de-Lüge 	replacement		info_end
+	replace	offset	22	length	0	num	4	orig	@FDP_Fraktion! 	replacement		info_end
+	replace	offset	47	length	0	num	6	orig	#	replacement		info_end
+	replace	offset	58	length	0	num	8	orig	#	replacement		info_end
+	replace	offset	71	length	0	num	10	orig	#	replacement		info_end
+	replace	offset	76	length	0	num	12	orig	 http://t.co/72y	replacement		info_end
+	sentence_start	0	47
+	token_offsets	sentence	0	offsets	0::3	4::4	9::4	14::7	22::4	27::5	33::2	36::9	45::1
+	token_offsets	sentence	1	offsets	47::10	58::12	71::5	76::3
+1	Und	und	und	KON	KON	_	_	-1	6	_	JU	_	_
+2	hier	hier	hier	ADV	ADV	_	_	-1	5	_	MO	_	_
+3	eine	eine	eine	ART	ART	_	nom|sg|fem	-1	4	_	NK	_	_
+4	weitere	weit	weit	ADJA	ADJA	_	nom|sg|fem|comp	-1	5	_	NK	_	_
+5	Hier	hier	hier	ADV	ADV	_	_	-1	6	_	MO	_	_
+6	wirst	werden	werden	VAFIN	VAFIN	_	sg|2|pres|ind	-1	0	_	--	_	_
+7	du	du	du	PPER	PPER	_	nom|sg|*|2	-1	6	_	SB	_	_
+8	verarscht	verarscht	verarscht	ADJD	ADJD	_	_	-1	6	_	PD	_	_
+9	!	!	!	$.	$.	_	_	-1	8	_	--	_	_
+
+1	Doppelpass	Doppelpass	Doppelpass	NN	NN	_	nom|sg|masc	-1	3	_	SB	_	_
+2	Optionszwang	Optionszwang	Optionszwang	NN	NN	_	nom|sg|masc	-1	1	_	NK	_	_
+3	btw13	btw13	btw13	VVFIN	VVFIN	_	sg|3|past|ind	-1	0	_	--	_	_
+4	...	...	...	$.	$.	_	_	-1	3	_	--	_	_
+
+	id	354122677318983680
+	time	Mon Jul 08 08:20:00 +0000 2013
+	replace	offset	19	length	0	num	0	orig	@BLZonline 	replacement		info_end
+	replace	offset	19	length	0	num	2	orig	•	replacement		info_end
+	replace	offset	96	length	0	num	4	orig	•	replacement		info_end
+	replace	offset	96	length	0	num	6	orig	 http://t.co/os5Bp94xc1	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::1	1::6	8::4	13::4	17::1	20::3	24::6	31::3	35::3	39::4	44::5	50::2	53::3	57::9	67::3	71::8	80::3	83::1	84::10	94::1
+1	"	"	"	$(	$(	_	_	-1	2	_	--	_	_
+2	Partei	Partei	Partei	NN	NN	_	nom|sg|fem	-1	11	_	CJ	_	_
+3	ohne	ohne	ohne	APPR	APPR	_	_	-1	2	_	MNR	_	_
+4	Plan	Plan	Plan	NN	NN	_	acc|sg|masc	-1	3	_	NK	_	_
+5	"	"	"	$(	$(	_	_	-1	4	_	--	_	_
+6	Die	die	die	ART	ART	_	acc|sg|fem	-1	7	_	NK	_	_
+7	Absage	Absage	Absage	NN	NN	_	acc|sg|fem	-1	11	_	SB	_	_
+8	der	die	die	ART	ART	_	gen|sg|fem	-1	9	_	NK	_	_
+9	IBA	IBA	IBA	NN	NN	_	gen|sg|fem	-1	7	_	AG	_	_
+10	2020	2020	2020	CARD	CARD	_	_	-1	9	_	NK	_	_
+11	steht	stehen	stehen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+12	in	in	in	APPR	APPR	_	_	-1	11	_	MO	_	_
+13	der	die	die	ART	ART	_	dat|sg|fem	-1	14	_	NK	_	_
+14	Tradition	Tradition	Tradition	NN	NN	_	dat|sg|fem	-1	12	_	NK	_	_
+15	des	die	die	ART	ART	_	gen|sg|masc	-1	17	_	NK	_	_
+16	Berliner	Berliner	Berliner	ADJA	ADJA	_	*|*|*|pos	-1	17	_	NK	_	_
+17	SPD	SPD	SPD	NE	NE	_	nom|sg|fem	-1	14	_	AG	_	_
+18	-	-	-	$(	$(	_	_	-1	17	_	--	_	_
+19	Städtebaus	Städtebau	Städtebau	NN	NN	_	nom|sg|fem	-1	11	_	SB	_	_
+20	.	.	.	$.	$.	_	_	-1	19	_	--	_	_
+
+	id	368403765009055744
+	time	Fri Aug 16 18:07:56 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @davesstationbus: 	replacement		info_end
+	replace	offset	16	length	0	num	2	orig	#	replacement		info_end
+	sentence_start	0	77
+	token_offsets	sentence	0	offsets	0::2	3::3	7::3	10::1	12::3	16::3	19::1	21::7	29::4	34::4	39::2	42::6	49::7	56::1	58::1	59::3	63::3	67::8	75::1
+	token_offsets	sentence	1	offsets	77::5	83::11
+1	By	By	By	ADJA	ADJA	_	_	-1	3	_	NK	_	_
+2	the	the	the	FM	FM	_	_	-1	3	_	NK	_	_
+3	way	way	way	NN	NN	_	_	-1	10	_	PD	_	_
+4	:	:	:	$.	$.	_	_	-1	3	_	--	_	_
+5	Die	die	die	ART	ART	_	nom|sg|fem	-1	6	_	NK	_	_
+6	AFD	AFD	AFD	NN	NN	_	nom|sg|fem	-1	10	_	SB	_	_
+7	-	-	-	$(	$(	_	_	-1	6	_	--	_	_
+8	Plakate	Plakat	Plakat	NN	NN	_	acc|pl|neut	-1	6	_	CJ	_	_
+9	hier	hier	hier	ADV	ADV	_	_	-1	8	_	MNR	_	_
+10	sind	sein	sein	VAFIN	VAFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+11	ja	ja	ja	ADV	ADV	_	_	-1	10	_	MO	_	_
+12	selten	selten	selten	ADJD	ADJD	_	pos	-1	13	_	MO	_	_
+13	dämlich	dämlich	dämlich	ADJD	ADJD	_	pos	-1	10	_	PD	_	_
+14	:	:	:	$.	$.	_	_	-1	13	_	--	_	_
+15	"	"	"	$(	$(	_	_	-1	14	_	--	_	_
+16	Mut	Mut	Mut	NN	NN	_	acc|sg|masc	-1	10	_	PAR	_	_
+17	zur	zu	zu	APPRART	APPRART	_	dat|sg|fem	-1	16	_	MNR	_	_
+18	Wahrheit	Wahrheit	Wahrheit	NN	NN	_	dat|sg|fem	-1	17	_	NK	_	_
+19	"	"	"	$(	$(	_	_	-1	18	_	--	_	_
+
+1	tolle	toll	toll	ADJA	ADJA	_	nom|sg|fem|pos	-1	2	_	NK	_	_
+2	Nullaussage	Nullaussage	Nullaussage	NN	NN	_	nom|sg|fem	-1	0	_	--	_	_
+
+	id	378071540031438848
+	time	Thu Sep 12 10:24:14 +0000 2013
+	replace	offset	112	length	0	num	0	orig	 http://t.co/5o9gIiEIUQ	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::2	3::5	9::1	11::6	18::3	22::4	27::1	29::3	33::10	44::1	46::7	54::3	58::1	60::3	63::1	65::3	69::4	74::1	75::1	77::6	83::1	84::12	96::1	98::7	106::3	109::3
+1	PC	PC	PC	NN	NN	_	_	-1	0	_	--	_	_
+2	Spiel	Spiel	Spiel	NN	NN	_	nom|sg|neut	-1	6	_	PNC	_	_
+3	|	|	|	XY	XY	_	nom|sg|neut	-1	6	_	PNC	_	_
+4	Schlag	Schlag	Schlag	NN	NN	_	acc|sg|masc	-1	6	_	PNC	_	_
+5	den	die	die	ART	ART	_	acc|sg|masc	-1	6	_	NK	_	_
+6	Raab	Raab	Raab	NE	NE	_	acc|sg|masc	-1	1	_	NK	_	_
+7	2	2	2	CARD	CARD	_	_	-1	6	_	NK	_	_
+8	Das	die	die	ART	ART	_	nom|sg|neut	-1	9	_	NK	_	_
+9	PartySpiel	PartySpiel	PartySpiel	NN	NN	_	nom|sg|neut	-1	6	_	CJ	_	_
+10	|	|	|	XY	XY	_	*|*|*	-1	9	_	NK	_	_
+11	DEUTSCH	deutsch	deutsch	ADJD	ADJD	_	pos	-1	12	_	MO	_	_
+12	NEU	neu	neu	ADJD	ADJD	_	pos	-1	9	_	PD	_	_
+13	&	&	&	KON	KON	_	_	-1	9	_	CD	_	_
+14	OVP	OVP	OVP	NN	NN	_	dat|sg|fem	-1	13	_	CJ	_	_
+15	:	:	:	$.	$.	_	_	-1	14	_	--	_	_
+16	EUR	EUR	EUR	NN	NN	_	dat|sg|fem	-1	9	_	PAR	_	_
+17	7,77	@card@	@card@	CARD	CARD	_	_	-1	16	_	NK	_	_
+18	(	(	(	$(	$(	_	_	-1	17	_	--	_	_
+19	0	@card@	@card@	CARD	CARD	_	_	-1	20	_	NK	_	_
+20	Gebote	Gebot	Gebot	NN	NN	_	acc|pl|neut	-1	16	_	PAR	_	_
+21	)	)	)	$(	$(	_	_	-1	20	_	--	_	_
+22	Angebotsende	Angebotsende	Angebotsende	NN	NN	_	nom|pl|*	-1	25	_	PNC	_	_
+23	:	:	:	$.	$.	_	_	-1	22	_	--	_	_
+24	Freitag	Freitag	Freitag	NE	NE	_	*|*|*	-1	25	_	PNC	_	_
+25	Sep	Sep	Sep	NE	NE	_	nom|sg|*	-1	9	_	APP	_	_
+26	...	...	...	$.	$.	_	_	-1	25	_	--	_	_
+
+	id	364721280236273665
+	time	Tue Aug 06 14:15:04 +0000 2013
+	replace	offset	1	length	0	num	0	orig	@tagesspiegel_de: 	replacement		info_end
+	replace	offset	1	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	27	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	62	length	5	num	6	orig	http://t.co/2UJjuvIRgg"	replacement	%Link	info_end
+	replace	offset	90	length	0	num	8	orig	#	replacement		info_end
+	sentence_start	0	11
+	token_offsets	sentence	0	offsets	0::1	1::9
+	token_offsets	sentence	1	offsets	11::1	13::3	16::1	17::9	27::9	37::6	44::2	47::4	51::1	52::9	62::5	68::6	75::3	79::3	83::6	90::6
+1	"	"	"	$(	$(	_	_	-1	2	_	--	_	_
+2	Veggieday	Veggieday	Veggieday	NE	NE	_	_	-1	0	_	--	_	_
+
+1	-	-	-	$(	$(	_	_	-1	2	_	--	_	_
+2	FDP	FDP	FDP	NE	NE	_	nom|sg|fem	-1	6	_	SB	_	_
+3	-	-	-	$(	$(	_	_	-1	2	_	--	_	_
+4	Politiker	Politiker	Politiker	NN	NN	_	nom|pl|masc	-1	2	_	CJ	_	_
+5	Lindemann	Lindemann	Lindemann	NE	NE	_	nom|sg|*	-1	4	_	NK	_	_
+6	greift	greifen	greifen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+7	zu	zu	zu	APPR	APPR	_	_	-1	6	_	MO	_	_
+8	Nazi	Nazi	Nazi	NN	NN	_	dat|sg|fem	-1	7	_	NK	_	_
+9	-	-	-	$(	$(	_	_	-1	8	_	--	_	_
+10	Vergleich	Vergleich	Vergleich	NN	NN	_	nom|sg|masc	-1	12	_	PNC	_	_
+11	%Link	%Link	%Link	XY	XY	_	nom|sg|masc	-1	12	_	NK	_	_
+12	Terror	Terror	Terror	NN	NN	_	acc|sg|masc	-1	6	_	OA	_	_
+13	auf	auf	auf	APPR	APPR	_	_	-1	12	_	MNR	_	_
+14	dem	die	die	ART	ART	_	dat|sg|masc	-1	15	_	NK	_	_
+15	Teller	Teller	Teller	NN	NN	_	dat|sg|masc	-1	13	_	NK	_	_
+16	ironie	Ironie	Ironie	NN	NN	_	nom|sg|fem	-1	15	_	NK	_	_
+
+	id	350591400024342530
+	time	Fri Jun 28 14:27:58 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @Weilmeier: 	replacement		info_end
+	replace	offset	0	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	14	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	61	length	0	num	6	orig	#	replacement		info_end
+	sentence_start	0	21	71
+	token_offsets	sentence	0	offsets	0::9	10::3	14::6
+	token_offsets	sentence	1	offsets	21::1	23::3	27::7	35::10	46::3	50::5	56::4	61::8	69::1
+	token_offsets	sentence	2	offsets	71::2	74::6	81::3	85::7	93::3	97::6	104::3	108::3	111::1
+1	Guardiola	Guardiola	Guardiola	NE	NE	_	nom|sg|*	-1	0	_	--	_	_
+2	und	und	und	KON	KON	_	_	-1	1	_	CD	_	_
+3	Sammer	Sammer	Sammer	NN	NN	_	nom|sg|*	-1	2	_	CJ	_	_
+
+1	-	-	-	$(	$(	_	_	-1	2	_	--	_	_
+2	Die	die	die	ART	ART	_	nom|pl|fem	-1	3	_	NK	_	_
+3	Glatzen	Glatze	Glatze	NN	NN	_	nom|pl|fem	-1	4	_	SB	_	_
+4	übernehmen	übernehmen	übernehmen	VVFIN	VVFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+5	die	die	die	ART	ART	_	acc|sg|fem	-1	6	_	NK	_	_
+6	Macht	Macht	Macht	NN	NN	_	acc|sg|fem	-1	4	_	OA	_	_
+7	beim	bei	bei	APPRART	APPRART	_	dat|sg|neut	-1	4	_	MO	_	_
+8	FCBayern	FCBayern	FCBayern	NN	NN	_	dat|sg|neut	-1	7	_	NK	_	_
+9	.	.	.	$.	$.	_	_	-1	8	_	--	_	_
+
+1	Wo	wo	wo	PWAV	PWAV	_	_	-1	2	_	MO	_	_
+2	bleibt	bleiben	bleiben	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+3	der	die	die	ART	ART	_	nom|sg|masc	-1	4	_	NK	_	_
+4	Protest	Protest	Protest	NN	NN	_	nom|sg|masc	-1	2	_	SB	_	_
+5	von	von	von	APPR	APPR	_	_	-1	4	_	PG	_	_
+6	Grünen	Grüne	Grüne	NN	NN	_	dat|pl|*	-1	5	_	NK	_	_
+7	und	und	und	KON	KON	_	_	-1	6	_	CD	_	_
+8	SPD	SPD	SPD	NE	NE	_	dat|sg|fem	-1	7	_	CJ	_	_
+9	?	?	?	$.	$.	_	_	-1	8	_	--	_	_
+
+	id	380801220921016320
+	time	Thu Sep 19 23:11:00 +0000 2013
+	replace	offset	131	length	0	num	0	orig	#	replacement		info_end
+	sentence_start	0	81
+	token_offsets	sentence	0	offsets	0::3	4::1	5::13	18::1	20::4	25::4	30::14	45::4	50::5	56::5	62::4	67::3	71::2	74::5	79::1
+	token_offsets	sentence	1	offsets	81::15	97::4	102::3	106::7	114::3	118::3	122::8	131::6
+1	Die	die	die	ART	ART	_	nom|sg|fem	-1	3	_	NK	_	_
+2	"	"	"	$(	$(	_	nom|sg|fem|pos	-1	3	_	--	_	_
+3	Nichtwählerin	Nichtwählerin	Nichtwählerin	NN	NN	_	nom|sg|fem	-1	5	_	SB	_	_
+4	"	"	"	$(	$(	_	_	-1	3	_	--	_	_
+5	hört	hören	hören	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+6	sich	sich	sich	PRF	PRF	_	acc|sg|3	-1	5	_	OA	_	_
+7	wahrscheinlich	wahrscheinlich	wahrscheinlich	ADJD	ADJD	_	pos	-1	5	_	MO	_	_
+8	auch	auch	auch	ADV	ADV	_	_	-1	9	_	MO	_	_
+9	gerne	gerne	gerne	ADV	ADV	_	_	-1	10	_	MO	_	_
+10	reden	reden	reden	VVFIN	VVFIN	_	_	-1	5	_	CJ	_	_
+11	ohne	ohne	ohne	APPR	APPR	_	_	-1	14	_	MO	_	_
+12	was	was	was	PIS	PIS	_	acc|sg|neut	-1	11	_	NK	_	_
+13	zu	zu	zu	PTKZU	PTKZU	_	_	-1	14	_	PM	_	_
+14	sagen	sagen	sagen	VVINF	VVINF	_	_	-1	10	_	MO	_	_
+15	.	.	.	$.	$.	_	_	-1	14	_	--	_	_
+
+1	Ironischerweise	ironischerweise	ironischerweise	ADV	ADV	_	_	-1	2	_	MO	_	_
+2	wäre	sein	sein	VAFIN	VAFIN	_	sg|3|past|subj	-1	0	_	--	_	_
+3	die	die	die	ART	ART	_	nom|sg|fem	-1	2	_	SB	_	_
+4	perfekt	perfekt	perfekt	ADJD	ADJD	_	pos	-1	2	_	PD	_	_
+5	für	für	für	APPR	APPR	_	_	-1	4	_	MO	_	_
+6	die	die	die	ART	ART	_	acc|sg|fem	-1	8	_	NK	_	_
+7	Politik.	Politik.	Politik.	ADJA	ADJA	_	acc|sg|fem|pos	-1	8	_	NK	_	_
+8	illner	illner	illner	NN	NN	_	acc|sg|fem	-1	5	_	NK	_	_
+
+	id	359990870604394498
+	time	Wed Jul 24 12:58:06 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @hdBerretz: 	replacement		info_end
+	replace	offset	0	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	8	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	110	length	0	num	6	orig	 http://t.c	replacement		info_end
+	sentence_start	0	51	65
+	token_offsets	sentence	0	offsets	0::5	6::1	8::3	12::4	17::5	23::11	35::3	39::3	43::6	49::1
+	token_offsets	sentence	1	offsets	51::8	60::2	62::1	63::1
+	token_offsets	sentence	2	offsets	65::10	75::1	77::4	82::3	86::10	97::12	109::4
+1	grüne	grün	grün	ADJA	ADJA	_	nom|pl|masc|pos	-1	4	_	SB	_	_
+2	&	&	&	KON	KON	_	_	-1	1	_	CD	_	_
+3	spd	spd	spd	ADJA	ADJA	_	_	-1	2	_	CJ	_	_
+4	sind	sein	sein	VAFIN	VAFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+5	keine	keine	keine	PIAT	PIAT	_	nom|sg|fem	-1	6	_	NK	_	_
+6	Alternative	Alternative	Alternative	NN	NN	_	nom|sg|fem	-1	4	_	PD	_	_
+7	für	für	für	APPR	APPR	_	_	-1	6	_	MNR	_	_
+8	die	die	die	ART	ART	_	acc|pl|masc	-1	9	_	NK	_	_
+9	Wähler	Wähler	Wähler	NN	NN	_	acc|pl|masc	-1	7	_	NK	_	_
+10	!	!	!	$.	$.	_	_	-1	9	_	--	_	_
+
+1	Zusammen	zusammen	zusammen	ADV	ADV	_	_	-1	2	_	MO	_	_
+2	34	@card@	@card@	CARD	CARD	_	_	-1	3	_	NK	_	_
+3	%	%	%	NN	NN	_	*|*|neut	-1	0	_	--	_	_
+4	!	!	!	$.	$.	_	_	-1	3	_	--	_	_
+
+1	Abgestraft	abstrafen	abstrafen	VVPP	VVPP	_	_	-1	7	_	MO	_	_
+2	,	,	,	$,	$,	_	_	-1	1	_	--	_	_
+3	weil	weil	weil	KOUS	KOUS	_	_	-1	6	_	CP	_	_
+4	sie	sie	sie	PPER	PPER	_	nom|pl|masc|3	-1	6	_	SB	_	_
+5	Opposition	Opposition	Opposition	NN	NN	_	acc|sg|fem	-1	6	_	OA	_	_
+6	verweigerten	verweigern	verweigern	VVFIN	VVFIN	_	pl|3|past|ind	-1	1	_	MO	_	_
+7	!...	!...	!...	ADJA	ADJA	_	acc|sg|masc|pos	-1	0	_	--	_	_
+
+	id	376981379545718784
+	time	Mon Sep 09 10:12:19 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @rheto: 	replacement		info_end
+	replace	offset	44	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	48	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	52	length	0	num	6	orig	#	replacement		info_end
+	replace	offset	56	length	0	num	8	orig	#	replacement		info_end
+	sentence_start	0	63	92
+	token_offsets	sentence	0	offsets	0::3	4::3	8::3	12::7	20::3	24::15	40::3	44::3	48::3	52::3	56::5	61::1
+	token_offsets	sentence	1	offsets	63::3	67::10	78::3	82::8	90::1
+	token_offsets	sentence	2	offsets	92::5	98::9	108::3	112::5	118::6	124::3
+1	Und	und	und	KON	KON	_	_	-1	3	_	JU	_	_
+2	was	was	was	PIS	PIS	_	nom|sg|neut	-1	3	_	SB	_	_
+3	ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+4	nochmal	nochmal	nochmal	ADV	ADV	_	_	-1	3	_	MO	_	_
+5	ein	eine	eine	ART	ART	_	nom|sg|masc	-1	6	_	NK	_	_
+6	Leistungsträger	Leistungsträger	Leistungsträger	NN	NN	_	nom|sg|masc	-1	3	_	PD	_	_
+7	für	für	für	APPR	APPR	_	_	-1	6	_	MNR	_	_
+8	CDU	CDU	CDU	NE	NE	_	nom|sg|fem	-1	9	_	PNC	_	_
+9	SPD	SPD	SPD	NE	NE	_	nom|sg|fem	-1	11	_	AG	_	_
+10	FDP	FDP	FDP	NE	NE	_	nom|sg|fem	-1	9	_	NK	_	_
+11	Grüne	Grüne	Grüne	NN	NN	_	nom|sg|fem	-1	7	_	NK	_	_
+12	?	?	?	$.	$.	_	_	-1	11	_	--	_	_
+
+1	Wie	wie	wie	KOUS	KOUS	_	_	-1	2	_	MO	_	_
+2	definieren	definieren	definieren	VVFIN	VVFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+3	die	die	die	ART	ART	_	acc|sg|fem	-1	4	_	NK	_	_
+4	Leistung	Leistung	Leistung	NN	NN	_	acc|sg|fem	-1	2	_	OA	_	_
+5	?	?	?	$.	$.	_	_	-1	4	_	--	_	_
+
+1	Wieso	wieso	wieso	PWAV	PWAV	_	_	-1	2	_	MO	_	_
+2	antwortet	antworten	antworten	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+3	von	von	von	APPR	APPR	_	_	-1	5	_	PG	_	_
+4	denen	die	die	PDS	PDS	_	dat|pl|*	-1	3	_	NK	_	_
+5	keiner	keine	keine	PIS	PIS	_	nom|sg|masc	-1	2	_	SB	_	_
+6	...	...	...	$.	$.	_	_	-1	5	_	--	_	_
+
+	id	356738471186018304
+	time	Mon Jul 15 13:34:14 +0000 2013
+	replace	offset	106	length	0	num	0	orig	 http://t.co/YdcRfknlcz	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::6	7::5	13::3	17::5	23::11	35::2	38::7	45::1	46::10	56::1	58::14	73::6	80::4	85::3	89::10	100::6
+1	Rainer	Rainer	Rainer	NE	NE	_	nom|sg|masc	-1	5	_	PNC	_	_
+2	Deppe	Deppe	Deppe	TRUNC	TRUNC	_	nom|sg|masc	-1	3	_	CJ	_	_
+3	und	und	und	KON	KON	_	_	-1	5	_	CD	_	_
+4	Josef	Josef	Josef	NE	NE	_	nom|sg|masc	-1	5	_	PNC	_	_
+5	Hovenjürgen	Hovenjürgen	Hovenjürgen	NE	NE	_	nom|sg|masc	-1	13	_	SB	_	_
+6	zu	zu	zu	APPR	APPR	_	_	-1	11	_	MO	_	_
+7	Bergbau	Bergbau	Bergbau	NN	NN	_	dat|sg|masc	-1	6	_	NK	_	_
+8	-	-	-	$(	$(	_	_	-1	7	_	--	_	_
+9	Sondermüll	Sondermüll	Sondermüll	NN	NN	_	dat|sg|masc	-1	7	_	CJ	_	_
+10	:	:	:	$.	$.	_	_	-1	9	_	--	_	_
+11	Umweltminister	Umweltminister	Umweltminister	NN	NN	_	nom|sg|masc	-1	5	_	PAR	_	_
+12	Remmel	Remmel	Remmel	NN	NN	_	nom|sg|masc	-1	11	_	NK	_	_
+13	muss	müssen	müssen	VMFIN	VMFIN	_	sg|3|past|ind	-1	0	_	--	_	_
+14	für	für	für	APPR	APPR	_	_	-1	16	_	OP	_	_
+15	Aufklärung	Aufklärung	Aufklärung	NN	NN	_	acc|sg|fem	-1	14	_	NK	_	_
+16	sorgen	sorgen	sorgen	VVFIN	VVFIN	_	_	-1	13	_	OC	_	_
+
+	id	370594419948257280
+	time	Thu Aug 22 19:12:49 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @Wahlalternativ1: 	replacement		info_end
+	replace	offset	82	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	87	length	0	num	4	orig	#	replacement		info_end
+	replace	offset	92	length	0	num	6	orig	#	replacement		info_end
+	replace	offset	97	length	0	num	8	orig	 http://t.co/BAV	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::4	4::1	5::7	12::1	14::11	26::8	35::4	40::5	46::5	52::3	56::7	64::5	70::4	75::6	82::3	85::1	87::4	92::5	97::3
+1	Euro	Euro	Euro	NN	NN	_	nom|sg|*	-1	6	_	SB	_	_
+2	-	-	-	$(	$(	_	_	-1	1	_	--	_	_
+3	Rettung	Rettung	Rettung	NN	NN	_	acc|sg|fem	-1	1	_	CJ	_	_
+4	:	:	:	$.	$.	_	_	-1	3	_	--	_	_
+5	Deutschland	Deutschland	Deutschland	NE	NE	_	nom|sg|neut	-1	1	_	SB	_	_
+6	ruiniert	ruinieren	ruinieren	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+7	sich	sich	sich	PRF	PRF	_	acc|sg|3	-1	6	_	OA	_	_
+8	Klare	klar	klar	ADJA	ADJA	_	acc|pl|neut|pos	-1	9	_	NK	_	_
+9	Worte	Wort	Wort	NN	NN	_	acc|pl|neut	-1	6	_	OA	_	_
+10	von	von	von	APPR	APPR	_	_	-1	9	_	PG	_	_
+11	Richard	Richard	Richard	NE	NE	_	nom|sg|masc	-1	12	_	PNC	_	_
+12	Sulík	Sulík	Sulík	NE	NE	_	dat|sg|masc	-1	10	_	NK	_	_
+13	ZEIT	zeit	zeit	APPR	APPR	_	dat|sg|masc	-1	6	_	MO	_	_
+14	ONLINE	ONLINE	ONLINE	NE	NE	_	*|*|*	-1	15	_	PNC	_	_
+15	AfD	AfD	AfD	NN	NN	_	*|*|*	-1	13	_	NK	_	_
+16	+	+	+	KON	KON	_	_	-1	15	_	CD	_	_
+17	Euro	Euro	Euro	NN	NN	_	*|*|*	-1	16	_	CJ	_	_
+18	BTW13	BTW13	BTW13	NN	NN	_	dat|sg|neut	-1	17	_	NK	_	_
+19	...	...	...	$.	$.	_	_	-1	18	_	--	_	_
+
+	id	347363534184800256
+	time	Wed Jun 19 16:41:34 +0000 2013
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::4	5::3	9::6	16::9	26::5	32::6	39::4	44::11	56::3	60::2	63::7	70::1	72::4	77::6
+1	chef	Chef	Chef	NN	NN	_	nom|sg|masc	-1	7	_	SB	_	_
+2	der	die	die	ART	ART	_	gen|sg|fem	-1	6	_	NK	_	_
+3	jungen	jung	jung	ADJA	ADJA	_	gen|sg|fem|pos	-1	6	_	NK	_	_
+4	liberalen	liberal	liberal	ADJA	ADJA	_	gen|sg|fem|pos	-1	6	_	NK	_	_
+5	lasse	laß	laß	ADJA	ADJA	_	sg|3|pres|subj	-1	6	_	NK	_	_
+6	becker	becker	becker	NN	NN	_	nom|sg|masc	-1	1	_	AG	_	_
+7	will	wollen	wollen	VMFIN	VMFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+8	rentenalter	rentenalter	rentenalter	ADJD	ADJD	_	pos	-1	11	_	MO	_	_
+9	auf	auf	auf	APPR	APPR	_	_	-1	11	_	MO	_	_
+10	75	75	75	CARD	CARD	_	_	-1	9	_	NK	_	_
+11	erhöhen	erhöhen	erhöhen	VVINF	VVINF	_	_	-1	7	_	OC	_	_
+12	.	.	.	$.	$.	_	_	-1	11	_	--	_	_
+13	welt	welt	welt	ADJA	ADJA	_	sg|3|pres|ind	-1	11	_	MO	_	_
+14	online	online	online	ADJA	ADJA	_	_	-1	11	_	MO	_	_
+
+	id	374589708040687616
+	time	Mon Sep 02 19:48:40 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @klauspeukert: 	replacement		info_end
+	replace	offset	13	length	0	num	2	orig	@	replacement		info_end
+	replace	offset	13	length	5	num	4	orig	pirat_mel	replacement	%User	info_end
+	replace	offset	100	length	0	num	6	orig	 http://t.co/Vmh	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::2	2::1	4::4	9::3	13::5	19::7	26::1	28::4	33::3	37::3	41::8	50::3	54::3	58::3	62::4	67::6	74::5	79::1	81::4	86::3	90::6	97::2	99::4
+1	Na	na	na	ITJ	ITJ	_	_	-1	19	_	DM	_	_
+2	,	,	,	$,	$,	_	_	-1	1	_	--	_	_
+3	wenn	wenn	wenn	KOUS	KOUS	_	_	-1	6	_	CP	_	_
+4	die	die	die	ART	ART	_	nom|sg|fem	-1	5	_	NK	_	_
+5	pirat_mel	%User	%User	NE	NE	_	nom|sg|fem	-1	6	_	SB	_	_
+6	erfährt	erfahren	erfahren	VVFIN	VVFIN	_	sg|3|pres|ind	-1	19	_	MO	_	_
+7	,	,	,	$,	$,	_	_	-1	6	_	--	_	_
+8	dass	dass	dass	KOUS	KOUS	_	_	-1	17	_	CP	_	_
+9	sie	sie	sie	PPER	PPER	_	nom|sg|fem|3	-1	17	_	SB	_	_
+10	mit	mit	mit	APPR	APPR	_	_	-1	12	_	MO	_	_
+11	jemandem	jemand	jemand	PIS	PIS	_	dat|sg|masc	-1	10	_	NK	_	_
+12	von	von	von	APPR	APPR	_	_	-1	17	_	MO	_	_
+13	der	die	die	ART	ART	_	dat|sg|fem	-1	14	_	NK	_	_
+14	AfD	AfD	AfD	NN	NN	_	dat|sg|fem	-1	12	_	NK	_	_
+15	aufm	aufm	aufm	NE	NE	_	nom|sg|neut	-1	14	_	NK	_	_
+16	Podium	Podium	Podium	NN	NN	_	nom|sg|neut	-1	17	_	OA	_	_
+17	sitzt	sitzen	sitzen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	6	_	MO	_	_
+18	,	,	,	$,	$,	_	_	-1	17	_	--	_	_
+19	sagt	sagen	sagen	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+20	sie	sie	sie	PPER	PPER	_	nom|sg|fem|3	-1	19	_	SB	_	_
+21	sicher	sicher	sicher	ADJD	ADJD	_	pos	-1	19	_	MO	_	_
+22	ab	ab	ab	APPR	APPR	_	_	-1	19	_	MO	_	_
+23	....	....	....	ADJA	ADJA	_	pos	-1	22	_	NK	_	_
+
+	id	366157569347158016
+	time	Sat Aug 10 13:22:22 +0000 2013
+	replace	offset	28	length	0	num	0	orig	#	replacement		info_end
+	replace	offset	32	length	0	num	2	orig	#	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::4	5::5	11::3	15::4	20::2	23::4	28::3	32::12
+1	Ohne	ohne	ohne	APPR	APPR	_	_	-1	6	_	MO	_	_
+2	Armut	Armut	Armut	NN	NN	_	acc|sg|fem	-1	1	_	NK	_	_
+3	nur	nur	nur	ADV	ADV	_	_	-1	4	_	MO	_	_
+4	halb	halb	halb	ADJD	ADJD	_	pos	-1	5	_	MO	_	_
+5	so	so	so	ADV	ADV	_	_	-1	6	_	MO	_	_
+6	sexy	sexy	sexy	ADJD	ADJD	_	pos	-1	8	_	MO	_	_
+7	fdp	fdp	fdp	NN	NN	_	_	-1	8	_	OA	_	_
+8	ehrlichewahl	ehrlichewahl	ehrlichewahl	ADJA	ADJA	_	_	-1	0	_	--	_	_
+
+	id	378860298889084928
+	time	Sat Sep 14 14:38:28 +0000 2013
+	replace	offset	0	length	5	num	0	orig	http://t.co/pOVkjM2U5a	replacement	%Link	info_end
+	replace	offset	6	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	71	length	0	num	4	orig	 http://t.co/e06iQk69er	replacement		info_end
+	sentence_start	0	61
+	token_offsets	sentence	0	offsets	0::5	6::2	9::1	10::3	14::5	20::2	23::4	28::6	35::9	45::4	50::9	59::1
+	token_offsets	sentence	1	offsets	61::1	63::3	67::4
+1	%Link	%Link	%Link	XY	XY	_	*|*|*	-1	4	_	NK	_	_
+2	de	de	de	FM	FM	_	*|*|*	-1	1	_	UC	_	_
+3	"	"	"	$(	$(	_	*|*|*	-1	4	_	--	_	_
+4	Wir	wir	wir	PPER	PPER	_	nom|pl|*|1	-1	5	_	SB	_	_
+5	haben	haben	haben	VAFIN	VAFIN	_	pl|1|pres|ind	-1	0	_	--	_	_
+6	zu	zu	zu	APPR	APPR	_	_	-1	5	_	MO	_	_
+7	Frau	Frau	Frau	NN	NN	_	*|*|*	-1	8	_	PNC	_	_
+8	Merkel	Merkel	Merkel	NE	NE	_	*|*|*	-1	6	_	NK	_	_
+9	eindeutig	eindeutig	eindeutig	ADJD	ADJD	_	pos	-1	10	_	MO	_	_
+10	kein	keine	keine	PIAT	PIAT	_	acc|sg|neut	-1	11	_	NK	_	_
+11	Vertrauen	Vertrauen	Vertrauen	NN	NN	_	acc|sg|neut	-1	5	_	OA	_	_
+12	"	"	"	$(	$(	_	_	-1	11	_	--	_	_
+
+1	-	-	-	$(	$(	_	_	-1	2	_	--	_	_
+2	DIE	die	die	PRELS	PRELS	_	*|*|*	-1	3	_	NK	_	_
+3	WELT	WELT	WELT	NE	NE	_	*|*|*	-1	0	_	--	_	_
+
+	id	373760371258970112
+	time	Sat Aug 31 12:53:11 +0000 2013
+	replace	offset	72	length	0	num	0	orig	 http://t.co/bt6VuLdmBO	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::1	1::3	5::7	13::5	19::4	24::5	30::2	33::5	39::6	46::3	50::12	63::3	67::3	70::1	71::1
+1	"	"	"	$(	$(	_	_	-1	2	_	--	_	_
+2	Die	die	die	ART	ART	_	nom|pl|neut	-1	3	_	NK	_	_
+3	Piraten	Pirat	Pirat	NN	NN	_	nom|pl|neut	-1	4	_	SB	_	_
+4	haben	haben	haben	VAFIN	VAFIN	_	pl|3|pres|ind	-1	0	_	--	_	_
+5	eben	eben	eben	ADV	ADV	_	_	-1	6	_	MO	_	_
+6	genau	genau	genau	ADJD	ADJD	_	pos	-1	7	_	MO	_	_
+7	so	so	so	ADV	ADV	_	_	-1	8	_	MO	_	_
+8	wenig	wenige	wenige	PIAT	PIAT	_	*|*|*	-1	9	_	NK	_	_
+9	Ahnung	Ahnung	Ahnung	NN	NN	_	nom|sg|fem	-1	4	_	SB	_	_
+10	vom	von	von	APPRART	APPRART	_	dat|sg|neut	-1	9	_	MNR	_	_
+11	Urheberrecht	Urheberrecht	Urheberrecht	NN	NN	_	dat|sg|neut	-1	10	_	NK	_	_
+12	wie	wie	wie	KOKOM	KOKOM	_	_	-1	13	_	CM	_	_
+13	wir	wir	wir	PPER	PPER	_	nom|pl|*|1	-1	7	_	CC	_	_
+14	"	"	"	$(	$(	_	_	-1	13	_	--	_	_
+15	.	.	.	$.	$.	_	_	-1	14	_	--	_	_
+
+	id	353264852187357184
+	time	Fri Jul 05 23:31:18 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @MrOskato: 	replacement		info_end
+	replace	offset	42	length	0	num	2	orig	@	replacement		info_end
+	replace	offset	42	length	5	num	4	orig	Piratenpartei	replacement	%User	info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::5	6::3	10::7	18::6	24::1	26::3	30::3	34::6	40::1	42::5	48::1
+1	Nicht	nicht	nicht	PTKNEG	PTKNEG	_	_	-1	4	_	NG	_	_
+2	den	die	die	ART	ART	_	acc|sg|masc	-1	3	_	NK	_	_
+3	Ängsten	Angst	Angst	NN	NN	_	acc|sg|masc	-1	4	_	DA	_	_
+4	folgen	folgen	folgen	VVFIN	VVFIN	_	_	-1	10	_	NK	_	_
+5	,	,	,	$,	$,	_	_	-1	4	_	--	_	_
+6	den	die	die	ART	ART	_	acc|sg|masc	-1	7	_	NK	_	_
+7	Mut	Mut	Mut	NN	NN	_	acc|sg|masc	-1	8	_	OA	_	_
+8	wählen	wählen	wählen	VVINF	VVINF	_	_	-1	4	_	CJ	_	_
+9	:	:	:	$.	$.	_	_	-1	8	_	--	_	_
+10	Piratenpartei	%User	%User	NE	NE	_	acc|sg|fem	-1	0	_	--	_	_
+11	!	!	!	$.	$.	_	_	-1	10	_	--	_	_
+
+	id	367295849074003969
+	time	Tue Aug 13 16:45:29 +0000 2013
+	replace	offset	3	length	0	num	0	orig	@	replacement		info_end
+	replace	offset	3	length	5	num	2	orig	5Barrels	replacement	%User	info_end
+	replace	offset	94	length	0	num	4	orig	#	replacement		info_end
+	sentence_start	0	94
+	token_offsets	sentence	0	offsets	0::2	3::5	8::1	10::8	18::1	20::3	24::3	28::15	44::3	48::7	56::3	60::3	64::6	71::8	80::3	84::8	92::1
+	token_offsets	sentence	1	offsets	94::3	97::1
+1	RT	RT	RT	NE	NE	_	nom|sg|*	-1	2	_	PNC	_	_
+2	5Barrels	%User	%User	NE	NE	_	nom|sg|*	-1	4	_	SB	_	_
+3	:	:	:	$.	$.	_	_	-1	2	_	--	_	_
+4	verdammt	verdammen	verdammen	VVPP	VVPP	_	sg|3|pres|ind	-1	6	_	SB	_	_
+5	,	,	,	$,	$,	_	_	-1	4	_	--	_	_
+6	ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+7	das	die	die	PDS	PDS	_	nom|sg|neut	-1	6	_	SB	_	_
+8	unübersichtlich	unübersichtlich	unübersichtlich	ADJD	ADJD	_	pos	-1	6	_	PD	_	_
+9	bei	bei	bei	APPR	APPR	_	_	-1	6	_	MO	_	_
+10	Twitter	Twitter	Twitter	NN	NN	_	dat|sg|masc	-1	9	_	NK	_	_
+11	mit	mit	mit	APPR	APPR	_	_	-1	10	_	MNR	_	_
+12	den	die	die	ART	ART	_	dat|pl|*	-1	14	_	NK	_	_
+13	ganzen	ganz	ganz	ADJA	ADJA	_	dat|pl|*|pos	-1	14	_	NK	_	_
+14	Mentions	Mentions	Mentions	NN	NN	_	dat|pl|*	-1	11	_	NK	_	_
+15	und	und	und	KON	KON	_	_	-1	14	_	CD	_	_
+16	Retweets	Retweets	Retweets	NN	NN	_	dat|pl|masc	-1	15	_	CJ	_	_
+17	.	.	.	$.	$.	_	_	-1	16	_	--	_	_
+
+1	AfD	AfD	AfD	ADJA	ADJA	_	_	-1	0	_	--	_	_
+2	-	-	-	$(	$(	_	_	-1	1	_	--	_	_
+
+	id	374405621527085056
+	time	Mon Sep 02 07:37:10 +0000 2013
+	replace	offset	123	length	0	num	0	orig	#	replacement		info_end
+	sentence_start	0
+	token_offsets	sentence	0	offsets	0::3	4::1	5::5	10::1	12::14	27::3	31::4	36::5	42::7	49::1	51::3	55::2	58::4	63::2	66::5	72::17	90::10	101::3	105::11	117::5	123::7
+1	Ein	eine	eine	ART	ART	_	nom|sg|neut	-1	3	_	NK	_	_
+2	"	"	"	$(	$(	_	_	-1	3	_	--	_	_
+3	Duell	Duell	Duell	NN	NN	_	nom|sg|neut	-1	5	_	SB	_	_
+4	"	"	"	$(	$(	_	_	-1	3	_	--	_	_
+5	personalisiert	personalisiert	personalisiert	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+6	auf	auf	auf	APPR	APPR	_	_	-1	5	_	MO	_	_
+7	eine	eine	eine	ART	ART	_	acc|sg|fem	-1	8	_	NK	_	_
+8	Weise	Weise	Weise	NN	NN	_	acc|sg|fem	-1	6	_	NK	_	_
+9	Politik	Politik	Politik	NN	NN	_	acc|sg|fem	-1	5	_	OA	_	_
+10	,	,	,	$,	$,	_	_	-1	9	_	--	_	_
+11	die	die	die	PRELS	PRELS	_	nom|sg|fem	-1	19	_	SB	_	_
+12	am	an	an	APPRART	APPRART	_	dat|sg|neut	-1	19	_	MO	_	_
+13	Ende	Ende	Ende	NN	NN	_	dat|sg|neut	-1	12	_	NK	_	_
+14	in	in	in	APPR	APPR	_	_	-1	19	_	MO	_	_
+15	einer	eine	eine	ART	ART	_	dat|sg|fem	-1	17	_	NK	_	_
+16	parlamentarischen	parlamentarisch	parlamentarisch	ADJA	ADJA	_	dat|sg|fem|pos	-1	17	_	NK	_	_
+17	Demokratie	Demokratie	Demokratie	NN	NN	_	dat|sg|fem	-1	14	_	NK	_	_
+18	nur	nur	nur	ADV	ADV	_	_	-1	19	_	MO	_	_
+19	enttäuschen	enttäuschen	enttäuschen	VVFIN	VVFIN	_	_	-1	9	_	RC	_	_
+20	kann.	kann.	kann.	NE	NE	_	acc|sg|*	-1	19	_	SB	_	_
+21	tvduell	tvduell	tvduell	ADJD	ADJD	_	pos	-1	19	_	MO	_	_
+
+	id	372362703232585728
+	time	Tue Aug 27 16:19:21 +0000 2013
+	replace	offset	0	length	0	num	0	orig	RT @RenateKuenast: 	replacement		info_end
+	replace	offset	88	length	0	num	2	orig	#	replacement		info_end
+	replace	offset	105	length	0	num	4	orig	 http://t.co/VH	replacement		info_end
+	sentence_start	0	101
+	token_offsets	sentence	0	offsets	0::13	14::3	18::12	31::5	36::1	38::5	44::3	48::8	57::16	74::4	79::4	84::3	88::6	94::1	95::4	99::1
+	token_offsets	sentence	1	offsets	101::1	102::1	103::2	105::3
+1	Unterstützung	Unterstützung	Unterstützung	NN	NN	_	nom|sg|fem	-1	6	_	OA	_	_
+2	von	von	von	APPR	APPR	_	_	-1	1	_	PG	_	_
+3	unerwarteter	unerwartet	unerwartet	ADJA	ADJA	_	dat|sg|fem|pos	-1	4	_	NK	_	_
+4	Seite	Seite	Seite	NN	NN	_	dat|sg|fem	-1	2	_	NK	_	_
+5	:	:	:	$.	$.	_	_	-1	4	_	--	_	_
+6	Einer	eine	eine	PIS	PIS	_	gen|pl|masc	-1	10	_	SB	_	_
+7	der	die	die	ART	ART	_	gen|pl|masc	-1	9	_	NK	_	_
+8	grössten	groß	groß	ADJA	ADJA	_	gen|pl|masc|sup	-1	9	_	NK	_	_
+9	Wurstproduzenten	Wurstproduzent	Wurstproduzent	NN	NN	_	gen|pl|masc	-1	6	_	AG	_	_
+10	lobt	loben	loben	VVFIN	VVFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+11	Idee	Idee	Idee	NN	NN	_	acc|sg|fem	-1	10	_	OA	_	_
+12	des	die	die	ART	ART	_	gen|sg|masc	-1	13	_	NK	_	_
+13	Veggie	Veggie	Veggie	NN	NN	_	acc|sg|fem	-1	11	_	AG	_	_
+14	-	-	-	$(	$(	_	_	-1	13	_	--	_	_
+15	Days	Days	Days	NE	NE	_	gen|sg|neut	-1	13	_	AG	_	_
+16	.	.	.	$.	$.	_	_	-1	15	_	--	_	_
+
+1	/	/	/	$(	$(	_	_	-1	3	_	--	_	_
+2	/	/	/	$(	$(	_	_	-1	1	_	--	_	_
+3	TR	TR	TR	NE	NE	_	_	-1	0	_	--	_	_
+4	...	...	...	$.	$.	_	_	-1	3	_	--	_	_
+
+	id	356881824250740738
+	time	Mon Jul 15 23:03:52 +0000 2013
+	replace	offset	65	length	10	num	0	orig	:-(	replacement	%NegSmiley	info_end
+	replace	offset	132	length	10	num	2	orig	:-)))	replacement	%PosSmiley	info_end
+	sentence_start	0	6	65	100	132
+	token_offsets	sentence	0	offsets	0::4	4::1
+	token_offsets	sentence	1	offsets	6::5	12::4	17::3	21::6	28::5	34::6	41::3	45::7	53::10	63::1
+	token_offsets	sentence	2	offsets	65::10	76::3	80::4	85::5	91::7	98::1
+	token_offsets	sentence	3	offsets	100::2	103::3	107::4	112::2	115::6	122::8	130::1
+	token_offsets	sentence	4	offsets	132::10
+1	Mist	Mist	Mist	NN	NN	_	nom|sg|masc	-1	0	_	--	_	_
+2	.	.	.	$.	$.	_	_	-1	1	_	--	_	_
+
+1	Jetzt	jetzt	jetzt	ADV	ADV	_	_	-1	9	_	MO	_	_
+2	habe	haben	haben	VAFIN	VAFIN	_	sg|1|pres|ind	-1	0	_	--	_	_
+3	ich	ich	ich	PPER	PPER	_	nom|sg|*|1	-1	2	_	SB	_	_
+4	gerade	gerade	gerade	ADV	ADV	_	_	-1	9	_	MO	_	_
+5	einen	eine	eine	ART	ART	_	acc|sg|masc	-1	6	_	NK	_	_
+6	Linken	Linke	Linke	NN	NN	_	acc|sg|masc	-1	9	_	OA	_	_
+7	als	als	als	KOKOM	KOKOM	_	_	-1	6	_	CD	_	_
+8	Piraten	Pirat	Pirat	NN	NN	_	acc|sg|masc	-1	7	_	NK	_	_
+9	beschimpft	beschimpfen	beschimpfen	VVPP	VVPP	_	_	-1	2	_	OC	_	_
+10	.	.	.	$.	$.	_	_	-1	9	_	--	_	_
+
+1	%NegSmiley	%NegSmiley	%NegSmiley	ITJ	ITJ	_	_	-1	3	_	DM	_	_
+2	Ist	sein	sein	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+3	aber	aber	aber	ADV	ADV	_	_	-1	2	_	MO	_	_
+4	nicht	nicht	nicht	PTKNEG	PTKNEG	_	_	-1	2	_	NG	_	_
+5	schlimm	schlimm	schlimm	ADJD	ADJD	_	pos	-1	2	_	PD	_	_
+6	.	.	.	$.	$.	_	_	-1	5	_	--	_	_
+
+1	Er	er	er	PPER	PPER	_	nom|sg|masc|3	-1	2	_	SB	_	_
+2	hat	haben	haben	VAFIN	VAFIN	_	sg|3|pres|ind	-1	0	_	--	_	_
+3	mich	ich	ich	PRF	PRF	_	acc|sg|*|1	-1	6	_	OA	_	_
+4	eh	eh	eh	ADV	ADV	_	_	-1	6	_	MO	_	_
+5	vorher	vorher	vorher	ADV	ADV	_	_	-1	6	_	MO	_	_
+6	geblockt	blocken	blocken	VVPP	VVPP	_	_	-1	2	_	OC	_	_
+7	.	.	.	$.	$.	_	_	-1	6	_	--	_	_
+
+1	%PosSmiley	%PosSmiley	%PosSmiley	ITJ	ITJ	_	_	-1	0	_	NK	_	_
+

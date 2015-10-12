@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/source">
+<markable id="markable_100500189" span="word_895" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_119" span="word_846" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_100500194" span="word_56" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_100500193" span="word_702..word_708" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_100500204" span="word_115" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_56" span="word_1710" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_150" span="word_437..word_438" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_66" span="word_1505" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_151" span="word_440" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_163" span="word_301" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_86" span="word_1265..word_1266" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_78" span="word_1334" mmax_level="source"  anaphref="empty"  sentiment_ref="sentiment:markable_74" />
+<markable id="markable_137" span="word_636..word_637" mmax_level="source"  anaphref="empty"  sentiment_ref="sentiment:markable_136" />
+<markable id="markable_71" span="word_1334" mmax_level="source"  anaphref="empty"  sentiment_ref="sentiment:markable_70" />
+<markable id="markable_100500181" span="word_1632" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_135" span="word_631..word_632" mmax_level="source"  anaphref="empty"  sentiment_ref="sentiment:markable_133" />
+</markables>

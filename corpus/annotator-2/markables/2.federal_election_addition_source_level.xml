@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/source">
+<markable id="markable_308" span="word_1965" mmax_level="source"  anaphref="empty"  sentiment_ref="sentiment:markable_304" />
+<markable id="markable_277" span="word_1687" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_230" span="word_1414" mmax_level="source"  anaphref="empty"  sentiment_ref="sentiment:markable_229" />
+<markable id="markable_238" span="word_1440" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_273" span="word_1677" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_83" span="word_544" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_141" span="word_944..word_945" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_11" span="word_58" mmax_level="source"  anaphref="markable_10"  sentiment_ref="empty" />
+<markable id="markable_10" span="word_56" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_281" span="word_1783" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_169" span="word_1124..word_1125" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_313" span="word_2069..word_2070" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_60" span="word_398" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_329" span="word_98..word_99" mmax_level="source"  anaphref="empty"  sentiment_ref="sentiment:markable_328" />
+<markable id="markable_249" span="word_1528" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_269" span="word_1631" mmax_level="source"  anaphref="empty"  sentiment_ref="sentiment:markable_268" />
+<markable id="markable_224" span="word_1401" mmax_level="source"  anaphref="empty"  sentiment_ref="sentiment:markable_223" />
+<markable id="markable_225" span="word_1402" mmax_level="source"  anaphref="markable_224"  sentiment_ref="sentiment:markable_223" />
+<markable id="markable_260" span="word_1588..word_1589" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_5" span="word_48" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_194" span="word_1198" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_22" span="word_98..word_99" mmax_level="source"  anaphref="empty"  sentiment_ref="sentiment:markable_325" />
+<markable id="markable_150" span="word_984" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_96" span="word_619..word_620" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_77" span="word_498" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_292" span="word_1918" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_137" span="word_888" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_179" span="word_1143..word_1146" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_300" span="word_1967..word_1969" mmax_level="source"  anaphref="empty"  sentiment_ref="sentiment:markable_299" />
+<markable id="markable_156" span="word_1021" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_318" span="word_2067" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_301" span="word_1971" mmax_level="source"  anaphref="empty"  sentiment_ref="sentiment:markable_299" />
+<markable id="markable_296" span="word_1938" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_317" span="word_2076" mmax_level="source"  anaphref="markable_318"  sentiment_ref="empty" />
+</markables>

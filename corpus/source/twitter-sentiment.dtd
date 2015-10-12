@@ -1,0 +1,78 @@
+<!--
+corpus
+  subcorpus: name, creation-time, collect-start-time, collect-end-time;
+    subsubcorpus: type: ("emotional words" | "emoticons" | "random");
+      tweet: id, time;
+        sentiment: id, polarity, intensity, sarcasm;
+          target: id;
+          source: id;
+          emo-expression: id, intensity;
+          intensifier: idref, intensity;
+          negation: idref;
+  -->
+
+
+<! ELEMENT sentiment-corpus (subcorpus)* >
+
+<! ELEMENT subcorpus (subsubcorpus)* >
+<! ATTLIST subcorpus
+   name               CDATA   #REQUIRED
+   creation-time      CDATA   #IMPLIED
+   collect-start-time CDATA   #IMPLIED
+   collect-end-time   CDATA   #IMPLIED
+   >
+
+<! ELEMENT subsubcorpus (tweet)* >
+<! ATTLIST subsubcorpus
+   type   CDATA  ("emotional words" | "emoticons" | "random")
+   >
+
+<! ELEMENT tweet (#PCDATA | sentiment)* >
+<! ATTLIST tweet
+   id     ID     #REQUIRED
+   time   CDATA  #REQUIRED
+   >
+
+<! ENTITY %SENTIMENT-ATTRS "(#PCDATA | target | source | negation |
+			    intensifier | emo-expression)">
+<! ELEMENT sentiment (%SENTIMENT-ATTRS)*>
+<! ATTLIST sentiment
+   id         IDREF  #REQUIRED
+   polarity   (positive|negative|comparison)  #REQUIRED
+   sarcasm    (true|false) "false"
+   intensity  (0|1|2)  "1"
+   sentiment_ref  IDREF #IMPLIED
+   >
+
+<! ELEMENT target (#PCDATA)>
+<! ATTLIST target
+   preference (preferred|dispreferred) #IMPLIED
+   anaphref   CDATA  #IMPLIED
+   sentiment_ref  IDREF #IMPLIED
+   >
+
+<! ELEMENT source (#PCDATA)>
+<! ATTLIST source
+   anaphref   CDATA  #IMPLIED
+   sentiment_ref  IDREF #IMPLIED
+   >
+
+<! ELEMENT negation (#PCDATA)>
+<! ATTLIST negation
+   sentiment_ref  IDREF #IMPLIED
+   >
+
+<! ELEMENT intensifier (#PCDATA)>
+<! ATTLIST intensifier
+   degree  (1|2)  #REQUIRED
+   sentiment_ref  IDREF #IMPLIED
+   >
+
+<! ELEMENT emo-expression (#PCDATA)>
+<! ATTLIST emo-expression
+   polarity   (positive|negative)  #REQUIRED
+   sarcasm    (true|false) "false"
+   intensity  (0|1|2)  "1"
+   emo_expression_ref  IDREF #IMPLIED
+   sentiment_ref  IDREF #IMPLIED
+   >

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/diminisher">
+<markable id="markable_73" span="word_713" degree="medium"  mmax_level="diminisher"  emo-expression-ref="emo-expression:markable_71" />
+<markable id="markable_100" span="word_950" degree="medium"  mmax_level="diminisher"  emo-expression-ref="emo-expression:markable_95" />
+<markable id="markable_144" span="word_1472..word_1473" degree="medium"  mmax_level="diminisher"  emo-expression-ref="emo-expression:markable_143" />
+</markables>

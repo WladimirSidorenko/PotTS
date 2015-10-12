@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/source">
+<markable id="markable_100500184" span="word_306" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_100500189" span="word_712" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_118" span="word_957..word_960" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_100500187" span="word_672" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_100500194" span="word_957..word_960" mmax_level="source"  anaphref="empty"  sentiment_ref="sentiment:markable_100500191" />
+<markable id="markable_100500195" span="word_999" mmax_level="source"  anaphref="empty"  sentiment_ref="sentiment:markable_123" />
+<markable id="markable_44" span="word_1147" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_100500190" span="word_910" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_47" span="word_1179" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_162" span="word_1329..word_1332" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_87" span="word_289" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_155" span="word_1264" mmax_level="source"  anaphref="markable_158"  sentiment_ref="empty" />
+<markable id="markable_176" span="word_1676..word_1678" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_138" span="word_1105" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_65" span="word_941..word_943" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_158" span="word_1261..word_1262" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+</markables>

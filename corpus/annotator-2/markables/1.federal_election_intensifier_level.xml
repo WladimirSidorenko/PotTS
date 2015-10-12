@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/intensifier">
+<markable id="markable_100500276" span="word_166" degree="medium"  mmax_level="intensifier"  emo-expression-ref="emo-expression:markable_24" />
+<markable id="markable_100500287" span="word_374" degree="medium"  mmax_level="intensifier"  emo-expression-ref="emo-expression:markable_100500285" />
+<markable id="markable_72" span="word_647" degree="strong"  mmax_level="intensifier"  emo-expression-ref="emo-expression:markable_71" />
+<markable id="markable_152" span="word_931" degree="medium"  mmax_level="intensifier"  emo-expression-ref="emo-expression:markable_151" />
+</markables>

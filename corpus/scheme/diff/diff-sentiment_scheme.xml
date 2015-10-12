@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotationscheme>
+  <attribute id="diff_type" name="diff_type" type="nominal_button"
+	     text="Difference type of annotation.">
+    <value id="diff_none" name="none"/>
+    <value id="diff_missing" name="missing"/>
+    <value id="diff_redundant" name="redundant"/>
+  </attribute>
+
+  <attribute id="sentiment_polarity" name="polarity" type="nominal_button"
+	     text="Polarity of sentiment">
+    <value id="value_s_polarity_pos" name="positive"/>
+    <value id="value_s_polarity_neg" name="negative"/>
+    <value id="value_s_polarity_comp" name="comparison"/>
+  </attribute>
+
+  <attribute id="sentiment_intensity" name="intensity" type="nominal_button" text="Intensity of sentiment">
+    <value id="value_sentiment_intensity_1" name="medium"/>
+    <value id="value_sentiment_intensity_0" name="weak"/>
+    <value id="value_sentiment_intensity_2" name="strong"/>
+  </attribute>
+
+  <attribute id="sentiment_sarcasm" name="sarcasm" type="nominal_button"
+	     text="Boolean value marking whether given sentiment is a sarcasm">
+    <value id="value_sentiment_sarcasm_false" name="false"/>
+    <value id="value_sentiment_sarcasm_true"  name="true"/>
+  </attribute>
+</annotationscheme>

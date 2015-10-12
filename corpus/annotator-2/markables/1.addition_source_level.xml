@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/source">
+<markable id="markable_7" span="word_24" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_100500367" span="word_1486" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_59" span="word_421" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_100500320" span="word_845..word_846" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_173" span="word_740" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_100500250" span="word_255" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_100500296" span="word_718" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_100500287" span="word_655" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_100500272" span="word_490" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_100500282" span="word_569" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+<markable id="markable_43" span="word_61" mmax_level="source"  anaphref="empty"  sentiment_ref="empty" />
+</markables>
