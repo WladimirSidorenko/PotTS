@@ -1,6 +1,8 @@
 Description
 -----------
 
+[![The MIT License](https://img.shields.io/dub/l/vibe-d.svg)](http://opensource.org/licenses/MIT)
+
 This directory contains data of the Potsdam Twitter Sentiment Corpus (PotTS).
 To open the files of this corpus, you need to download and launch [the MMAX2 annotation tool](http://mmax2.sourceforge.net/) and then select one of the *.mmax projects located
 in the directories `corpus/annotator-1/` or `corpus/annotator-2/`.
