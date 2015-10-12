@@ -1,11 +1,9 @@
 Description:
 ------------
 
-This directory contains data with the Sentiment Corpus of German
-Twitter.  To open the files of this corpus, you need to download and
-launch [the MMAX2 annotation tool](http://mmax2.sourceforge.net/) and
-then select one of the *.mmax projects located in the directories
-`corpus/annotator-1/` or `corpus/annotator-2/`.
+This directory contains data with the Potsdam Twitter Sentiment Corpus (PotTS).
+To open the files of this corpus, you need to download and launch [the MMAX2 annotation tool](http://mmax2.sourceforge.net/) and then select one of the *.mmax projects located
+in the directories `corpus/annotator-1/` or `corpus/annotator-2/`.
 
 This folder contains following files and directories:
 
