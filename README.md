@@ -28,7 +28,6 @@ This folder contains following files and directories:
   * `align.py` -- auxiliary module used for annotation alignment;
   * `alt_fio.py` -- auxiliary module for AWK-like input/output operations;
   * `conll.py` -- auxiliary module for handling CONLL sentences;
-  * `crf_evaluate.py` -- script for evaluating the accuracy of CRF model
   * `measure_corpus_agreement.py` -- script for measuring corpus
     agreement;
   * `merge_conll_mmax.py` -- script for aligning annotation from the
