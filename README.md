@@ -22,6 +22,9 @@ This folder contains the following files and directories:
   * `doc/guidelines.pdf` -- guidelines used for the annotation of the
     corpus;
 
+* `docs/` -- directory containing annotation guidelines and other
+  accompanying documents;
+
 * `scripts/` -- directory containing scripts that were used to process
   corpus data;
   * `examples/` -- directory containing examples of input files for
