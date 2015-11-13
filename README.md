@@ -19,8 +19,6 @@ This folder contains the following files and directories:
        second annotator;
   * `basedata/` and `source/` -- original corpus tokenization;
   * `custom/`, `scheme/`, and `style/` -- auxiliary MMAX2 data;
-  * `doc/guidelines.pdf` -- guidelines used for the annotation of the
-    corpus;
 
 * `docs/` -- directory containing annotation guidelines and other
   accompanying documents;
