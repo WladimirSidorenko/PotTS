@@ -26,7 +26,8 @@ ECONLLWord()    - an extension of CONLLWord with additional fields
 
 LICENSE (modified MIT):
 =======================
-Copyright (c) 2014-2015, ANONYMOUS
+Copyright (c) 2014-2015, Uladzimir Sidarenka <sidarenk at uni dash potsdam dot de>
+
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
