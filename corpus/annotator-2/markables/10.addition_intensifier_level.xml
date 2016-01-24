@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE markables SYSTEM "markables.dtd">
 <markables xmlns="www.eml.org/NameSpaces/intensifier">
-<markable degree="strong" emo-expression-ref="emo-expression:markable_98" id="markable_99" mmax_level="intensifier" span="word_860" />
-<markable degree="strong" emo-expression-ref="empty" id="markable_11" mmax_level="intensifier" span="word_59" />
+<markable id="markable_99" span="word_860" degree="strong"  mmax_level="intensifier"  emo-expression-ref="emo-expression:markable_98" />
+<markable id="markable_11" span="word_59" degree="strong"  mmax_level="intensifier"  emo-expression-ref="empty" />
 </markables>
