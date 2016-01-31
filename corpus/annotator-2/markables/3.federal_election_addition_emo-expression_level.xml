@@ -1,121 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE markables SYSTEM "markables.dtd">
 <markables xmlns="www.eml.org/NameSpaces/emo-expression">
-<markable id="markable_257" span="word_1506" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_254" span="word_1474..word_1477" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="strong"  sentiment_ref="empty" />
-<markable id="markable_102" span="word_514" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_15" span="word_89" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_18" span="word_75" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_66" span="word_333" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_12" span="word_61" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_11" span="word_58" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_105" span="word_518" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_14" span="word_73" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_69" span="word_325,word_328..word_330" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_13" span="word_68..word_69" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_62" span="word_295" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_63" span="word_302" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_64" span="word_313" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_10" span="word_44" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_65" span="word_321" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_61" span="word_288" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_249" span="word_1445" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_248" span="word_1401" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_246" span="word_1337" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_242" span="word_1331" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="sentiment:markable_240" />
-<markable id="markable_109" span="word_539" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_112" span="word_558" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_115" span="word_582" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_114" span="word_560" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_117" span="word_598" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_78" span="word_389" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_116" span="word_596" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_76" span="word_366..word_370" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_72" span="word_342" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_70" span="word_336" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_278" span="word_1815" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_8" span="word_25" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_9" span="word_29" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_273" span="word_1757" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_34" span="word_185" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_36" span="word_214" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_35" span="word_200" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_47" span="word_252" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_39" span="word_231" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_32" span="word_169,word_171" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_42" span="word_238" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_43" span="word_246" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_266" span="word_1601" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_269" span="word_1629,word_1634" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_262" span="word_1571" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_57" span="word_276" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_25" span="word_161" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_24" span="word_134" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_5" span="word_15" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_22" span="word_133" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_3" span="word_4" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_28" span="word_139" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_50" span="word_256" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_21" span="word_121" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_51" span="word_263" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_216" span="word_1218" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_210" span="word_1204" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_141" span="word_693" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_140" span="word_695" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_164" span="word_851..word_852" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_208" span="word_1162" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_165" span="word_854" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_146" span="word_709" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_168" span="word_873" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_204" span="word_1140" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_201" span="word_1106" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_171" span="word_899" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_150" span="word_736" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_174" span="word_905" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="strong"  sentiment_ref="empty" />
-<markable id="markable_178" span="word_951" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_155" span="word_760" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_158" span="word_768" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_159" span="word_786" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_232" span="word_1310" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_234" span="word_1346" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_236" span="word_1321" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="sentiment:markable_235" />
-<markable id="markable_238" span="word_1333" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="sentiment:markable_235" />
-<markable id="markable_229" span="word_1301" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_81" span="word_400" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="strong"  sentiment_ref="empty" />
-<markable id="markable_228" span="word_1293" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_80" span="word_398" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="strong"  sentiment_ref="empty" />
-<markable id="markable_120" span="word_604..word_605" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_184" span="word_1000" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_83" span="word_407" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_185" span="word_1029" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_182" span="word_959" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_89" span="word_421" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_88" span="word_418" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_281" span="word_1863" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_126" span="word_621" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_124" span="word_614" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_188" span="word_1054" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_284" span="word_1937" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_285" span="word_1952" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_122" span="word_606" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_129" span="word_647" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_223" span="word_1258" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="strong"  sentiment_ref="empty" />
-<markable id="markable_220" span="word_1249" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_90" span="word_412" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_224" span="word_1262" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_93" span="word_469" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_219" span="word_1245" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_92" span="word_451" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_130" span="word_653" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_91" span="word_442" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_131" span="word_659" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_98" span="word_492" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_192" span="word_1069" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_97" span="word_461" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_136" span="word_682" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_290" span="word_1966..word_1967" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_99" span="word_476" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_139" span="word_694" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_132" span="word_672" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  sentiment_ref="empty" />
-<markable id="markable_198" span="word_1083" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  sentiment_ref="empty" />
+<markable id="markable_257" span="word_1506" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_254" span="word_1474..word_1477" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="strong"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_102" span="word_514" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_15" span="word_89" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_18" span="word_75" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_66" span="word_333" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_12" span="word_61" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_11" span="word_58" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_105" span="word_518" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_14" span="word_73" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_69" span="word_325,word_328..word_330" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_13" span="word_68..word_69" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_62" span="word_295" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_63" span="word_302" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_64" span="word_313" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_10" span="word_44" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_65" span="word_321" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_61" span="word_288" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_249" span="word_1445" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_248" span="word_1401" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_246" span="word_1337" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_242" span="word_1331" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="sentiment:markable_240" />
+<markable id="markable_109" span="word_539" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_112" span="word_558" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_115" span="word_582" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_114" span="word_560" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_117" span="word_598" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_78" span="word_389" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_116" span="word_596" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_76" span="word_366..word_370" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_72" span="word_342" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_70" span="word_336" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_278" span="word_1815" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_8" span="word_25" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_9" span="word_29" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_273" span="word_1757" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_34" span="word_185" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_36" span="word_214" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_35" span="word_200" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_47" span="word_252" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_39" span="word_231" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_32" span="word_169,word_171" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_42" span="word_238" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_43" span="word_246" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_266" span="word_1601" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_269" span="word_1629,word_1634" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_262" span="word_1571" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_57" span="word_276" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_25" span="word_161" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_24" span="word_134" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_5" span="word_15" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_22" span="word_133" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_3" span="word_4" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_28" span="word_139" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_50" span="word_256" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_21" span="word_121" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_51" span="word_263" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_216" span="word_1218" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_210" span="word_1204" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_141" span="word_693" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_140" span="word_695" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_164" span="word_851..word_852" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_208" span="word_1162" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_165" span="word_854" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_146" span="word_709" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_168" span="word_873" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_204" span="word_1140" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_201" span="word_1106" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_171" span="word_899" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_150" span="word_736" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_174" span="word_905" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="strong"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_178" span="word_951" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_155" span="word_760" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_158" span="word_768" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_159" span="word_786" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_232" span="word_1310" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_234" span="word_1346" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_236" span="word_1321" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="sentiment:markable_235" />
+<markable id="markable_238" span="word_1333" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="sentiment:markable_235" />
+<markable id="markable_229" span="word_1301" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_81" span="word_400" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="strong"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_228" span="word_1293" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_80" span="word_398" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="strong"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_120" span="word_604..word_605" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_184" span="word_1000" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_83" span="word_407" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_185" span="word_1029" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_182" span="word_959" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_89" span="word_421" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_88" span="word_418" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_281" span="word_1863" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_126" span="word_621" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_124" span="word_614" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_188" span="word_1054" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_284" span="word_1937" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_285" span="word_1952" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_122" span="word_606" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_129" span="word_647" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_223" span="word_1258" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="strong"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_220" span="word_1249" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_90" span="word_412" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_224" span="word_1262" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_93" span="word_469" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_219" span="word_1245" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_92" span="word_451" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_130" span="word_653" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_91" span="word_442" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_131" span="word_659" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_98" span="word_492" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_192" span="word_1069" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_97" span="word_461" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_136" span="word_682" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_290" span="word_1966..word_1967" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_99" span="word_476" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_139" span="word_694" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_132" span="word_672" sarcasm="false"  mmax_level="emo-expression"  polarity="positive"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
+<markable id="markable_198" span="word_1083" sarcasm="false"  mmax_level="emo-expression"  polarity="negative"  intensity="medium"  subjective_fact="false" sentiment_ref="empty" />
 </markables>

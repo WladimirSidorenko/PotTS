@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE markables SYSTEM "markables.dtd">
 <markables xmlns="www.eml.org/NameSpaces/emo-expression">
-<markable id="markable_104013207" span="word_1861" intensity="medium"  diff_type="redundant"  mmax_level="diff-emo-expression"  sentiment_ref="empty"  sarcasm="false"  polarity="positive" />
-<markable id="markable_104013205" span="word_1852" intensity="medium"  diff_type="redundant"  mmax_level="diff-emo-expression"  sentiment_ref="empty"  sarcasm="false"  polarity="positive" />
-<markable id="markable_104013057" span="word_179" intensity="medium"  diff_type="redundant"  mmax_level="diff-emo-expression"  sentiment_ref="empty"  sarcasm="false"  polarity="positive" />
-<markable id="markable_104013060" span="word_207" intensity="medium"  diff_type="redundant"  mmax_level="diff-emo-expression"  sentiment_ref="empty"  sarcasm="false"  polarity="positive" />
-<markable id="markable_104013087" span="word_560" intensity="medium"  diff_type="redundant"  mmax_level="diff-emo-expression"  sentiment_ref="empty"  sarcasm="false"  polarity="positive" />
+<markable id="markable_104013207" span="word_1861" intensity="medium"  diff_type="redundant"  mmax_level="diff-emo-expression"  subjective_fact="false" sentiment_ref="empty"  sarcasm="false"  polarity="positive" />
+<markable id="markable_104013205" span="word_1852" intensity="medium"  diff_type="redundant"  mmax_level="diff-emo-expression"  subjective_fact="false" sentiment_ref="empty"  sarcasm="false"  polarity="positive" />
+<markable id="markable_104013057" span="word_179" intensity="medium"  diff_type="redundant"  mmax_level="diff-emo-expression"  subjective_fact="false" sentiment_ref="empty"  sarcasm="false"  polarity="positive" />
+<markable id="markable_104013060" span="word_207" intensity="medium"  diff_type="redundant"  mmax_level="diff-emo-expression"  subjective_fact="false" sentiment_ref="empty"  sarcasm="false"  polarity="positive" />
+<markable id="markable_104013087" span="word_560" intensity="medium"  diff_type="redundant"  mmax_level="diff-emo-expression"  subjective_fact="false" sentiment_ref="empty"  sarcasm="false"  polarity="positive" />
 </markables>

@@ -1,0 +1,207 @@
+\documentclass[12pt,fleqn]{scrreprt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Libraries
+\usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage[latin1]{inputenc}
+\usepackage{paperandpencil}
+\usepackage{eurosym}
+\usepackage{wasysym}   % smiley symbols
+\usepackage{multicol}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Title
+\author{Wladimir Sidorenko}
+\date{\today}
+\title{Sentiment Annotation Experiment}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Main
+\begin{document}
+\begin{center}
+{\LARGE{\bfseries Sentiment Annotation Test}}
+\end{center}
+
+\begin{flushright}
+Name: \underline{\hspace{6cm}}
+
+Surname: \underline{\hspace{6cm}}
+
+Date: \underline{\hspace{6cm}}
+\end{flushright}
+
+\section*{Definitions}
+You might find the definitions below useful when making the test:
+
+\textbf{Emo-expressions} (\textit{expressive subjective elements}) -
+lexical items with polar evaluative sense, e.g. \textit{gut,
+  schrecklich, kritisieren, zum Besten halten etc.};
+
+\textbf{Diminishers} (\textit{down-toners}) - words or phrases which
+decrease the intensity of an emo-expression term,
+e.g. \textit{weniger, bisschen, kaum etc.}
+
+\textbf{Intensifiers} - lexical elements which strengthen the polar
+evaluative sense of an emo-expression, e.g. \textit{recht, super,
+  au\ss{}erordentlich etc.}
+
+\textbf{Negations} - language elements which reverse the polarity of
+subjective meaning expressed by an ESE, e.g. \textit{nicht, kein,
+  etc.}
+
+\textbf{Sentiment} - minimal complete coherent syntactic or
+discourse-level unit that expresses a polar evaluative opinion of a
+person or organization about some particular subject, topic, or event,
+e.g. \textit{Ich hasse diese Reform}, \textit{ein ausgezeichneter
+  Film}, \textit{Meine Mutter ruft mich heulend an.  Man hat einen
+  Argentinier zum Papst gew\"ahlt.};
+
+\textbf{Source} - the immediate originator of a polar evaluative
+opinion who either directly expresses her opinion or whose opinion is
+being cited;
+
+\textbf{Target} - subject or event which is being evaluated in a
+sentiment.
+
+\section*{Test}
+\begin{enumerate}[I)]
+  {\bfseries \item Write down the names of all markable types that are
+    defined in our annotation scheme:}
+  \begin{multicols}{2}
+    \begin{enumerate}
+    \item
+    \item
+    \item
+    \item
+    \item
+    \item
+    \item
+    \end{enumerate}
+  \end{multicols}
+
+  {\bfseries\item Which tags from our annotation sheme would you assign
+    to the words shown in boldface in the following examples (select
+    none if you think that nothing applies):}
+  \begin{enumerate}
+  \item Mir \textbf{gefiel} das Spiel der deutschen Nationalelf gegen
+    Brasilien.
+    \begin{answersA}
+    \item \ebox{diminisher}
+    \item \ebox{emo-expression}
+    \item \ebox{intensifier}
+    \item \ebox{sentiment}
+    \end{answersA}
+
+  \item Ich mag ihn \textbf{sooooo} gern!!!
+    \begin{answersA}
+    \item \ebox{diminisher}
+    \item \ebox{intensifier}
+    \item \ebox{negation}
+    \item \ebox{sentiment}
+    \end{answersA}
+
+  \item Derjenige, der morgen mit der Klasse nach Bad Liebenswerde f\"ahrt,
+    \textbf{m\"oge} folgende Anweisung bitte lesen
+    \begin{answersA}
+    \item \ebox{emo-expression}
+    \item \ebox{intensifier}
+    \item \ebox{sentiment}
+    \item \ebox{target}
+    \end{answersA}
+
+  \item Ich h\"atte \textbf{es} mir gern erspart aber es ging nicht anders.
+    \begin{answersA}
+    \item \ebox{emo-expression}
+    \item \ebox{intensifier}
+    \item \ebox{sentiment}
+    \item \ebox{target}
+    \end{answersA}
+
+  \item Laut \textbf{FAZ} soll der fr\"uhere Bundespr\"asident Christian Wulff
+    scharfe Kritik an Justiz und Medien wegen ihrer Rolle in der Aff\"are
+    um ihn ge\"ubt haben.
+    \begin{answersA}
+    \item \ebox{emo-expression}
+    \item \ebox{sentiment}
+    \item \ebox{source}
+    \item \ebox{target}
+    \end{answersA}
+  \end{enumerate}
+
+  {\bfseries\item Please complete the following sentences:}
+  \begin{enumerate}
+  \item In order to decide, if a given expression forms a sentiment,
+    we should check if it fulfills the following three criterie,
+    namely if it is \underline{subjective}, \underline{\hspace{4cm}},
+    and \underline{\hspace{4cm}}.
+
+  \item The possible attributes of sentiments are
+    \underline{polarity}, \underline{\hspace{4cm}}, and
+    \underline{\hspace{4cm}}.
+
+  \item If the target of a sentiment is expressed by multiple
+    coordinatively conjoined noun phrases, we should annotate each
+    such noun phrase \underline{\hspace{4cm}}.
+
+  \item We should draw the \texttt{sentiment-ref} edge attribute for
+    source when \underline{the \texttt{source} is located at
+      the intersection of two different \texttt{sentiment}s} and
+    when \underline{\hspace{8cm}}.
+
+  \item When determining the polarity of \texttt{emo-expressions}, we
+    should \underline{\hspace{4cm}} the effect of its contextual
+    negations and modifiers.
+  \end{enumerate}
+
+  {\bfseries\item Please annotate sentiments (with square brackets
+    []), targets (with parentheses ()), and emo-expressions (with an
+    \underline{underline}) in the following examples:}
+  \begin{enumerate}
+  \item hab mir auf die Zunge gebissen :-(
+
+  \item Heute ist Welttag gegen den L\"arm ich w\"unsche euch allen
+    einen ruhigen Tag :)
+
+  \item Wollte grade was zynisches \"uber Unterschiede zwischen
+    \#Boston und \#Syrien schreiben. Finde mich selber zum kotzen. Mad
+    World.
+
+  \item Morgen mal FNP lesen \smiley{} "@JFroemmrich: Minister ohne
+    Plan, ohne Konzept, nicht den Ansatz einer Idee \#Rhein
+    http://t.co/yDCaoyY0XF
+
+  \item Wahrscheinlich hat sich die \#CSU auch schon um Justin Bieber
+    als Parteimitglied bem\"uht. \frownie{}
+
+  \item \#Browsergames: \#Bundeskampf - \#K\"ampfe f\"ur dein
+    Bundesland! Bei uns erbeutest du \#Bier und bek\"ampfst
+    \#Mitspieler: http://t.co/W1DON5OYUB
+
+  \item @iwrestledabeer @Zuckermensch @whoisxoxo naja, hab beide noch
+    nicht gesehen. und wei\ss auch nicht wirklich, ob ich sie sehen
+    will :(
+
+  \item RT @MarcusBlumberg: Finde es aber bemerkenswert, dass die SPD
+    mit aller Macht versucht, einen noch selbstzerst\"orerischen
+    Wahlkampf zu machen...
+  \end{enumerate}
+
+  {\bfseries\item Please answer the following questions:}
+
+  \question{What types of polarities do we distinguish for
+    sentiments?}\opentwo
+
+  \question{What are the main formal criteria for determining
+    boundaries of sentiment, source, and target spans?}\opentwo
+
+  \question{Should you always annotate insults as sentiments?}\opentwo
+
+  \question{In which cases should you annotate as sentiments sentences
+    which do not have any explicit evaluation expressions except for
+    the smiley at the end?}\opentwo
+
+  \question{Write down an example of a sentiment which does not have
+    any explicit emo-expression but still expresses a polar evaluative
+    judgement about a target.}\opentwo
+\end{enumerate}
+\end{document}

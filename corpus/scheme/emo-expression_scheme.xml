@@ -13,7 +13,7 @@
   </attribute>
 
   <attribute id="emo_sarcasm" name="sarcasm" type="nominal_button"
-	     text="Boolean value marking whether given emotional expression is meant sarcastically">
+	     text="Sarcasm of emotional expression">
     <value id="value_sentiment_sarcasm_false" name="false"/>
     <value id="value_sentiment_sarcasm_true"  name="true"/>
   </attribute>
@@ -26,5 +26,11 @@
 	     remove_pointer_to_markable_text="Unmark sentiment as pertaining to emotional expression">
     <value id="sentiment_ref_not_set" name="not_set"/>
     <value id="sentiment_ref_set" name="set"/>
+  </attribute>
+
+  <attribute id="sentiment_subjfact" name="subjective_fact"
+	     type="nominal_button" text="Emotional expression is meant sarcastically">
+    <value id="sentiment_subjfact_false" name="false"/>
+    <value id="sentiment_subjfact_true" name="true"/>
   </attribute>
 </annotationscheme>
