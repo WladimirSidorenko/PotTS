@@ -18,11 +18,11 @@
     <level name="source" schemefile="source_scheme.xml" customization_file="source_customization.xml">$_source_level.xml</level>
     <level name="target" schemefile="target_scheme.xml" customization_file="target_customization.xml">$_target_level.xml</level>
     <level name="sentiment" schemefile="sentiment_scheme.xml" customization_file="sentiment_customization.xml">$_sentiment_level.xml</level>
-    <level name="diff-emo-expression" schemefile="diff/diff-emo-expression_scheme.xml" customization_file="diff-emo-expression_customization.xml">$_diff-emo-expression_level.xml</level>
     <!--
     <level name="diff-negation" schemefile="diff/diff-negation_scheme.xml" customization_file="diff-negation_customization.xml">$_diff-negation_level.xml</level>
     <level name="diff-diminisher" schemefile="diff/diff-diminisher_scheme.xml" customization_file="diff-diminisher_customization.xml">$_diff-diminisher_level.xml</level>
     <level name="diff-intensifier" schemefile="diff/diff-intensifier_scheme.xml" customization_file="diff-intensifier_customization.xml">$_diff-intensifier_level.xml</level>
+    <level name="diff-emo-expression" schemefile="diff/diff-emo-expression_scheme.xml" customization_file="diff-emo-expression_customization.xml">$_diff-emo-expression_level.xml</level>
     <level name="diff-source" schemefile="diff/diff-source_scheme.xml" customization_file="diff-source_customization.xml">$_diff-source_level.xml</level>
     <level name="diff-target" schemefile="diff/diff-target_scheme.xml" customization_file="diff-target_customization.xml">$_diff-target_level.xml</level>
     <level name="diff-sentiment" schemefile="diff/diff-sentiment_scheme.xml" customization_file="diff-sentiment_customization.xml">$_diff-sentiment_level.xml</level>
