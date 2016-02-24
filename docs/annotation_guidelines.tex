@@ -348,6 +348,11 @@ should be taken when dealing with questions and irrealis
 \ref{qstn:condition}, and \ref{qstn:irrealis} in \nameref{sec:faq}
 Section of this document).
 
+Sentiments can be ironic or sarcastic, i.e., the judgement expressed
+is not to be taken at face value.  We mark this with a general
+attribute \emph{sarcasm} (see Table \ref{tbl:sentiment}) but do not
+distinguish between different kinds (irony versus sarcasm, etc.).
+
 \noindent\textbf{Boundaries.} \texttt{sentiment} markables should
 encompass both the object being evaluated (the target) and the actual
 phrase phragment which expresses the evaluation (typically an
@@ -396,6 +401,18 @@ evaluative expression appear together in one verb phrase with the head
 verb \textit{sein} (\textit{to be}).  So, we mark this complete verb
 phrase including its grammatical subject \textit{wir} (\textit{we})
 which is the syntactic descendant of the head verb.
+
+From the boundary rules just described it follows that some elements
+that take part in the evalua- tion can be located outside the
+sentiment span. For example, this can happen with sources mentioned in
+a separate clause:
+\begin{exmp}
+  \source{Klaus} hat sich ein iphone gekauft und \sentiment{findet es
+    ganz toll} .
+
+  (\source{Klaus} has bought an iphone and \sentiment{likes it very
+    much} .)
+\end{exmp}
 
 %% \begin{itemize}
 %% \item single noun phrases, possibly with their prepositional
@@ -480,6 +497,14 @@ that are being evaluated by a sentiment expression.
 
 \noindent{} Because sentiments are required to be evaluative, there
 MUST always be at least one target for each sentiment relation.
+Conversely, if there is no annotated sentiment, we do not annotate
+targets.
+
+Occasionally, a target may be elided (\emph{Ist gut.} / \emph{Is
+  good.})  and thus is not to be marked.  However, for the reader of
+the tweet it must be possible to interpret the elision, i.e., to
+recover the missing constituent, in order for a sentiment to be
+present.
 
 \noindent\textbf{Example.} An example of a sentiment target is given in
 Sentence \ref{exmp:target}:
@@ -502,6 +527,14 @@ These are usually noun phrases (e.g. \textit{Mir wird's schlecht, wenn ich
   this \target{ad} on TV})) or clauses (e.g. \textit{Ich hasse wenn
   \target{Voldemort mein Shampoo benutzt}.} (\textit{I hate when
   \target{Voldemort is using my shampoo}})).
+
+In case a target is an anaphoric expression (a pronoun) and its
+antecdent (a full NP) is present in the same tweet (be it within or
+outside of the sentiment span), both are being annotated and linked
+with an \emph{anaph-ref} relation (see Table \ref{tbl:target}).
+
+Occasionally, a Twitter hashtag or @-mention may serve as a target.
+Then they are marked as usual, without adding a specific attribute.
 
 If a sentiment has multiple targets, you should mark each one of them
 separately (cf. Example \ref{exmp:trg-conj}).
@@ -579,6 +612,10 @@ messages or persons or institutions whose opinion is being cited.
 If sentiment's source of is not explicitly mentioned in the message,
 we assume it to be the author of the tweet. You need not annotate
 anything as \texttt{source} in this case.
+
+In parallel with targets, sources are only annotated when a sentiment
+is present. (E.g., if a tweet contains a quotation with an explicit
+source, but there is no sentiment, than the source is not annotated.)
 
 \noindent\textbf{Example.} An example of an explicit sentiment source
 is the pronoun \textit{Sie} (\textit{she}) in Example
@@ -789,6 +826,10 @@ the sense of \textit{to like}), you should annotate both the verb and the
 preposition as a single markable (please refer to the \texttt{MMAX} manual to
 see how to annotate discontinuous spans).
 
+Occasionally, a Twitter hashtag may serve as an emo-expression
+(\emph{\#excellent}).  They are marked as usual, without adding a
+specific attribute.
+
 \noindent\textbf{Attributes.} When determining the value of the
 \texttt{polarity} attribute of an \texttt{emo-expression}, you should
 disregard any possible contextual modifiers like intensifiers or
@@ -903,7 +944,11 @@ the expressivity and the polar sense of an emotional expression.
 \noindent\textbf{Boundaries.} Intensifiers are usually expressed by
 adverbs or adjectives like \textit{sehr} (\textit{very}), sicherlich
 (\textit{certainly}) etc., but other ways of expressing them are still
-possible (cf. Example \ref{exmp:intensifier-comp}).
+possible (cf. Example \ref{exmp:intensifier-comp}).  However, we only
+regard separate lexical items as intensifiers: iterated letters, as in
+gooood are not annotated, and neither are punctuation marks (such as
+exclamation marks).
+
 \begin{exmp}
   Dieser Junge ist stark \intensifier{wie ein Pferd}.
 
@@ -1504,7 +1549,8 @@ verb phrase is usually more elaborate and specific than in the noun
 phrase, we would recommend you to annotate the whole verb phrases,
 i.e. clauses, in such cases.
 
-\item\textbf{Q: How should I judge if a word is an emo-expression?}
+\item\textbf{Q: How should I judge whether a word is an
+  emo-expression?}
 
 \textbf{A:} Emotional expressions are usually abstract concepts that
 are strongly associated with some subjective polar feelings.  These
