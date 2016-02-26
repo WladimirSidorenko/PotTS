@@ -29,8 +29,14 @@
   </attribute>
 
   <attribute id="sentiment_subjfact" name="subjective_fact"
-	     type="nominal_button" text="Emotional expression is meant sarcastically">
+	     type="nominal_button" text="Emotional expression represents a subjective fact">
     <value id="sentiment_subjfact_false" name="false"/>
     <value id="sentiment_subjfact_true" name="true"/>
+  </attribute>
+
+  <attribute id="emo_uncertain" name="uncertain" type="nominal_button"
+	     text="Unsure whether the given term represents an emotional expression">
+    <value id="emo_uncertain_false" name="false"/>
+    <value id="emo_uncertain_true" name="true"/>
   </attribute>
 </annotationscheme>
