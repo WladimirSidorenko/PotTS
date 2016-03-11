@@ -10,7 +10,7 @@ distributed annotation tool) and then select one of the *.mmax
 projects from the directories `corpus/annotator-1/` or
 `corpus/annotator-2/`.
 
-This folder contains the following files and directories:
+This folder comprises the following files and directories:
 
 * `corpus/` -- directory containing corpus files;
   * `annotator1/` -- directory containing MMAX projects for the first
