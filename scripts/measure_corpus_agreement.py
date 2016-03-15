@@ -516,7 +516,7 @@ def compute_stat(a_basedata_dir, a_dir1, a_dir2,
     global statistics
     # find annotation files from first directory
     if a_ptrn:
-        dir1_iterator = glob.iglob(a_dir1 + os.sep + a_ptrn)
+        dir1_iterator = glob.iglob(os.path.join(a_dir1, a_ptrn))
     else:
         dir1_iterator = os.listdir(a_dir1)
     # iterate over files from the first directory
@@ -533,9 +533,9 @@ def compute_stat(a_basedata_dir, a_dir1, a_dir2,
         # get name of second file
         basename1 = os.path.basename(f1)
         print >> sys.stderr, "Processing file '{:s}'".format(f1)
-        f2 = a_dir2 + os.sep + basename1
+        f2 = os.path.join(a_dir2, basename1)
         # open both files for reading
-        fd1 = open(a_dir1 + os.sep + basename1, 'r')
+        fd1 = open(os.path.join(a_dir1, basename1), 'r')
         try:
             t1 = _ET.parse(fd1)
         except (IOError, _ET.ParseError):
@@ -566,6 +566,7 @@ def compute_stat(a_basedata_dir, a_dir1, a_dir2,
         # are different in another annotation
         anno1 = [0, 0, []]
         anno2 = [0, 0, []]
+
         base_key = MARK_SFX_RE.sub("", basename1)
         if base_key in statistics:
             annotations = statistics[base_key]["annotators"]
@@ -742,9 +743,9 @@ def main():
     dir2 = args.directory2
 
     assert os.path.isdir(dir1) and os.access(dir1, os.X_OK), \
-        "Directory '{:s}' does nor exist or cannot be accessed.".format(dir1)
+        "Directory '{:s}' does not exist or cannot be accessed.".format(dir1)
     assert os.path.isdir(dir2) and os.access(dir2, os.X_OK), \
-        "Directory '{:s}' does nor exist or cannot be accessed.".format(dir2)
+        "Directory '{:s}' does not exist or cannot be accessed.".format(dir2)
 
     # compare the directory contents and edit files if necessary
     compute_stat(args.basedata_dir, dir1, dir2, a_ptrn=args.pattern,

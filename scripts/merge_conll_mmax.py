@@ -1,28 +1,24 @@
 #!/usr/bin/env python2.7
 # -*- mode: python; coding: utf-8; -*-
 
-"""
-DESCRIPTION:
-============
+"""DESCRIPTION:
 Script for merging data from an annotated MMAX corpus with automatically
 obtained CONLL DG trees obtained for the same raw input, that was used for the
-MMAX failes.  The output is in plain CONLL format with the annotations from
-the MMAX corpus represented as DG features.
+MMAX failes.  The output is in plain CONLL format with the annotations from the
+MMAX corpus represented as DG features.
 
 USAGE:
-======
 merge_conll_mmax.py [OPTIONS] conll_file token_file word_file
 
 EXAMPLE:
-========
 (envoke from the top directory of this archive)
-./scripts/merge_conll_mmax.py scripts/examples/3.federal_election_addition.conll \
+./scripts/merge_conll_mmax.py \
+scripts/examples/3.federal_election_addition.conll \
 corpus/source/3.federal_election_addition.xml \
 corpus/basedata/3.federal_election_addition.words.xml \
 corpus/annotator-2/markables/3.federal_election_addition_*.xml
 
 LICENSE:
-========
 Open domain.
 
 """
@@ -43,17 +39,17 @@ from alt_fio import AltFileInput, AltFileOutput
 ##################################################################
 # Constants
 DEFAULT_LANG = "utf-8"
-MS_PREFIX    = re.compile("\s*[$]")
+MS_PREFIX = re.compile("\s*[$]")
 # suffix of file with MMAX words
-WFNAME_SFX   = re.compile("[.]words[.]xml$", re.IGNORECASE)
+WFNAME_SFX = re.compile("[.]words[.]xml$", re.IGNORECASE)
 WSPAN_PREFIX = "word_"
 WSPAN_PREFIX_RE = re.compile(WSPAN_PREFIX)
 # regexp matching separate pieces of a span
 COMMA_SEP = ','
 # regexp matching spans encompassing multiple words
-WMULTISPAN  = re.compile("{:s}(\d+)..+{:s}(\d+)".format(WSPAN_PREFIX, \
-                                                            WSPAN_PREFIX), \
-                             re.IGNORECASE)
+WMULTISPAN = re.compile("{:s}(\d+)..+{:s}(\d+)".format(WSPAN_PREFIX,
+                                                       WSPAN_PREFIX),
+                        re.IGNORECASE)
 # regexp matching span encompassing single word
 WSPAN = re.compile("{:s}(\d+)\Z".format(WSPAN_PREFIX), re.IGNORECASE)
 # regexp matching beginning of markable id's
@@ -66,7 +62,7 @@ SPAN_SEP = ".."
 REFID_SEP = ':'
 EMPTY_REF = "empty"
 SPAN_PRFX = "word_"
-ID_PRFX  = re.compile("^markable_", re.IGNORECASE)
+ID_PRFX = re.compile("^markable_", re.IGNORECASE)
 # referential attributes, i.e. those which establish links to other elements
 REF_ATTRS = ["sentiment_ref", "emo_expression_ref"]
 EOL = "EOL"
@@ -75,6 +71,7 @@ FIELD_SEP = '\t'
 FIELD_SEP_RE = re.compile(FIELD_SEP)
 HSH_TAG_RE = re.compile('^#+')
 ESC_CHAR = ''
+
 
 ##################################################################
 # Methods
@@ -93,6 +90,7 @@ def _cmp_words(w1, w2):
         return 2
     else:
         return -1
+
 
 def read_conll(istream):
     """Read file with CONLL trees for single tweets and return a dict.
@@ -119,24 +117,26 @@ def read_conll(istream):
                 txt_lines.append(line)
             # if a non-empty line appears but no tweet is known, raise an
             # exception
-            elif t_id == None:
+            elif t_id is None:
                 raise Exception("""Non-empty line {:d} could not be
 assigned to any tweet.""".format(istream.fnr))
             # remember lines corresponding to tweets
             else:
                 txt_lines.append(line)
-        elif t_id != None:
+        elif t_id is not None:
             txt_lines.append(line)
     # add any lines that are left, to dictionary
     __update_conlldic__(tweet2conll, t_id, txt_lines)
     # return dictionary
     return tweet2conll
 
+
 def __update_conlldic__(idic, ikey, ilines):
     """Insert CONLL object generated from ilines in dictionary. """
     if ilines:
         idic[ikey] = CONLL(LINE_SEP.join(ilines))
         del ilines[:]
+
 
 def merge_conll_mmax_doc(conlldic, tkndoc, wrddoc, markable_paths):
     """Apply MMAX markables to CONLL data and output enriched CONLL string.
@@ -151,7 +151,7 @@ def merge_conll_mmax_doc(conlldic, tkndoc, wrddoc, markable_paths):
     conll_o = tkn_w = tkn_lw = mmax_w = mmax_lw = None
     mmax_w_id = i = 0
     conll_words = []
-    mmax_words  = []
+    mmax_words = []
     conll_mmax_words = []       # aligned CONLL and MMAX annotations
     # create a dict for storing w_id => markable
     word2mark = dict()
@@ -167,10 +167,10 @@ def merge_conll_mmax_doc(conlldic, tkndoc, wrddoc, markable_paths):
         conll_o = conlldic[t_id]
         # get all CONLL words along with their sentence and word indices and
         # lowercase and strip these words
-        conll_words = [(w.strip().lower(), s_id, w_id) for w, s_id, w_id in \
-                           conll_o.get_words()]
+        conll_words = [(w.strip().lower(), s_id, w_id) for w, s_id, w_id in
+                       conll_o.get_words()]
         # set list of MMAX words to empty list
-        mmax_words  = []
+        mmax_words = []
         # iterate over tweet's words, find their corresponding word ids in
         # wrddoc, and populate a list of 2-tuples in which the first element
         for tkn_w in t.text.strip().splitlines():
@@ -183,12 +183,15 @@ def merge_conll_mmax_doc(conlldic, tkndoc, wrddoc, markable_paths):
                 while mmax_w.text == EOL:
                     mmax_w = wrd_iter.next()
             except StopIteration:
-                raise Exception("Number of token words is greater than number of MMAX words.")
+                raise Exception("Number of token words is greater than"
+                                " number of MMAX words.")
             mmax_lw = mmax_w.text.strip().lower()
             # check that MMAX word corresponds to given tweet word
             if tkn_lw != mmax_lw:
-                raise Exception(u"Token ('{:s}') and MMAX word ('{:s}') do not match".format( \
-                        tkn_lw.encode("utf-8"), mmax_lw.encode("utf-8")))
+                raise Exception(u"Token ('{:s}') and MMAX word"
+                                " ('{:s}') do not match".format(
+                                    tkn_lw.encode("utf-8"),
+                                    mmax_lw.encode("utf-8")))
             # add 2-tuple of tkn_lw and MMAX word id to the list of MMAX words
             mmax_words.append((tkn_lw, mmax_w.get("id")))
         # Align CONLL and MMAX word lists.  Result will be a list of three
@@ -209,6 +212,7 @@ def merge_conll_mmax_doc(conlldic, tkndoc, wrddoc, markable_paths):
         # output enriched CONLL object
         print unicode(conll_o).encode("utf-8")
 
+
 def merge_conll_mmax(conll_wlist, mmax_wlist):
     """Align elements from conll_wlist and mmax_wlist.
 
@@ -220,8 +224,9 @@ def merge_conll_mmax(conll_wlist, mmax_wlist):
     augmented CONLL list whose tuples contain one additional 4-th element which
     is itself a list of MMAX word id's corresponding to given CONLL word.
 
-    @param conll_wlist - list of 3-tuples with CONLL word, its sentence and word id
-    @param mmax_wlist  - list of 2-tuples with MMAX word and its MMAX id
+    @param conll_wlist - list of 3-tuples with CONLL word, its sentence and
+                         word id
+    @param mmax_wlist - list of 2-tuples with MMAX word and its MMAX id
 
     @return list of three elements tuples, in which first element will be
         sentence id of CONLL word, second element will be word's id in that
@@ -230,13 +235,13 @@ def merge_conll_mmax(conll_wlist, mmax_wlist):
 
     """
     conll_words = [e[0] for e in conll_wlist]
-    mmax_words  = [e[0] for e in mmax_wlist]
+    mmax_words = [e[0] for e in mmax_wlist]
     s_id = w_id = 0
     mw_id_list = []
     # aligned_words will be a list of length len(conll_words) in which every
     # element will also be a list of the indices of mmax_words which correspond
     # to CONLL word at given position
-    aligned_words = nw_align(conll_words, mmax_words, substitute = _cmp_words)
+    aligned_words = nw_align(conll_words, mmax_words, substitute=_cmp_words)
     # join CONLL and MMAX indices
     ret = []
     for i, mwlist in enumerate(aligned_words):
@@ -246,6 +251,7 @@ def merge_conll_mmax(conll_wlist, mmax_wlist):
         mw_id_list = [mmax_wlist[mw_id][1] for mw_id in mwlist]
         ret.append((s_id, w_id, mw_id_list))
     return ret
+
 
 def markables2dict(markable_paths, word2mark_dict):
     """Read and parse markable documents populating word2mark dict.
@@ -292,6 +298,7 @@ def markables2dict(markable_paths, word2mark_dict):
                 # span
                 word2mark_dict.setdefault(w_id, dict([])).update(selfattr)
 
+
 def __adjust_attrs__(attrdict):
     """Adjust attributes obtained from markables."""
     # all information from span has already been processed, so remove it
@@ -313,8 +320,9 @@ def __adjust_attrs__(attrdict):
     # type and with the same set of attributes.  So, we need to make
     # attribute's name unambiguous by prepending them with the markable type
     # and its id
-    attrdict = dict([(mtype + FEAT_NAME_SEP + _id_ + FEAT_NAME_SEP + __adjust_attr_key__(k), v) \
-                    for k, v in attrdict.iteritems()])
+    attrdict = dict([(mtype + FEAT_NAME_SEP + _id_ + FEAT_NAME_SEP +
+                      __adjust_attr_key__(k), v)
+                     for k, v in attrdict.iteritems()])
     # construct separate attribute for the markable itself
     selfattr = dict([])
     selfattr[mtype + FEAT_NAME_SEP + _id_ + FEAT_NAME_SEP + mtype] = "True"
@@ -322,15 +330,18 @@ def __adjust_attrs__(attrdict):
     attrdict.update(selfattr)
     return [selfattr, attrdict]
 
+
 def __get_refid__(ref):
     """Get markable id from reference attribute."""
     return ref.split(REFID_SEP)[1]
+
 
 def __adjust_attr_key__(ikey):
     """Capitalize key's components and remove any punctuation from it."""
     return PUNCT_RE.sub("", ikey.title())
 
-def parse_span(ispan, a_int_fmt = False):
+
+def parse_span(ispan, a_int_fmt=False):
     """Generate and return a list of all word ids encompassed by ispan."""
     ret = []
     # split span on commas
@@ -348,10 +359,13 @@ def parse_span(ispan, a_int_fmt = False):
                 if a_int_fmt:
                     ret += [w_id for w_id in xrange(start, end)]
                 else:
-                    ret += [(WSPAN_PREFIX + str(w_id)) for w_id in xrange(start, end)]
+                    ret += [(WSPAN_PREFIX + str(w_id))
+                            for w_id in xrange(start, end)]
             else:
-                raise ValueError("Unrecognized span format: {:s}".format(ispan))
+                raise ValueError("Unrecognized span"
+                                 " format: {:s}".format(ispan))
     return ret
+
 
 def apply_annotation(wlist, wrd_iter, markable_hash):
     """Convert each word in wlist to a tuple and add annotation to it."""
@@ -377,22 +391,32 @@ def apply_annotation(wlist, wrd_iter, markable_hash):
 # Main
 if __name__ == "__main__":
     # Arguments
-    argparser = argparse.ArgumentParser(description="""Utility for merging DG CONLL data with
-annotation from MMAX corpus.""")
-    argparser.add_argument("-c", "--esc-char", help = """escape character which should
-precede lines with meta-information""", nargs = 1, type = str, default = ESC_CHAR)
-    argparser.add_argument("-e", "--encoding", help="input/output encoding", \
-                           default = DEFAULT_LANG)
-    argparser.add_argument("conll_file", help = "file with DG trees in CONLL format")
-    argparser.add_argument("token_file", help = "file with original tokenization")
-    argparser.add_argument("word_file", help = "file with MMAX words")
-    argparser.add_argument("annotation_files", help = "files with MMAX markables", nargs = '*')
+    argparser = argparse.ArgumentParser(
+        description="Utility for merging DG CONLL data with"
+        "annotation from MMAX corpus.")
+    argparser.add_argument("-c", "--esc-char",
+                           help="escape character which should"
+                           "precede lines with meta-information",
+                           nargs=1, type=str, default=ESC_CHAR)
+    argparser.add_argument("-e", "--encoding",
+                           help="input/output encoding",
+                           default=DEFAULT_LANG)
+    argparser.add_argument("conll_file",
+                           help="file with DG trees in CONLL format")
+    argparser.add_argument("token_file",
+                           help="file with original tokenization")
+    argparser.add_argument("word_file",
+                           help="file with MMAX words")
+    argparser.add_argument("annotation_files",
+                           help="files with MMAX markables",
+                           nargs='*')
     args = argparser.parse_args()
 
     # variables
     ESC_CHAR = args.esc_char
-    foutput = AltFileOutput(encoding = args.encoding)
-    finput  = AltFileInput(args.conll_file, print_func = foutput.fprint)
+    foutput = AltFileOutput(encoding=args.encoding)
+    finput = AltFileInput(args.conll_file,
+                          print_func=foutput.fprint)
 
     # skip files with no annotation
     if not args.annotation_files:
@@ -400,8 +424,8 @@ precede lines with meta-information""", nargs = 1, type = str, default = ESC_CHA
     # read and parse CONLL file
     conlldic = read_conll(finput)
     # read and parse tokenization file
-    tkndoc      = ET.parse(args.token_file)
+    tkndoc = ET.parse(args.token_file)
     # read and parse MMAX word file
-    wrddoc      = ET.parse(args.word_file)
+    wrddoc = ET.parse(args.word_file)
     # merge annotation with CONLL data
     merge_conll_mmax_doc(conlldic, tkndoc, wrddoc, args.annotation_files)
