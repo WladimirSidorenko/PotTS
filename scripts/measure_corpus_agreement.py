@@ -142,7 +142,7 @@ def _compute_kappa(a_overlap1, a_total1, a_overlap2, a_total2,
     if a_total_tkns == 0.0:
         return 0.0
     agreement = float(a_total_tkns - a_total1 + a_overlap1 -
-                      a_total2 + a_overlap2) / a_total_tkns
+                      a_total2 + a_overlap2) / float(a_total_tkns)
     # chances that the first/second annotator randomly annotated a token with
     # that markable
     chance1 = float(a_total1) / a_total_tkns
@@ -197,8 +197,8 @@ def _markables2tuples(a_t):
         # del mattrs["mmax_level"]
         # append markable as a tuple to the markable list
         span_w_ids.sort()
-        retlist.append([span_w_ids, mname, [(k, v) for k, v in
-                                            mattrs.iteritems()]])
+        retlist.append([span_w_ids, mname, dict((k, v) for k, v in
+                                                mattrs.iteritems())])
     # return list of markables sorted by the starting and ending positions of
     # the spans
     return sorted(retlist, key=lambda e: (e[0][0], e[0][-1]))

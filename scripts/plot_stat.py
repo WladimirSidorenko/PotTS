@@ -10,7 +10,7 @@ from measure_corpus_agreement import BINARY_OVERLAP, PROPORTIONAL_OVERLAP, \
     BASEDATA_SFX, MRKBL_NAME_RE, MARK_SFX_RE, _markables2tuples, \
     _compute_kappa
 
-from collections import defaultdict
+from collections import defaultdict, Counter
 # from matplotlib.backends.backend_pdf import PdfPages
 import matplotlib.pyplot as plt
 import measure_corpus_agreement
@@ -49,6 +49,10 @@ CAT2ROW = {"emotional words": 0,
 YTICK_MARKS = np.arange(len(CAT2ROW))
 YLABELS = [k for k, v in sorted(CAT2ROW.iteritems(), key=lambda el: el[1])]
 MTX_DIM = (len(CAT2ROW), len(TOP2COL))
+POLARITY = "polarity"
+POS = "positive"
+INTENSITY = "intensity"
+INT2INT = {"weak": 0, "medium": 1, "strong": 2}
 
 ENCODING = "utf-8"
 # set of possible categories
@@ -80,13 +84,58 @@ STATISTICS = defaultdict(lambda: {TOK: 0, ANNOTATOR:
                                   [defaultdict(lambda: [0, 0, 0]),
                                    defaultdict(lambda: [0, 0, 0])]})
 
-POL_STAT = (lambda: {TOTAL: 0, ANNOTATOR:
-                     [defaultdict(lambda: [0, 0]),
-                      defaultdict(lambda: [0, 0])]})
+# TOTAL: number of matching sentiments/emotional expressions
+# ANNOTATOR: [number of matching annotations,
+# total number of sentiments annotated with the positive class]
+POL_STAT = defaultdict(lambda: {TOTAL: 0, ANNOTATOR: ([0, 0], [0, 0])})
+# statistics on intensities
+INT_STAT = defaultdict(lambda: {i: {j: 0 for j in INT2INT.itervalues()}
+                                for i in INT2INT.itervalues()})
+INT_MIN = min(INT2INT.itervalues())
+INT_MAX = max(INT2INT.itervalues())
+INT_LST = sorted(INT2INT.itervalues())
 
 
 ##################################################################
 # Methods
+def _compute_alpha(a_istat):
+    """Compute Krippendorff's alpha.
+
+    Args:
+    a_istat (n x n dict): coincidence matrix
+
+    Returns:
+    (float):
+    Krippendorff's alpha
+
+    """
+    marginals = {i: float(sum(a_istat[i].itervalues())) for i in
+                 a_istat}
+    # compute delta for the ordinal scale
+    imax = INT_MAX + 1
+    avg_ij = m_i = m_j = m_k = 0.
+    delta = defaultdict(lambda: defaultdict(float))
+    for i in xrange(INT_MIN, imax):
+        m_i = marginals[i]
+        for j in xrange(i + 1, imax):
+            m_j = marginals[j]
+            avg_ij = (m_i + m_j) / 2.
+            delta[i][j] = delta[j][i] = \
+                sum(marginals[k] - avg_ij for k in xrange(i, j + 1))**2
+    num = float(sum(a_istat[i][j] * delta[i][j] for i in a_istat
+                for j in a_istat[i]))
+    if not num:
+        return 0.
+    denom = float(sum(marginals[i] * marginals[j] *
+                      delta[i][j] for i in marginals for j in marginals))
+    _denom = sum(marginals.itervalues()) - 1.
+    if not _denom:
+        return 0.
+    denom /= _denom
+    alpha = 1. - num / denom
+    return alpha
+
+
 def plot_mtx(a_mtx, a_fname):
     """Plot matrix and store it in PNG format.
 
@@ -202,8 +251,75 @@ def read_basedata(a_basedata_dir, a_src_dir, a_ptrn="*.xml"):
                 TOKID2CAT[(basefname, tok_id)] = cat
 
 
+def _update_polarity_intensity(a_mtuple, a_mname, a_anno_id,
+                               a_tokid2markid2, a_mtuples2,
+                               a_update_cnt=False):
+    """Update statistics for one annotator.
+
+    Args:
+    a_mtuple (tuple): tuples of the markable
+    a_mname (str): name of the markable level
+    a_anno_id (int): id of the annotator whose statistics should be updated
+    a_tokid2markdid2 (dict): mapping from token ids to competing markable
+                             indices
+    a_mtuples2 (list(tuple)): competing markables
+    a_update_cnt (bool): update counter of intersecting markables
+
+    Returns:
+    (void): updates global variable in place
+
+    """
+    global INT_STAT, POL_STAT
+
+    # print("a_anno_id =", repr(a_anno_id), file=sys.stderr)
+    # print("a_mtuple =", repr(a_mtuple), file=sys.stderr)
+    candidates = Counter()
+    for t_id in a_mtuple[0]:
+        if t_id in a_tokid2markid2:
+            for m_id in a_tokid2markid2[t_id]:
+                candidates[m_id] += 1
+    # print("candidates =", repr(candidates), file=sys.stderr)
+    if not candidates:
+        return
+    # choose the best competing candidate
+    best_ratio = ratio = -1.
+    best_cnt = best_m_id = -1
+    for m_id, t_cnt in candidates.iteritems():
+        # print("candidate =", repr(a_mtuples2[m_id]), file=sys.stderr)
+        if t_cnt > best_cnt:
+            best_cnt = t_cnt
+            best_m_id = m_id
+            best_ratio = float(t_cnt)/float(len(a_mtuples2[m_id]))
+        elif t_cnt == best_cnt:
+            ratio = float(t_cnt)/float(len(a_mtuples2[m_id]))
+            if ratio > best_ratio:
+                best_cnt = t_cnt
+                best_m_id = m_id
+                best_ratio = ratio
+    # get best candidate
+    mtuple2 = a_mtuples2[best_m_id]
+    # print("mtuple2 =", repr(mtuple2), file=sys.stderr)
+    # update polarity
+    if a_mtuple[-1][POLARITY] == POS:
+        POL_STAT[a_mname][ANNOTATOR][a_anno_id][TOTAL_MTOK_IDX] += 1
+        POL_STAT[a_mname][ANNOTATOR][a_anno_id][OVERLAP_MTOK_IDX] += \
+            mtuple2[-1][POLARITY] == POS
+    # update intensity only once
+    if a_update_cnt:
+        POL_STAT[a_mname][TOTAL] += 1
+        int1 = INT2INT[a_mtuple[-1][INTENSITY]]
+        int2 = INT2INT[mtuple2[-1][INTENSITY]]
+        INT_STAT[a_mname][int1][int2] += 1
+        INT_STAT[a_mname][int2][int1] += 1
+    # print("POL_STAT[TOTAL] =", repr(POL_STAT[a_mname][TOTAL]))
+    # print("POL_STAT[ANNOTATOR] =", repr(POL_STAT[a_mname][ANNOTATOR]))
+    # print("INT_STAT =", repr(INT_STAT))
+
+
 def _update_annotator_stat(a_mtuples, a_word_ids2, a_basefname, a_anno_id,
-                           a_mname, a_cmp, a_compute_agr=True):
+                           a_mname, a_cmp, a_compute_agr=True,
+                           a_tokid2markdid2=None, a_mtuples2=None,
+                           a_update_cnt=False):
     """Update statistics for one annotator.
 
     Args:
@@ -214,6 +330,10 @@ def _update_annotator_stat(a_mtuples, a_word_ids2, a_basefname, a_anno_id,
     a_mname (str): name of the markable level
     a_cmp (int): comparison scheme
     a_compute_agr (bool): boolean flag indicating whether to compute agreement
+    a_tokid2markdid2 (dict): mapping from token ids to competing markable
+                             indices
+    a_mtuples2 (list(tuple)): competing markables
+    a_update_cnt (bool): update counter of intersecting markables
 
     Returns:
     (void): updates global variable in place
@@ -252,8 +372,30 @@ def _update_annotator_stat(a_mtuples, a_word_ids2, a_basefname, a_anno_id,
                 if unseen_toks & a_word_ids2:
                     cat_stat[OVERLAP_MTOK_IDX] += len(unseen_toks)
             cat_stat[TOTAL_MTOK_IDX] += len(unseen_toks)
+            if a_mname in REL_MARKABLES:
+                _update_polarity_intensity(imtuple, a_mname, a_anno_id,
+                                           a_tokid2markdid2, a_mtuples2,
+                                           a_update_cnt)
         active_cats.clear()
         valid_toks.clear()
+
+
+def _generate_tok2mark(a_tuples):
+    """Generate mappings from tone ids to markable indices.
+
+    Args:
+    a_tuples (list(tuple)): markable tuples
+
+    Returns:
+    (dict):
+    mappings from token ids to markable indices
+
+    """
+    tokid2markid = defaultdict(list)
+    for i, tpl in enumerate(a_tuples):
+        for tok_id in tpl[0]:
+            tokid2markid[tok_id].append(i)
+    return tokid2markid
 
 
 def _update_stat(a_t1, a_t2, a_basefname, a_mname, a_cmp=BINARY_OVERLAP):
@@ -278,11 +420,20 @@ def _update_stat(a_t1, a_t2, a_basefname, a_mname, a_cmp=BINARY_OVERLAP):
     # generate lists of all indices in markables
     m1_set = set([w for mt in m_tuples1 for w in mt[0]])
     m2_set = set([w for mt in m_tuples2 for w in mt[0]])
+    # generate mappings from token ids to the markbale indices
+    if a_mname in REL_MARKABLES:
+        tokid2markdid1 = _generate_tok2mark(m_tuples1)
+        tokid2markdid2 = _generate_tok2mark(m_tuples2)
+    else:
+        tokid2markdid1 = tokid2markdid2 = None
     # update statistics for each single annotator
+    # print("*** filename =", repr(a_basefname), file=sys.stderr)
     _update_annotator_stat(m_tuples1, m2_set, a_basefname, 0,
-                           a_mname, a_cmp, a_t2 is not None)
+                           a_mname, a_cmp, a_t2 is not None,
+                           tokid2markdid2, m_tuples2, a_update_cnt=True)
     _update_annotator_stat(m_tuples2, m1_set, a_basefname, 1,
-                           a_mname, a_cmp, a_t1 is not None)
+                           a_mname, a_cmp, a_t1 is not None,
+                           tokid2markdid1, m_tuples1)
 
 
 def compute_stat(a_basedata_dir, a_dir1, a_dir2, a_ptrn="",
@@ -435,12 +586,28 @@ def main():
                                         total2, n_toks, cmp_scheme)
                 agr_mtx[irow, icol] = ikappa
                 stat_mtx[irow, icol] = stat2[TOTAL_MARK_IDX]
-                print("irow = {:d}, icol = {:d}".format(irow, icol))
-                print("mname = {:s} ({:d})".format(
-                    mname, stat2[TOTAL_MARK_IDX]))
+        print("mname = {:s}".format(mname), file=sys.stderr)
         print(repr(stat_mtx), file=sys.stderr)
         plot_mtx(stat_mtx, mname + STAT_MTX_SFX)
         plot_mtx(agr_mtx, mname + AGR_MTX_SFX)
+
+    # print("STATISTICS =", repr(STATISTICS))
+    # print("POL_STAT =", repr(POL_STAT))
+    # print("INT_STAT =", repr(INT_STAT))
+    n = 0
+    ialpha = 0.
+    ipol_stat = iint_stat = None
+    for mname in REL_MARKABLES:
+        ipol_stat, iint_stat = POL_STAT[mname], INT_STAT[mname]
+        n_toks = ipol_stat[TOTAL]
+        stat1, stat2 = ipol_stat[ANNOTATOR]
+        total1, total2 = stat1[TOTAL_MTOK_IDX], stat2[TOTAL_MTOK_IDX]
+        overlap1, overlap2 = stat1[OVERLAP_MTOK_IDX], stat2[OVERLAP_MTOK_IDX]
+        ikappa = _compute_kappa(overlap1, total1, overlap2,
+                                total2, n_toks, BINARY_OVERLAP)
+        ialpha = _compute_alpha(INT_STAT[mname])
+        print("Kappa ({:s}): {:f}".format(mname, ikappa), file=sys.stderr)
+        print("Alpha ({:s}): {:f}".format(mname, ialpha), file=sys.stderr)
 
 ##################################################################
 # Main
