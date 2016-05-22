@@ -214,7 +214,7 @@ def read_basedata(a_basedata_dir, a_src_dir, a_ptrn="*.xml"):
     updates global variable `TWEETID2CAT`
 
     """
-    global STATISTICS, TOKID2CAT
+    global STATISTICS, TOKID2CAT, TOKID2TWEETID
 
     last_tweet_seen = False
     cat = tweet_it = None
@@ -236,6 +236,7 @@ def read_basedata(a_basedata_dir, a_src_dir, a_ptrn="*.xml"):
             STATISTICS[cat][TOK] += 1
             if tok_txt == EOL:
                 TOKID2CAT[(basefname, tok_id)] = cat
+                TOKID2TWEETID[(basefname, tok_id)] = tweet_id
                 try:
                     tweet_id = _get_tweet_id(tweet_it)
                 except StopIteration:
@@ -249,6 +250,7 @@ def read_basedata(a_basedata_dir, a_src_dir, a_ptrn="*.xml"):
                 # print("basefname =", repr(basefname), file=sys.stderr)
                 # print("tok_id =", repr(tok_id), file=sys.stderr)
                 TOKID2CAT[(basefname, tok_id)] = cat
+                TOKID2TWEETID[(basefname, tok_id)] = tweet_id
 
 
 def _update_polarity_intensity(a_mtuple, a_mname, a_anno_id,
@@ -567,8 +569,6 @@ def main():
     pp = cat = stat1 = stat2 = None
     # plot statistics
 
-    # small hard-code of topics and categories, but that's what I really need
-    # to plot
     for mname in REL_MARKABLES:
         stat_mtx = np.zeros(MTX_DIM)
         agr_mtx = np.zeros(MTX_DIM)

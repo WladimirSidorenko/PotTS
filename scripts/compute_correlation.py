@@ -428,7 +428,7 @@ hand and topic and formal categories on the other hand.""")
             icnt, ikappa = cnt_stat[idx][n], kappa_stat[idx][n]
             assert icnt == cnt_stat[idx][-1]
             assert ikappa == kappa_stat[idx][-1]
-            print("{:20s}{:15.2%}{:25.2%}".format(itopic, icnt,
+            print("{:20s}{:15.4f}{:25.4f}".format(itopic, icnt,
                                                   ikappa))
         print()
         print("{:20s}{:>15s}{:>25s}".format("Category", "$\\rho_{cnt}$",
@@ -437,7 +437,7 @@ hand and topic and formal categories on the other hand.""")
             icnt, ikappa = cnt_stat[idx][n], kappa_stat[idx][n]
             assert icnt == cnt_stat[idx][-1]
             assert ikappa == kappa_stat[idx][-1]
-            print("{:20s}{:15.2%}{:25.2%}".format(itype, icnt,
+            print("{:20s}{:15.4f}{:25.4f}".format(itype, icnt,
                                                   ikappa))
         print()
 

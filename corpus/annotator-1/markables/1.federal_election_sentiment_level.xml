@@ -18,7 +18,7 @@
 <markable id="markable_100500267" span="word_266..word_273" sarcasm="false"  mmax_level="sentiment"  polarity="negative"  intensity="medium" />
 <markable id="markable_100500290" span="word_745..word_751" sarcasm="false"  mmax_level="sentiment"  polarity="negative"  intensity="medium" />
 <markable id="markable_100500262" span="word_62..word_67" sarcasm="false"  mmax_level="sentiment"  polarity="comparison"  intensity="medium" />
-<markable id="markable_64" span="word_643..word_663" sarcasm="false"  mmax_level="sentiment"  polarity="positive"  intensity="strong" />
+<markable id="markable_64" span="word_643..word_651,word_654,word_656..word_663" sarcasm="false"  mmax_level="sentiment"  polarity="positive"  intensity="strong" />
 <markable id="markable_144" span="word_100..word_112" sarcasm="true"  mmax_level="sentiment"  polarity="negative"  intensity="medium" />
 <markable id="markable_40" span="word_389..word_404" sarcasm="false"  mmax_level="sentiment"  polarity="negative"  intensity="medium" />
 <markable id="markable_100500269" span="word_353..word_358" sarcasm="false"  mmax_level="sentiment"  polarity="positive"  intensity="medium" />

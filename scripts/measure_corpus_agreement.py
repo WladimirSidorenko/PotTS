@@ -148,14 +148,15 @@ def _compute_kappa(a_overlap1, a_total1, a_overlap2, a_total2,
     chance1 = float(a_total1) / a_total_tkns
     chance2 = float(a_total2) / a_total_tkns
     chance = chance1 * chance2 + (1.0 - chance1) * (1.0 - chance2)
-    assert chance <= 1.0, \
+    assert 0. <= chance <= 1., \
         "Invalid value of chance agreement: '{:.2f}'".format(chance)
     # compute Cohen's Kappa
     if chance < 1.0:
         kappa = (agreement - chance) / (1.0 - chance)
     else:
         kappa = 0.0
-    assert kappa <= 1.0, "Invalid kappa value: '{:.4f}'".format(kappa)
+    assert kappa <= 1.0, \
+        "Invalid kappa value: '{:.4f}'".format(kappa)
     return kappa
 
 

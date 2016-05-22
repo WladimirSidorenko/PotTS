@@ -286,11 +286,16 @@ def markables2dict(markable_paths, word2mark_dict):
             w_id = mspan[0]
             # check that attributes in `attrs` do not intersect with those
             # already present in `word2mark_dict`
-            if (word2mark_dict.setdefault(w_id, dict([])).viewkeys() & attrs.viewkeys()):
-                print >> sys.stderr, "word2mark_dict.setdefault(w_id, dict([])).viewkeys():", \
+            if (word2mark_dict.setdefault(w_id, dict([])).viewkeys() &
+                    attrs.viewkeys()):
+                print >> sys.stderr, \
+                    "word2mark_dict.setdefault(w_id, dict([])).viewkeys():", \
                     repr(word2mark_dict.setdefault(w_id, dict([])).viewkeys())
-                print >> sys.stderr, "attrs.viewkeys():", repr(attrs.viewkeys())
-            assert(not (word2mark_dict.setdefault(w_id, dict([])).viewkeys() & attrs.viewkeys()))
+                print >> sys.stderr, \
+                    "attrs.viewkeys():", repr(attrs.viewkeys())
+            assert(not (word2mark_dict.setdefault(w_id,
+                                                  dict([])).viewkeys() &
+                        attrs.viewkeys()))
             word2mark_dict[w_id].update(attrs)
             # remove all attributes from attrs except for markable's name
             for w_id in mspan[1:]:
