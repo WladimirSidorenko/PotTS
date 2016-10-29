@@ -53,7 +53,7 @@
 <markable id="markable_100500164" span="word_227" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
 <markable id="markable_115" span="word_972" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
 <markable id="markable_117" span="word_974" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
-<markable id="markable_112" span="word_923..word_924" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
+<markable id="markable_112" span="word_923" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
 <markable id="markable_9" span="word_29" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
 <markable id="markable_8" span="word_24..word_25,word_28" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
 <markable id="markable_108" span="word_911" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />

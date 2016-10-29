@@ -3,6 +3,7 @@
 <markables xmlns="www.eml.org/NameSpaces/emo-expression">
 <markable id="markable_203" span="word_1798" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
 <markable id="markable_169" span="word_1295" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
+<markable id="markable_104010712" span="word_888" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
 <markable id="markable_104010711" span="word_1895" intensity="medium"  subjective_fact="true"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
 <markable id="markable_104010710" span="word_1820" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="negative" />
 <markable id="markable_76" span="word_569" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />

@@ -68,6 +68,7 @@
 <markable id="markable_128" span="word_770..word_771" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
 <markable id="markable_121" span="word_700" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
 <markable id="markable_123" span="word_733" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
+<markable id="markable_100500305" span="word_1011" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
 <markable id="markable_119" span="word_687" intensity="strong"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
 <markable id="markable_100500268" span="word_853" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="negative" />
 <markable id="markable_100500301" span="word_1019..word_1025" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="true"  polarity="negative" />

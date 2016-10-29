@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE markables SYSTEM "markables.dtd">
 <markables xmlns="www.eml.org/NameSpaces/emo-expression">
+<markable id="markable_104011004" span="word_744" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />
+<markable id="markable_104011003" span="word_1518" intensity="strong"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="negative" />
 <markable id="markable_70" span="word_514" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="negative" />
 <markable id="markable_76" span="word_611" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="negative" />
 <markable id="markable_79" span="word_641" intensity="medium"  subjective_fact="false"  mmax_level="emo-expression"  sentiment_ref="empty"  sarcasm="false"  uncertain="false"  polarity="positive" />

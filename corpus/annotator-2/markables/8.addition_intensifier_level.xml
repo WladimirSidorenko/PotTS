@@ -9,6 +9,6 @@
 <markable id="markable_100500335" span="word_639" degree="medium"  mmax_level="intensifier"  emo-expression-ref="emo-expression:markable_100500334" />
 <markable id="markable_100500435" span="word_1338" degree="medium"  mmax_level="intensifier"  emo-expression-ref="emo-expression:markable_100500433" />
 <markable id="markable_100500326" span="word_563" degree="medium"  mmax_level="intensifier"  emo-expression-ref="emo-expression:markable_100500325" />
-<markable id="markable_100500403" span="word_1075" degree="medium"  mmax_level="intensifier" />
+<markable id="markable_100500403" span="word_1075" degree="medium"  mmax_level="intensifier"  emo-expression-ref="empty" />
 <markable id="markable_100500300" span="word_480" degree="medium"  mmax_level="intensifier"  emo-expression-ref="emo-expression:markable_100500299" />
 </markables>
