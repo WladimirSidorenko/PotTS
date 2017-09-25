@@ -45,4 +45,4 @@ typing `--help` to see their usage.
 Note
 ----
 
-<span style="color:red">**We strongly recommend using (annotation of annotator-2)[https://github.com/WladimirSidorenko/PotTS/tree/eexpression-revision/corpus/annotator-2] of the branch `eexpression-revision` (run `git checkout eexpression-revision` after cloning this project).")**</span>
+**We strongly recommend using the [annotation of annotator-2](https://github.com/WladimirSidorenko/PotTS/tree/eexpression-revision/corpus/annotator-2) on the branch `eexpression-revision` (run `git checkout eexpression-revision` after cloning this project).**
