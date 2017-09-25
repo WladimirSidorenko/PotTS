@@ -45,4 +45,4 @@ typing `--help` to see their usage.
 Note
 ----
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text="We strongly recommend using (annotation of annotator-2)[https://github.com/WladimirSidorenko/PotTS/tree/eexpression-revision/corpus/annotator-2] of the branch `eexpression-revision` (run `git checkout eexpression-revision` after cloning this project).")
+<span style="color:red">**We strongly recommend using (annotation of annotator-2)[https://github.com/WladimirSidorenko/PotTS/tree/eexpression-revision/corpus/annotator-2] of the branch `eexpression-revision` (run `git checkout eexpression-revision` after cloning this project).")**</span>
