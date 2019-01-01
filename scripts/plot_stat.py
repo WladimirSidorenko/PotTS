@@ -11,15 +11,18 @@ from measure_corpus_agreement import BINARY_OVERLAP, PROPORTIONAL_OVERLAP, \
     _compute_kappa
 
 from collections import defaultdict, Counter
+from copy import deepcopy
+from six import iteritems
 # from matplotlib.backends.backend_pdf import PdfPages
 import matplotlib.pyplot as plt
-import measure_corpus_agreement
 import argparse
 import codecs
 import glob
 import numpy as np
 import os
 import re
+import pandas as pd
+import seaborn as sns
 import sys
 import xml.etree.ElementTree as ET
 
@@ -34,20 +37,22 @@ USCORE_RE = re.compile('_+')
 TOP2TOP = {"addition": "general",
            "politics_addition": "politics",
            "federal_election_addition": "federal_election",
-           "pope_election_addition": "pope_election"}
+           "pope_election_addition": "papal_conclave",
+           "pope_election": "papal_conclave"}
+TYPE2TYPE = {"emotional words": "polar terms"}
 REL_MARKABLES = ("sentiment", "emo-expression")
 TOP2COL = {"federal_election": 0,
-           "pope_election": 1,
+           "papal_conclave": 1,
            "politics": 2,
            "general": 3}
 XTICK_MARKS = np.arange(len(TOP2COL))
 XLABELS = [USCORE_RE.sub(' ', k) for k, v in
-           sorted(TOP2COL.iteritems(), key=lambda el: el[1])]
-CAT2ROW = {"emotional words": 0,
+           sorted(iteritems(TOP2COL), key=lambda el: el[1])]
+CAT2ROW = {"polar terms": 0,
            "emoticons": 1,
            "random": 2}
 YTICK_MARKS = np.arange(len(CAT2ROW))
-YLABELS = [k for k, v in sorted(CAT2ROW.iteritems(), key=lambda el: el[1])]
+YLABELS = [k for k, v in sorted(iteritems(CAT2ROW), key=lambda el: el[1])]
 MTX_DIM = (len(CAT2ROW), len(TOP2COL))
 POLARITY = "polarity"
 POS = "positive"
@@ -95,6 +100,15 @@ INT_MIN = min(INT2INT.itervalues())
 INT_MAX = max(INT2INT.itervalues())
 INT_LST = sorted(INT2INT.itervalues())
 
+# Variables and Constants
+ANNOT = True
+LGND_FS = 18
+LBL_FS = 14
+CMAP = sns.cubehelix_palette(1000, start=.5, rot=-.75, as_cmap=True)
+HEATMAP_SETTINGS = {"annot": ANNOT, "cmap": CMAP,
+                    "cbar_kws": {"label": "# of Messages"},
+                    "annot_kws": {"size": 10}}
+
 
 ##################################################################
 # Methods
@@ -113,7 +127,7 @@ def _compute_alpha(a_istat):
                  a_istat}
     # compute delta for the ordinal scale
     imax = INT_MAX + 1
-    avg_ij = m_i = m_j = m_k = 0.
+    avg_ij = m_i = m_j = 0.
     delta = defaultdict(lambda: defaultdict(float))
     for i in xrange(INT_MIN, imax):
         m_i = marginals[i]
@@ -136,24 +150,37 @@ def _compute_alpha(a_istat):
     return alpha
 
 
-def plot_mtx(a_mtx, a_fname):
+def plot_mtx(mtx, fname, label):
     """Plot matrix and store it in PNG format.
 
     Args:
-    a_mtx (np.array): array with source data
-    a_fname (str): path to the file for storing the model
+      mtx (np.array): array with source data
+      fname (str): path to the file for storing the model
 
     Returns:
     (void):
 
     """
-    plt.imshow(a_mtx, interpolation='nearest', cmap=CMAP)
-    plt.colorbar()
-    plt.xlabel("Topics")
-    plt.xticks(XTICK_MARKS, XLABELS, fontsize="small")
-    plt.ylabel("Formal categories")
-    plt.yticks(YTICK_MARKS, YLABELS, rotation=90, fontsize="small")
-    plt.savefig(a_fname)
+    # convert np.array to DataFrame
+    data = defaultdict(dict)
+    keys = [(cat_i, top_j) for cat_i in YLABELS for top_j in XLABELS]
+    values = np.nditer(mtx)
+    for (cat_i, top_j), v in zip(keys, values):
+        data[cat_i][top_j] = v.item()
+    data = pd.DataFrame(data).transpose()
+    # re-arrange columns and rows
+    data = data[XLABELS]
+    data = data.reindex(YLABELS)
+    # print(data)
+    settings = deepcopy(HEATMAP_SETTINGS)
+    settings["cbar_kws"]["label"] = label
+    hmap = sns.heatmap(data, **settings)
+    hmap.set_xticklabels(hmap.get_xticklabels(), rotation=0,
+                         fontdict={"fontsize": 9})
+    hmap.set_yticklabels(hmap.get_yticklabels(),
+                         fontdict={"verticalalignment": "center"})
+    hmap.set(xlabel="Topic", ylabel="Formal Category")
+    plt.savefig(fname)
     plt.cla()
     plt.clf()
 
@@ -178,6 +205,7 @@ def read_src_corpus(a_src_corpus):
             itopic = TOP2TOP.get(itopic, itopic)
             for isubsubcorpus in isubcorpus.iterfind("./subsubcorpus"):
                 itype = isubsubcorpus.get("type")
+                itype = TYPE2TYPE.get(itype, itype)
                 cat = (itopic, itype)
                 CATEGORIES.add(cat)
                 for itweet in isubsubcorpus.iterfind("./tweet"):
@@ -259,16 +287,16 @@ def _update_polarity_intensity(a_mtuple, a_mname, a_anno_id,
     """Update statistics for one annotator.
 
     Args:
-    a_mtuple (tuple): tuples of the markable
-    a_mname (str): name of the markable level
-    a_anno_id (int): id of the annotator whose statistics should be updated
-    a_tokid2markdid2 (dict): mapping from token ids to competing markable
-                             indices
-    a_mtuples2 (list(tuple)): competing markables
-    a_update_cnt (bool): update counter of intersecting markables
+      a_mtuple (tuple): tuples of the markable
+      a_mname (str): name of the markable level
+      a_anno_id (int): id of the annotator whose statistics should be updated
+      a_tokid2markdid2 (dict): mapping from token ids to competing markable
+                               indices
+      a_mtuples2 (list(tuple)): competing markables
+      a_update_cnt (bool): update counter of intersecting markables
 
     Returns:
-    (void): updates global variable in place
+      (void): updates global variable in place
 
     """
     global INT_STAT, POL_STAT
@@ -286,7 +314,7 @@ def _update_polarity_intensity(a_mtuple, a_mname, a_anno_id,
     # choose the best competing candidate
     best_ratio = ratio = -1.
     best_cnt = best_m_id = -1
-    for m_id, t_cnt in candidates.iteritems():
+    for m_id, t_cnt in iteritems(candidates):
         # print("candidate =", repr(a_mtuples2[m_id]), file=sys.stderr)
         if t_cnt > best_cnt:
             best_cnt = t_cnt
@@ -462,11 +490,9 @@ def compute_stat(a_basedata_dir, a_dir1, a_dir2, a_ptrn="",
     # iterate over files from the first directory
     f1 = f2 = ""
     basename1 = ""
-    basedata_fname = base_key = ""
-    fd1 = fd2 = basedata_fd = None
+    base_key = ""
+    fd1 = fd2 = None
     t1 = t2 = None
-    annotations = None
-    n = 0                       # total number of words in a file
 
     for f1 in dir1_iterator:
         # get name of second file
@@ -509,9 +535,8 @@ def main():
     (void)
 
     """
-    argparser = argparse.ArgumentParser(description=
-                                        "Script for plotting corpus statistics"
-                                        " and agreement.")
+    argparser = argparse.ArgumentParser(
+        description="Script for plotting corpus statistics and agreement.")
     argparser.add_argument("src_corpus",
                            help="XML corpus of source files")
     argparser.add_argument("src_dir",
@@ -566,14 +591,14 @@ def main():
     ikappa = 0.
     agr_mtx = None
     stat_mtx = None
-    pp = cat = stat1 = stat2 = None
+    cat = stat1 = stat2 = None
     # plot statistics
 
     for mname in REL_MARKABLES:
         stat_mtx = np.zeros(MTX_DIM)
         agr_mtx = np.zeros(MTX_DIM)
-        for icat, irow in CAT2ROW.iteritems():
-            for itopic, icol in TOP2COL.iteritems():
+        for icat, irow in iteritems(CAT2ROW):
+            for itopic, icol in iteritems(TOP2COL):
                 cat = (itopic, icat)
                 n_toks = STATISTICS[cat][TOK]
                 stat1 = STATISTICS[cat][ANNOTATOR][0][mname]
@@ -588,17 +613,16 @@ def main():
                 stat_mtx[irow, icol] = stat2[TOTAL_MARK_IDX]
         print("mname = {:s}".format(mname), file=sys.stderr)
         print(repr(stat_mtx), file=sys.stderr)
-        plot_mtx(stat_mtx, mname + STAT_MTX_SFX)
-        plot_mtx(agr_mtx, mname + AGR_MTX_SFX)
+        plot_mtx(stat_mtx, mname + STAT_MTX_SFX, "# of Elements")
+        plot_mtx(agr_mtx, mname + AGR_MTX_SFX, "Agreement")
 
     # print("STATISTICS =", repr(STATISTICS))
     # print("POL_STAT =", repr(POL_STAT))
     # print("INT_STAT =", repr(INT_STAT))
-    n = 0
     ialpha = 0.
-    ipol_stat = iint_stat = None
+    ipol_stat = None
     for mname in REL_MARKABLES:
-        ipol_stat, iint_stat = POL_STAT[mname], INT_STAT[mname]
+        ipol_stat = POL_STAT[mname]
         n_toks = ipol_stat[TOTAL]
         stat1, stat2 = ipol_stat[ANNOTATOR]
         total1, total2 = stat1[TOTAL_MTOK_IDX], stat2[TOTAL_MTOK_IDX]
@@ -608,6 +632,7 @@ def main():
         ialpha = _compute_alpha(INT_STAT[mname])
         print("Kappa ({:s}): {:f}".format(mname, ikappa), file=sys.stderr)
         print("Alpha ({:s}): {:f}".format(mname, ialpha), file=sys.stderr)
+
 
 ##################################################################
 # Main
