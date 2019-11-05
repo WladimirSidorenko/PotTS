@@ -1,0 +1,99 @@
+#!/usr/bin/awk -f
+# -*- coding: utf-8; mode: awk; -*-
+
+##################################################################
+function update_stat(tweet_words,
+    w) {
+    for (w in tweet_words) {
+	if (w in word2msg_cnt) {
+	    word2msg_cnt[w] += 1
+	} else {
+	    word2msg_cnt[w] = 1
+	}
+	delete tweet_words[w]
+    }
+    delete tweet_words
+}
+
+##################################################################
+BEGIN {
+    OFS = "\t"
+    tweet2skip["papst"] = 1
+    tweet2skip["paps"] = 1
+    tweet2skip["pabst"] = 1
+    tweet2skip["fanziskus"] = 1
+    tweet2skip["franziskus"] = 1
+    tweet2skip["vatikan"] = 1
+    tweet2skip["konklave"] = 1
+    tweet2skip["kardinal"] = 1
+    tweet2skip["kardinäle"] = 1
+    tweet2skip["kirche"] = 1
+    tweet2skip["bergoglio"] = 1
+    tweet2skip["rauch"] = 1
+    tweet2skip["argentinien"] = 1
+    tweet2skip["argentinier"] = 1
+    tweet2skip["habemuspapam"] = 1
+    tweet2skip["papam"] = 1
+    tweet2skip["gott"] = 1
+    tweet2skip["gottes"] = 1
+    tweet2skip["kapelle"] = 1
+    tweet2skip["kapellen"] = 1
+    tweet2skip["ratzinger"] = 1
+    tweet2skip["pontifex"] = 1
+    tweet2skip["petersplatz"] = 1
+    tweet2skip["kollektenbeutel"] = 1
+    tweet2skip["bigott"] = 1
+    tweet2skip["vobis"] = 1
+    tweet2skip["buenos"] = 1
+}
+
+##################################################################
+/^EOL$/ {
+    next
+}
+
+/^[[:space:]]*<[[:space:]]*tweet.*>$/ {
+    collect_stat = 1
+    next
+}
+
+/^[[:space:]]*<[[:space:]]*\/[[:space:]]*tweet.*>/ {
+    ++total_tweets
+    collect_stat = 0
+    if (tweet)
+	print tweet
+    tweet = ""
+    update_stat(tweet_words)
+    next
+}
+
+NF && collect_stat {
+    gsub(/&#160;/, "")
+    gsub(/&#8220;/, "")
+    gsub(/[@#.]/, "")
+    sub(/-.*$/, "")
+    gsub(/&252;/, "ü")
+    gsub(/&220;/, "ü")
+    gsub(/&223;/, "ß")
+    gsub(/&246;/, "ö")
+    gsub(/&214;/, "ö")
+    gsub(/&228;/, "ä")
+    gsub(/&196;/, "ä")
+    if (tolower($0) in tweet2skip) {
+	++ignored_tweets
+	tweet = ""
+	delete tweet_words
+	collect_stat = 0
+	next
+    }
+    tweet = tweet " " $0
+    tweet_words[$0] = 1
+}
+
+##################################################################
+END {
+    for (w in word2msg_cnt) {
+	print "'" w "'", word2msg_cnt[w]
+    }
+    print "Ignored " ignored_tweets " of " total_tweets > "/dev/stderr"
+}
